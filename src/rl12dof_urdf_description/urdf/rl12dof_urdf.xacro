@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot name="rl12dof_urdf" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Materials -->
+  <xacro:include filename="$(find rl12dof_urdf_description)/urdf/materials.xacro" />
+
+  <!-- Geometry + kinematics -->
+  <xacro:include filename="$(find rl12dof_urdf_description)/urdf/rl12dof_links_joints.xacro" />
+
+  <!-- ros2_control macro -->
+  <xacro:include filename="$(find rl12dof_urdf_description)/urdf/rl12dof_urdf.ros2control.xacro" />
+
+  <!-- Gazebo plugin macro -->
+  <xacro:include filename="$(find rl12dof_urdf_description)/urdf/rl12dof_urdf.gazebo.xacro" />
+
+  <!-- Insert links + joints -->
+  <xacro:rl12dof_links_joints />
+
+  <!-- Insert ros2_control block -->
+  <xacro:rl12dof_ros2_control />
+
+  <!-- Insert Gazebo plugins (gz_ros2_control) -->
+  <xacro:rl12dof_gazebo />
+
+</robot>

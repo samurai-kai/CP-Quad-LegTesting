@@ -25,7 +25,7 @@ def generate_launch_description():
     urdf_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
-                FindPackageShare('quadruped_urdf'),
+                FindPackageShare('rl12dof_urdf_description'),
                 'launch',
                 'real_urdf.launch.py'
             ])
