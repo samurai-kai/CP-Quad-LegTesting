@@ -1,0 +1,25 @@
+In file included from [01m[K/home/ws/src/bno08x_ros2_driver/src/bno08x_ros.cpp:3[m[K:
+[01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:[m[K In member function ‘[01m[Kvirtual int UARTInterface::[01;32m[Kwrite[m[K(uint8_t*, unsigned int)[m[K’:
+[01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:117:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  117 |         [01;35m[K::write(uart_fd_, "\x7E", 1)[m[K;
+      |         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:120:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  120 |         [01;35m[K::write(uart_fd_, "\x01", 1)[m[K;
+      |         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:126:24:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  126 |                 [01;35m[K::write(uart_fd_, "\x7D", 1)[m[K;  // Escape sequence
+      |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:129:20:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  129 |             [01;35m[K::write(uart_fd_, &c, 1)[m[K;
+      |             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:133:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  133 |         [01;35m[K::write(uart_fd_, "\x7E", 1)[m[K;
+      |         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:[m[K In member function ‘[01m[Kvirtual int UARTInterface::[01;32m[Kread[m[K(uint8_t*, unsigned int, uint32_t*)[m[K’:
+[01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:101:27:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K read[m[K(int, void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  101 |                     [01;35m[K::read(uart_fd_, &c, 1)[m[K;
+      |                     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:[m[K In member function ‘[01m[Kvirtual int UARTInterface::[01;32m[Kopen[m[K()[m[K’:
+[01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:63:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   63 |         [01;35m[K::write(uart_fd_, softreset_pkt, sizeof(softreset_pkt))[m[K;
+      |         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

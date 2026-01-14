@@ -1,0 +1,9 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_cmake_vendor_package: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/zenoh_cpp_vendor
+[  6%] [34m[1mPerforming build step for 'zenoh_c_vendor'[0m
+[34m[1mGenerating release/target/release/libzenohc.so, release/target/release/libzenohc.a[0m
+"RUSTFLAGS = $$RUSTFLAGS"
+"cargo build --release --manifest-path=/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features --features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls --features=unstable"

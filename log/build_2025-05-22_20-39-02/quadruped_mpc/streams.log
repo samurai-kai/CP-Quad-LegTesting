@@ -1,0 +1,212 @@
+[0.028s] Invoking command in '/home/ws/build/quadruped_mpc': CMAKE_PREFIX_PATH=/home/ws/install/quadruped_msgs:/home/ws/install/rmw_zenoh_cpp:/home/ws/install/zenoh_cpp_vendor:/home/ws/install/quadruped_utils:/home/ws/install/quadruped_urdf:/home/ws/install/quadruped_sim:/home/ws/install/quadruped_mpc:/home/ws/install/quadruped_hardware:/home/ws/install/quadruped_bringup:/home/ws/install/jetson_interface:/home/ws/install/imu_hardware_interface:/home/ws/install/bno08x_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ws/install/quadruped_msgs/lib:/home/ws/install/rmw_zenoh_cpp/lib:/home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib:/home/ws/install/quadruped_utils/lib:/home/ws/install/quadruped_mpc/lib:/home/ws/install/quadruped_hardware/lib:/home/ws/install/jetson_interface/lib:/home/ws/install/imu_hardware_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/acados/acados/lib:/home/acados/acados/lib /usr/bin/cmake /home/ws/src/quadruped_mpc -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_mpc
+[0.058s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.126s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.376s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.429s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.448s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.619s] -- Found rmw_zenoh_cpp: 0.2.2 (/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake)
+[0.622s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[0.730s] -- Found controller_interface: 4.28.1 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.003s] -- Found TinyXML2 via Config file: /usr/local/lib/cmake/tinyxml2
+[1.115s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/jazzy/lib/aarch64-linux-gnu/libpinocchio_default.so
+[1.116s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/jazzy/lib/aarch64-linux-gnu/libpinocchio_parsers.so
+[1.122s] -- boost_filesystem FOUND. boost_filesystem at /lib/aarch64-linux-gnu/libboost_filesystem.so
+[1.123s] -- boost_serialization FOUND. boost_serialization at /lib/aarch64-linux-gnu/libboost_serialization.so
+[1.124s] -- boost_system FOUND. boost_system at /lib/aarch64-linux-gnu/libboost_system.so
+[1.138s] -- Found Boost: /usr/include (found version "1.83.0") found components: filesystem serialization system 
+[1.141s] -- eigenpy FOUND. eigenpy at /opt/ros/jazzy/lib/aarch64-linux-gnu/libeigenpy.so
+[1.208s] -- Checking for NumPy
+[1.691s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[1.928s] --   NUMPY_VERSION=1.26.4
+[2.471s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development.Module NumPy 
+[2.472s] -- PythonLibraryDirs: 
+[2.472s] -- PythonLibVersionString: 3.12.3
+[2.527s] -- Python site lib: lib/python3.12/site-packages
+[2.527s] -- Python include dirs: /usr/include/python3.12
+[2.644s] -- Checking for NumPy
+[2.882s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[3.126s] --   NUMPY_VERSION=1.26.4
+[3.126s] -- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[3.140s] -- Found Boost: /usr/include (found version "1.83.0") found components: python312 
+[3.901s] -- Default C++ standard: 201703
+[3.901s] -- C++ standard sufficient: Minimal required 14, currently defined: 17
+[3.905s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/jazzy/lib/aarch64-linux-gnu/libhpp-fcl.so
+[3.916s] -- Found Boost: /usr/include (found version "1.83.0") found components: chrono serialization filesystem 
+[3.920s] -- C++ standard sufficient: Minimal required 14, currently defined: 17
+[3.921s] -- C++ standard sufficient: Minimal required 14, currently defined: 17
+[3.924s] -- Found tf2_ros: 0.36.10 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[4.038s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[4.074s] -- Found quadruped_msgs: 0.0.0 (/home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake)
+[4.102s] -- Running ACADOS code generation to /home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated
+[5.082s] -- Configuring done (5.0s)
+[5.154s] -- Generating done (0.0s)
+[5.167s] -- Build files have been written to: /home/ws/build/quadruped_mpc
+[5.192s] Invoked command in '/home/ws/build/quadruped_mpc' returned '0': CMAKE_PREFIX_PATH=/home/ws/install/quadruped_msgs:/home/ws/install/rmw_zenoh_cpp:/home/ws/install/zenoh_cpp_vendor:/home/ws/install/quadruped_utils:/home/ws/install/quadruped_urdf:/home/ws/install/quadruped_sim:/home/ws/install/quadruped_mpc:/home/ws/install/quadruped_hardware:/home/ws/install/quadruped_bringup:/home/ws/install/jetson_interface:/home/ws/install/imu_hardware_interface:/home/ws/install/bno08x_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ws/install/quadruped_msgs/lib:/home/ws/install/rmw_zenoh_cpp/lib:/home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib:/home/ws/install/quadruped_utils/lib:/home/ws/install/quadruped_mpc/lib:/home/ws/install/quadruped_hardware/lib:/home/ws/install/jetson_interface/lib:/home/ws/install/imu_hardware_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/acados/acados/lib:/home/acados/acados/lib /usr/bin/cmake /home/ws/src/quadruped_mpc -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_mpc
+[5.193s] Invoking command in '/home/ws/build/quadruped_mpc': CMAKE_PREFIX_PATH=/home/ws/install/quadruped_msgs:/home/ws/install/rmw_zenoh_cpp:/home/ws/install/zenoh_cpp_vendor:/home/ws/install/quadruped_utils:/home/ws/install/quadruped_urdf:/home/ws/install/quadruped_sim:/home/ws/install/quadruped_mpc:/home/ws/install/quadruped_hardware:/home/ws/install/quadruped_bringup:/home/ws/install/jetson_interface:/home/ws/install/imu_hardware_interface:/home/ws/install/bno08x_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ws/install/quadruped_msgs/lib:/home/ws/install/rmw_zenoh_cpp/lib:/home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib:/home/ws/install/quadruped_utils/lib:/home/ws/install/quadruped_mpc/lib:/home/ws/install/quadruped_hardware/lib:/home/ws/install/jetson_interface/lib:/home/ws/install/imu_hardware_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/acados/acados/lib:/home/acados/acados/lib /usr/bin/cmake --build /home/ws/build/quadruped_mpc -- -j8 -l8
+[5.328s] [  9%] [32mBuilding C object CMakeFiles/acados_generated_code.dir/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c.o[0m
+[5.329s] [ 18%] [32mBuilding C object CMakeFiles/acados_generated_code.dir/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c.o[0m
+[5.332s] [ 27%] [32mBuilding C object CMakeFiles/acados_generated_code.dir/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c.o[0m
+[5.374s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:[m[K In function ‘[01m[Kquadruped_ode_expl_ode_fun_f0[m[K’:
+[5.375s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:57:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.375s]    57 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+[5.375s]       |                                                                              [01;35m[K^[m[K
+[5.375s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:57:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.375s]    57 | tic int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+[5.375s]       |                                                                                            [01;35m[K^[m[K
+[5.375s] 
+[5.376s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:57:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.376s]    57 | c int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+[5.376s]       |                                                                                             [01;35m[K~~~~^~~[m[K
+[5.376s] 
+[5.376s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:[m[K In function ‘[01m[Kquadruped_ode_expl_ode_fun_init_mem[m[K’:
+[5.376s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:232:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.376s]   232 | CASADI_SYMBOL_EXPORT int quadruped_ode_expl_ode_fun_init_mem([01;35m[Kint mem[m[K) {
+[5.377s]       |                                                              [01;35m[K~~~~^~~[m[K
+[5.377s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:[m[K In function ‘[01m[Kquadruped_ode_expl_ode_fun_free_mem[m[K’:
+[5.377s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:236:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.377s]   236 | CASADI_SYMBOL_EXPORT void quadruped_ode_expl_ode_fun_free_mem([01;35m[Kint mem[m[K) {
+[5.377s]       |                                                               [01;35m[K~~~~^~~[m[K
+[5.377s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:[m[K In function ‘[01m[Kquadruped_ode_expl_ode_fun_release[m[K’:
+[5.377s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:243:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.378s]   243 | CASADI_SYMBOL_EXPORT void quadruped_ode_expl_ode_fun_release([01;35m[Kint mem[m[K) {
+[5.378s]       |                                                              [01;35m[K~~~~^~~[m[K
+[5.378s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_adj_f0[m[K’:
+[5.384s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:59:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.384s]    59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+[5.384s]       |                                                                              [01;35m[K^[m[K
+[5.384s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:59:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.384s]    59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+[5.385s]       |                                                                                               [01;35m[K^[m[K
+[5.385s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:59:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.385s]    59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+[5.385s]       |                                                                                                  [01;35m[K~~~~^~~[m[K
+[5.385s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_adj_init_mem[m[K’:
+[5.385s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:316:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.385s]   316 | CASADI_SYMBOL_EXPORT int quadruped_ode_expl_vde_adj_init_mem([01;35m[Kint mem[m[K) {
+[5.386s]       |                                                              [01;35m[K~~~~^~~[m[K
+[5.386s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_adj_free_mem[m[K’:
+[5.386s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:320:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.386s]   320 | CASADI_SYMBOL_EXPORT void quadruped_ode_expl_vde_adj_free_mem([01;35m[Kint mem[m[K) {
+[5.386s]       |                                                               [01;35m[K~~~~^~~[m[K
+[5.392s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_adj_release[m[K’:
+[5.392s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:327:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.392s]   327 | CASADI_SYMBOL_EXPORT void quadruped_ode_expl_vde_adj_release([01;35m[Kint mem[m[K) {
+[5.392s]       |                                                              [01;35m[K~~~~^~~[m[K
+[5.582s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_forw_f0[m[K’:
+[5.583s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:61:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.583s]    61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+[5.583s]       |                                                                              [01;35m[K^[m[K
+[5.583s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:61:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.583s]    61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+[5.583s]       |                                                                                               [01;35m[K^[m[K
+[5.583s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:61:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.584s]    61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+[5.584s]       |                                                                                                  [01;35m[K~~~~^~~[m[K
+[5.586s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_forw_init_mem[m[K’:
+[5.587s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:6035:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.587s]  6035 | CASADI_SYMBOL_EXPORT int quadruped_ode_expl_vde_forw_init_mem([01;35m[Kint mem[m[K) {
+[5.587s]       |                                                               [01;35m[K~~~~^~~[m[K
+[5.587s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_forw_free_mem[m[K’:
+[5.589s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:6039:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.589s]  6039 | CASADI_SYMBOL_EXPORT void quadruped_ode_expl_vde_forw_free_mem([01;35m[Kint mem[m[K) {
+[5.589s]       |                                                                [01;35m[K~~~~^~~[m[K
+[5.589s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_forw_release[m[K’:
+[5.590s] [01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:6046:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.590s]  6046 | CASADI_SYMBOL_EXPORT void quadruped_ode_expl_vde_forw_release([01;35m[Kint mem[m[K) {
+[5.590s]       |                                                               [01;35m[K~~~~^~~[m[K
+[8.473s] [ 36%] [32m[1mLinking C shared library libacados_generated_code.so[0m
+[8.575s] [ 54%] Built target acados_generated_code
+[8.722s] [ 63%] [32m[1mLinking CXX shared library libquadruped_mpc_controllers.so[0m
+[9.587s] [100%] Built target quadruped_mpc_controllers
+[9.612s] Invoked command in '/home/ws/build/quadruped_mpc' returned '0': CMAKE_PREFIX_PATH=/home/ws/install/quadruped_msgs:/home/ws/install/rmw_zenoh_cpp:/home/ws/install/zenoh_cpp_vendor:/home/ws/install/quadruped_utils:/home/ws/install/quadruped_urdf:/home/ws/install/quadruped_sim:/home/ws/install/quadruped_mpc:/home/ws/install/quadruped_hardware:/home/ws/install/quadruped_bringup:/home/ws/install/jetson_interface:/home/ws/install/imu_hardware_interface:/home/ws/install/bno08x_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ws/install/quadruped_msgs/lib:/home/ws/install/rmw_zenoh_cpp/lib:/home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib:/home/ws/install/quadruped_utils/lib:/home/ws/install/quadruped_mpc/lib:/home/ws/install/quadruped_hardware/lib:/home/ws/install/jetson_interface/lib:/home/ws/install/imu_hardware_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/acados/acados/lib:/home/acados/acados/lib /usr/bin/cmake --build /home/ws/build/quadruped_mpc -- -j8 -l8
+[9.638s] Invoking command in '/home/ws/build/quadruped_mpc': CMAKE_PREFIX_PATH=/home/ws/install/quadruped_msgs:/home/ws/install/rmw_zenoh_cpp:/home/ws/install/zenoh_cpp_vendor:/home/ws/install/quadruped_utils:/home/ws/install/quadruped_urdf:/home/ws/install/quadruped_sim:/home/ws/install/quadruped_mpc:/home/ws/install/quadruped_hardware:/home/ws/install/quadruped_bringup:/home/ws/install/jetson_interface:/home/ws/install/imu_hardware_interface:/home/ws/install/bno08x_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ws/install/quadruped_msgs/lib:/home/ws/install/rmw_zenoh_cpp/lib:/home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib:/home/ws/install/quadruped_utils/lib:/home/ws/install/quadruped_mpc/lib:/home/ws/install/quadruped_hardware/lib:/home/ws/install/jetson_interface/lib:/home/ws/install/imu_hardware_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/acados/acados/lib:/home/acados/acados/lib /usr/bin/cmake --install /home/ws/build/quadruped_mpc
+[9.655s] -- Install configuration: "Release"
+[9.655s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/environment/library_path.sh
+[9.656s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/environment/library_path.dsv
+[9.656s] -- Installing: /home/ws/install/quadruped_mpc/lib/libquadruped_mpc_controllers.so
+[9.667s] -- Set non-toolchain portion of runtime path of "/home/ws/install/quadruped_mpc/lib/libquadruped_mpc_controllers.so" to ""
+[9.668s] -- Installing: /home/ws/install/quadruped_mpc/lib/libacados_generated_code.so
+[9.669s] -- Set non-toolchain portion of runtime path of "/home/ws/install/quadruped_mpc/lib/libacados_generated_code.so" to ""
+[9.669s] -- Up-to-date: /home/ws/install/quadruped_mpc/include/quadruped_mpc/acados_generated
+[9.669s] -- Up-to-date: /home/ws/install/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_sim_solver_quadruped_ode.h
+[9.670s] -- Up-to-date: /home/ws/install/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model
+[9.670s] -- Up-to-date: /home/ws/install/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_model.h
+[9.670s] -- Up-to-date: /home/ws/install/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_solver_quadruped_ode.h
+[9.670s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/quadruped_mpcTargets.cmake
+[9.671s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/quadruped_mpcTargets-release.cmake
+[9.671s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/plugin_description.xml
+[9.671s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/config
+[9.671s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/config/quadruped_controllers.yaml
+[9.671s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/launch
+[9.672s] -- Installing: /home/ws/install/quadruped_mpc/share/quadruped_mpc/launch/mpc.launch.py
+[9.672s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include
+[9.672s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc
+[9.673s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/utilities
+[9.673s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/utilities/KalmanFilter.hpp
+[9.673s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/control_laws
+[9.673s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/control_laws/GaitPatternGenerator.hpp
+[9.673s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/control_laws/StateEstimation.hpp
+[9.674s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/control_laws/BalanceControl.hpp
+[9.674s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/control_laws/FootControl.hpp
+[9.674s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/controller_interfaces
+[9.674s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/controller_interfaces/balance_controller.hpp
+[9.674s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/controller_interfaces/state_estimator.hpp
+[9.674s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/controller_interfaces/foot_controller.hpp
+[9.674s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/controller_interfaces/gait_pattern_generator.hpp
+[9.675s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated
+[9.675s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_solver_quadruped_ode.c
+[9.675s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/Makefile
+[9.675s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_sim_solver_quadruped_ode.h
+[9.676s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model
+[9.676s] -- Installing: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c
+[9.676s] -- Installing: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c
+[9.677s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.o
+[9.677s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.o
+[9.677s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_model.h
+[9.678s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.o
+[9.678s] -- Installing: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c
+[9.678s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/main_quadruped_ode.c
+[9.678s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_solver.pxd
+[9.678s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_solver_quadruped_ode.h
+[9.678s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_solver_quadruped_ode.o
+[9.679s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/main_sim_quadruped_ode.c
+[9.679s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/libacados_ocp_solver_quadruped_ode.so
+[9.679s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_sim_solver_quadruped_ode.c
+[9.679s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts
+[9.679s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/quadruped_teleop.py
+[9.679s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados
+[9.679s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados/test_optimal_controller.py
+[9.680s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados/generate_controller.py
+[9.680s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados/optimal_controller.py
+[9.680s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados/logs
+[9.680s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados/__pycache__
+[9.681s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados/quadruped_model.py
+[9.681s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/gaitpattern_tests.py
+[9.681s] -- Up-to-date: /home/ws/install/quadruped_mpc/lib/quadruped_mpc/quadruped_teleop.py
+[9.682s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/plugin_description.xml
+[9.682s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/ament_index/resource_index/package_run_dependencies/quadruped_mpc
+[9.683s] -- Installing: /home/ws/install/quadruped_mpc/share/ament_index/resource_index/parent_prefix_path/quadruped_mpc
+[9.683s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/environment/ament_prefix_path.sh
+[9.683s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/environment/ament_prefix_path.dsv
+[9.684s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/environment/path.sh
+[9.684s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/environment/path.dsv
+[9.684s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/local_setup.bash
+[9.684s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/local_setup.sh
+[9.685s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/local_setup.zsh
+[9.685s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/local_setup.dsv
+[9.685s] -- Installing: /home/ws/install/quadruped_mpc/share/quadruped_mpc/package.dsv
+[9.686s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/ament_index/resource_index/packages/quadruped_mpc
+[9.686s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/ament_index/resource_index/controller_interface__pluginlib__plugin/quadruped_mpc
+[9.687s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/export_quadruped_mpcExport.cmake
+[9.687s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/export_quadruped_mpcExport-release.cmake
+[9.687s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/export_quadruped_mpcExport.cmake
+[9.688s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/export_quadruped_mpcExport-release.cmake
+[9.688s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.688s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/ament_cmake_export_targets-extras.cmake
+[9.688s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/quadruped_mpcConfig.cmake
+[9.689s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/quadruped_mpcConfig-version.cmake
+[9.689s] -- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/package.xml
+[9.689s] Invoked command in '/home/ws/build/quadruped_mpc' returned '0': CMAKE_PREFIX_PATH=/home/ws/install/quadruped_msgs:/home/ws/install/rmw_zenoh_cpp:/home/ws/install/zenoh_cpp_vendor:/home/ws/install/quadruped_utils:/home/ws/install/quadruped_urdf:/home/ws/install/quadruped_sim:/home/ws/install/quadruped_mpc:/home/ws/install/quadruped_hardware:/home/ws/install/quadruped_bringup:/home/ws/install/jetson_interface:/home/ws/install/imu_hardware_interface:/home/ws/install/bno08x_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ws/install/quadruped_msgs/lib:/home/ws/install/rmw_zenoh_cpp/lib:/home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib:/home/ws/install/quadruped_utils/lib:/home/ws/install/quadruped_mpc/lib:/home/ws/install/quadruped_hardware/lib:/home/ws/install/jetson_interface/lib:/home/ws/install/imu_hardware_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/acados/acados/lib:/home/acados/acados/lib /usr/bin/cmake --install /home/ws/build/quadruped_mpc

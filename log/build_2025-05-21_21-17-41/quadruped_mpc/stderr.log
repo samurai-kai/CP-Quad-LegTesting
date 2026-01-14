@@ -1,0 +1,16 @@
+In file included from [01m[K/home/ws/src/quadruped_mpc/src/controller_interfaces/state_estimator.cpp:2[m[K:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/control_laws/StateEstimation.hpp:[m[K In member function ‘[01m[Kbool quadruped_mpc::StateEstimator::[01;32m[Kestimate_base_position[m[K()[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/control_laws/StateEstimation.hpp:226:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdt[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  226 |     double [01;35m[Kdt[m[K = 0.0;
+      |            [01;35m[K^~[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/control_laws/StateEstimation.hpp:321:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv_com_magnitude[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  321 |     double [01;35m[Kv_com_magnitude[m[K = v_com.norm();
+      |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/control_laws/StateEstimation.hpp:[m[K In member function ‘[01m[Kbool quadruped_mpc::StateEstimator::[01;32m[Kupdate_odometry[m[K()[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/control_laws/StateEstimation.hpp:394:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstate_published[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  394 |     bool [01;35m[Kstate_published[m[K = false;
+      |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/quadruped_mpc/src/controller_interfaces/state_estimator.cpp:[m[K In lambda function:
+[01m[K/home/ws/src/quadruped_mpc/src/controller_interfaces/state_estimator.cpp:118:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  118 |       [this]([01;35m[Kconst rosgraph_msgs::msg::Clock::SharedPtr msg[m[K) {
+      |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

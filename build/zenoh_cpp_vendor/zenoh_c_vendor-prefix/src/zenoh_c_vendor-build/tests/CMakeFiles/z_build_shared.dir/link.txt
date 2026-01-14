@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/z_build_shared.dir/z_build_shared.c.o -o ../release/target/release/tests/z_build_shared   -L/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release  -Wl,-rpath,/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release -lzenohc 

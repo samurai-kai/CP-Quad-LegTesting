@@ -1,0 +1,83 @@
+[0.075s] Invoking command in '/home/ws/build/jetson_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/jetson_interface -- -j8 -l8
+[0.612s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.853s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.921s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.970s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.984s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.011s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.133s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.144s] -- Found rmw_zenoh_cpp: 0.2.2 (/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake)
+[1.144s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[1.321s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.381s] -- Found hardware_interface: 4.28.1 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.649s] -- Found TinyXML2 via Config file: /usr/local/lib/cmake/tinyxml2
+[1.740s] -- Found controller_interface: 4.28.1 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.777s] [33mCMake Warning at CMakeLists.txt:14 (find_package):
+[1.777s]   By not providing "FindJetsonGPIO.cmake" in CMAKE_MODULE_PATH this project
+[1.777s]   has asked CMake to find a package configuration file provided by
+[1.778s]   "JetsonGPIO", but CMake did not find one.
+[1.778s] 
+[1.778s]   Could not find a package configuration file provided by "JetsonGPIO" with
+[1.778s]   any of the following names:
+[1.778s] 
+[1.778s]     JetsonGPIOConfig.cmake
+[1.778s]     jetsongpio-config.cmake
+[1.779s] 
+[1.779s]   Add the installation prefix of "JetsonGPIO" to CMAKE_PREFIX_PATH or set
+[1.779s]   "JetsonGPIO_DIR" to a directory containing one of the above files.  If
+[1.779s]   "JetsonGPIO" provides a separate development package or SDK, be sure it has
+[1.779s]   been installed.
+[1.779s] 
+[1.779s] [0m
+[1.784s] [0mCMake Deprecation Warning at JetsonGPIO/CMakeLists.txt:1 (cmake_minimum_required):
+[1.784s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.785s]   CMake.
+[1.785s] 
+[1.785s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.785s]   CMake that the project does not need compatibility with older versions.
+[1.785s] 
+[1.785s] [0m
+[1.794s] -- Found Threads: TRUE  
+[2.052s] -- Configuring done (1.9s)
+[2.159s] -- Generating done (0.1s)
+[2.187s] -- Build files have been written to: /home/ws/build/jetson_interface
+[2.281s] [  1%] [34m[1mGenerating Model.h[0m
+[2.307s] Running generate_model_header.sh...
+[2.347s] Model.h file has been created.
+[2.367s] [  1%] Built target GenerateModelHeader
+[2.421s] [  3%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/MainModule.cpp.o[0m
+[2.422s] [  6%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/GPIOPinData.cpp.o[0m
+[2.422s] [  6%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/JetsonGPIO.cpp.o[0m
+[2.424s] [  8%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/PWM.cpp.o[0m
+[2.434s] [ 11%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/PythonFunctions.cpp.o[0m
+[2.438s] [ 11%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/ExceptionHandling.cpp.o[0m
+[2.445s] [ 13%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/Callback.cpp.o[0m
+[2.466s] [ 15%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/GPIOEvent.cpp.o[0m
+[3.301s] [ 16%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/DictionaryLike.cpp.o[0m
+[3.570s] In file included from [01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/GPIOEvent.cpp:26[m[K:
+[3.571s] [01m[K/home/ws/src/jetson_interface/JetsonGPIO/include/private/GPIOEvent.h:60:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64_t[m[K’ has not been declared
+[3.571s]    60 |                                 [01;31m[Kuint64_t[m[K bounce_time, uint64_t timeout);
+[3.571s]       |                                 [01;31m[K^~~~~~~~[m[K
+[3.571s] [01m[K/home/ws/src/jetson_interface/JetsonGPIO/include/private/GPIOEvent.h:60:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64_t[m[K’ has not been declared
+[3.571s]    60 |                                 uint64_t bounce_time, [01;31m[Kuint64_t[m[K timeout);
+[3.571s]       |                                                       [01;31m[K^~~~~~~~[m[K
+[3.572s] [01m[K/home/ws/src/jetson_interface/JetsonGPIO/include/private/GPIOEvent.h:66:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64_t[m[K’ has not been declared
+[3.572s]    66 |                          [01;31m[Kuint64_t[m[K bounce_time);
+[3.572s]       |                          [01;31m[K^~~~~~~~[m[K
+[4.167s] [ 18%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/ModelUtility.cpp.o[0m
+[4.767s] gmake[2]: *** [JetsonGPIO/CMakeFiles/JetsonGPIO.dir/build.make:160: JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/GPIOEvent.cpp.o] Error 1
+[4.767s] gmake[2]: *** Waiting for unfinished jobs....
+[5.231s] [01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/ModelUtility.cpp:30:76:[m[K [01;35m[Kwarning: [m[Kexpression does not compute the number of elements in this array; element type is ‘[01m[Kconst char* const[m[K’, not ‘[01m[KGPIO::Model[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-div-Wsizeof-array-div]8;;[m[K]
+[5.231s]    30 |     constexpr auto number_of_models = static_cast<int>([01;35m[Ksizeof(MODEL_NAMES) / sizeof(Model)[m[K);
+[5.231s]       |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[5.231s] [01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/ModelUtility.cpp:30:78:[m[K [01;36m[Knote: [m[Kadd parentheses around ‘[01m[Ksizeof (GPIO::Model)[m[K’ to silence this warning
+[5.231s]    30 |     constexpr auto number_of_models = static_cast<int>(sizeof(MODEL_NAMES) / [01;36m[Ksizeof(Model)[m[K);
+[5.232s]       |                                                                              [01;36m[K^~~~~~~~~~~~~[m[K
+[5.232s]       |                                                                              [32m[K([m[K            [32m[K)[m[K
+[5.232s] In file included from [01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/ModelUtility.cpp:24[m[K:
+[5.232s] [01m[K/home/ws/src/jetson_interface/JetsonGPIO/include/private/Model.h:30:27:[m[K [01;36m[Knote: [m[Karray ‘[01m[KGPIO::MODEL_NAMES[m[K’ declared here
+[5.232s]    30 |     constexpr const char* [01;36m[KMODEL_NAMES[m[K[] = {
+[5.232s]       |                           [01;36m[K^~~~~~~~~~~[m[K
+[21.761s] gmake[1]: *** [CMakeFiles/Makefile2:245: JetsonGPIO/CMakeFiles/JetsonGPIO.dir/all] Error 2
+[21.762s] gmake: *** [Makefile:146: all] Error 2
+[21.766s] Invoked command in '/home/ws/build/jetson_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/jetson_interface -- -j8 -l8

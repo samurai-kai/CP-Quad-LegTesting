@@ -1,0 +1,51 @@
+[0.656s] Invoking command in '/home/ws/build/quadruped_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_urdf -- -j8 -l8
+[0.935s] Invoked command in '/home/ws/build/quadruped_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_urdf -- -j8 -l8
+[0.936s] Invoking command in '/home/ws/build/quadruped_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_urdf
+[1.001s] -- Install configuration: "Release"
+[1.001s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf
+[1.001s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/sensors.xacro
+[1.005s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/leg.xacro
+[1.005s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/quadruped_ros2_control.xacro
+[1.007s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/materials.xacro
+[1.011s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/body.xacro
+[1.011s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/properties.xacro
+[1.012s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/properties_real.xacro
+[1.012s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes
+[1.012s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Rear Left Shin.STL
+[1.013s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Body_bin.STL
+[1.015s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Front Left Thigh.STL
+[1.015s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Rear Left Thigh.STL
+[1.016s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Thigh.STL
+[1.016s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Rear Right Thigh.STL
+[1.016s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Front Right Thigh.STL
+[1.016s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Front Right Shin.STL
+[1.016s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Front Left Shin.STL
+[1.016s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Body.STL
+[1.016s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Rear Right Shin.STL
+[1.017s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Shin.STL
+[1.017s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/QuadrupedURDF_real.urdf.xacro
+[1.017s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/gazebo.xacro
+[1.017s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/joint_interfaces.xacro
+[1.020s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/QuadrupedURDF_sim.urdf.xacro
+[1.020s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/config
+[1.021s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/config/initial_joint_positions.yaml
+[1.021s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/config/initial_joint_positions_real.yaml
+[1.025s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/launch
+[1.026s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/launch/real_urdf.launch.py
+[1.026s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/launch/sim_urdf.launch.py
+[1.026s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/ament_index/resource_index/package_run_dependencies/quadruped_urdf
+[1.026s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/ament_index/resource_index/parent_prefix_path/quadruped_urdf
+[1.027s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/environment/ament_prefix_path.sh
+[1.027s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/environment/ament_prefix_path.dsv
+[1.027s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/environment/path.sh
+[1.027s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/environment/path.dsv
+[1.028s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/local_setup.bash
+[1.028s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/local_setup.sh
+[1.028s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/local_setup.zsh
+[1.028s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/local_setup.dsv
+[1.029s] -- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/package.dsv
+[1.029s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/ament_index/resource_index/packages/quadruped_urdf
+[1.029s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/cmake/quadruped_urdfConfig.cmake
+[1.030s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/cmake/quadruped_urdfConfig-version.cmake
+[1.030s] -- Up-to-date: /home/ws/install/quadruped_urdf/share/quadruped_urdf/package.xml
+[1.131s] Invoked command in '/home/ws/build/quadruped_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_urdf

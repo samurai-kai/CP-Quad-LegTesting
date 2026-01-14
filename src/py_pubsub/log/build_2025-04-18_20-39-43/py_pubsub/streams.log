@@ -1,0 +1,36 @@
+[1.823s] Invoking command in '/home/ws/src/py_pubsub': PYTHONPATH=/home/ws/src/py_pubsub/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/py_pubsub build --build-base /home/ws/src/py_pubsub/build/py_pubsub/build install --record /home/ws/src/py_pubsub/build/py_pubsub/install.log --single-version-externally-managed install_data
+[2.157s] /usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.157s]   warnings.warn(msg)
+[2.387s] running egg_info
+[2.426s] creating build/py_pubsub/py_pubsub.egg-info
+[2.426s] writing build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.427s] writing dependency_links to build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.427s] writing entry points to build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.427s] writing requirements to build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.427s] writing top-level names to build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.428s] writing manifest file 'build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.509s] reading manifest file 'build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.510s] adding license file 'LICENSE'
+[2.511s] writing manifest file 'build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.511s] running build
+[2.511s] running build_py
+[2.512s] creating /home/ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub
+[2.512s] copying py_pubsub/__init__.py -> /home/ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub
+[2.512s] copying py_pubsub/publisher_member_function.py -> /home/ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub
+[2.513s] running install
+[2.523s] running install_lib
+[2.562s] creating /home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[2.562s] copying /home/ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[2.563s] copying /home/ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[2.563s] byte-compiling /home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[2.564s] byte-compiling /home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[2.565s] running install_data
+[2.565s] creating /home/ws/src/py_pubsub/install/py_pubsub/share/ament_index/resource_index/packages
+[2.566s] copying resource/py_pubsub -> /home/ws/src/py_pubsub/install/py_pubsub/share/ament_index/resource_index/packages
+[2.566s] copying package.xml -> /home/ws/src/py_pubsub/install/py_pubsub/share/py_pubsub
+[2.567s] running install_egg_info
+[2.606s] Copying build/py_pubsub/py_pubsub.egg-info to /home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[2.608s] running install_scripts
+[2.843s] Installing talker script to /home/ws/src/py_pubsub/install/py_pubsub/lib/py_pubsub
+[2.843s] writing list of installed files to '/home/ws/src/py_pubsub/build/py_pubsub/install.log'
+[2.914s] Invoked command in '/home/ws/src/py_pubsub' returned '0': PYTHONPATH=/home/ws/src/py_pubsub/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/py_pubsub build --build-base /home/ws/src/py_pubsub/build/py_pubsub/build install --record /home/ws/src/py_pubsub/build/py_pubsub/install.log --single-version-externally-managed install_data

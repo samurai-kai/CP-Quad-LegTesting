@@ -1,0 +1,2 @@
+Invoking command in '/home/ws/build/quadruped_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_urdf -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_urdf
+Invoked command in '/home/ws/build/quadruped_urdf' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_urdf -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_urdf

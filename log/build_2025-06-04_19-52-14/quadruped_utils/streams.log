@@ -1,0 +1,35 @@
+[0.095s] Invoking command in '/home/ws/build/quadruped_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_utils -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_utils
+[0.140s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.041s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.139s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.159s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.328s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.334s] -- Found rmw_zenoh_cpp: 0.2.2 (/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake)
+[1.338s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[1.452s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.498s] -- Found hardware_interface: 4.28.1 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.765s] -- Found TinyXML2 via Config file: /usr/local/lib/cmake/tinyxml2
+[1.856s] -- Found controller_interface: 4.28.1 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.864s] -- Found controller_manager_msgs: 4.28.1 (/opt/ros/jazzy/share/controller_manager_msgs/cmake)
+[2.176s] -- Configuring done (2.1s)
+[2.244s] -- Generating done (0.0s)
+[2.263s] -- Build files have been written to: /home/ws/build/quadruped_utils
+[2.290s] Invoked command in '/home/ws/build/quadruped_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_utils -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_utils
+[2.291s] Invoking command in '/home/ws/build/quadruped_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8
+[2.506s] [ 25%] [32mBuilding CXX object CMakeFiles/quadruped_utils_controllers.dir/src/StaticJointsController.cpp.o[0m
+[9.451s] [01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type quadruped_utils::StaticJointsController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[9.452s] [01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:193:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+[9.452s]   193 |     [01;31m[Kif[m[K(alt=false) {
+[9.452s]       |     [01;31m[K^~[m[K
+[9.475s] [01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:207:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kalt[m[K’ was not declared in this scope
+[9.475s]   207 |     elseif([01;31m[Kalt[m[K=true) {
+[9.475s]       |            [01;31m[K^~~[m[K
+[9.491s] [01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:207:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kelseif[m[K’ was not declared in this scope
+[9.491s]   207 |     [01;31m[Kelseif[m[K(alt=true) {
+[9.491s]       |     [01;31m[K^~~~~~[m[K
+[12.637s] gmake[2]: *** [CMakeFiles/quadruped_utils_controllers.dir/build.make:90: CMakeFiles/quadruped_utils_controllers.dir/src/StaticJointsController.cpp.o] Error 1
+[12.638s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/quadruped_utils_controllers.dir/all] Error 2
+[12.638s] gmake: *** [Makefile:146: all] Error 2
+[12.650s] Invoked command in '/home/ws/build/quadruped_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8

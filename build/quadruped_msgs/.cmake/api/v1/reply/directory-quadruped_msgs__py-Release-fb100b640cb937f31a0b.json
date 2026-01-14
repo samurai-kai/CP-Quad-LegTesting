@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "quadruped_msgs__py",
+		"source" : "/home/ws/build/quadruped_msgs/quadruped_msgs__py"
+	}
+}

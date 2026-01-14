@@ -1,0 +1,5 @@
+repositories:
+  zenoh_c_vendor:
+    type: git
+    url: https://github.com/eclipse-zenoh/zenoh-c.git
+    version: 3540a3ce8126e071236352446bc1564787d3fb04

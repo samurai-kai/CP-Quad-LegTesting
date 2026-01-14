@@ -1,0 +1,47 @@
+[0.084s] Invoking command in '/home/ws/build/zenoh_cpp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/rmw_zenoh/zenoh_cpp_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/zenoh_cpp_vendor
+[0.733s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.918s] -- Found ament_cmake_vendor_package: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)
+[1.251s] -- Configuring done (1.1s)
+[1.283s] -- Generating done (0.0s)
+[1.290s] -- Build files have been written to: /home/ws/build/zenoh_cpp_vendor
+[1.309s] Invoked command in '/home/ws/build/zenoh_cpp_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/rmw_zenoh/zenoh_cpp_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/zenoh_cpp_vendor
+[1.310s] Invoking command in '/home/ws/build/zenoh_cpp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/zenoh_cpp_vendor -- -j8 -l8
+[3.431s] /bin/sh: 1: cargo: not found
+[3.432s] gmake[5]: *** [CMakeFiles/cargo.dir/build.make:146: release/target/release/libzenohc.so] Error 127
+[3.432s] gmake[4]: *** [CMakeFiles/Makefile2:189: CMakeFiles/cargo.dir/all] Error 2
+[3.432s] gmake[3]: *** [Makefile:166: all] Error 2
+[3.432s] gmake[2]: *** [CMakeFiles/zenoh_c_vendor.dir/build.make:86: zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-build] Error 2
+[3.432s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/zenoh_c_vendor.dir/all] Error 2
+[3.432s] gmake: *** [Makefile:146: all] Error 2
+[3.435s] [  6%] [34m[1mPerforming configure step for 'zenoh_c_vendor'[0m
+[3.435s] loading initial cache file /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-config.cmake
+[3.435s] -- CMAKE_BUILD_TYPE = Release
+[3.435s] -- ZENOHC_BUILD_IN_SOURCE_TREE = FALSE
+[3.436s] -- ZENOHC_BUILD_WITH_SHARED_MEMORY = FALSE
+[3.436s] -- ZENOHC_BUILD_WITH_UNSTABLE_API = TRUE
+[3.436s] -- ZENOHC_BUILD_TESTS_WITH_CXX = FALSE
+[3.436s] -- ZENOHC_CUSTOM_TARGET = 
+[3.436s] -- ZENOHC_CARGO_CHANNEL = 
+[3.436s] -- ZENOHC_CARGO_FLAGS = --no-default-features;--features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls
+[3.436s] -- BUILD_SHARED_LIBS = ON
+[3.437s] -- ZENOHC_TREAT_WARNING_AS_ERROR = OFF
+[3.437s] -- project_version = 1.2.1
+[3.437s] -- Mode: Non-IDE
+[3.437s] -- Configuring Cargo.toml in /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/debug for zenohcd
+[3.437s] -- Configuring Cargo.toml in /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release for zenohc
+[3.437s] -- Due to ZENOHC_CARGO_FLAGS setting ZENOHC_BUILD_WITH_SHARED_MEMORY = TRUE
+[3.437s] -- cargo_flags = --release;--manifest-path=/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml;--no-default-features;--features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls;--features=unstable
+[3.438s] -- libs = /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.so;/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.a
+[3.438s] -- NATIVE_STATIC_LIBS = rt;pthread;m;dl
+[3.438s] -- zenoh-c install
+[3.438s] -- CMAKE_INSTALL_PREFIX = /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+[3.438s] -- zenoh-c tests
+[3.438s] -- zenoh-c examples
+[3.438s] -- Configuring done (0.2s)
+[3.439s] -- Generating done (0.2s)
+[3.439s] -- Build files have been written to: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build
+[3.439s] [ 12%] [34m[1mPerforming build step for 'zenoh_c_vendor'[0m
+[3.439s] [34m[1mGenerating release/target/release/libzenohc.so, release/target/release/libzenohc.a[0m
+[3.439s] "RUSTFLAGS = $$RUSTFLAGS"
+[3.439s] "cargo build --release --manifest-path=/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features --features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls --features=unstable"
+[3.452s] Invoked command in '/home/ws/build/zenoh_cpp_vendor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/zenoh_cpp_vendor -- -j8 -l8

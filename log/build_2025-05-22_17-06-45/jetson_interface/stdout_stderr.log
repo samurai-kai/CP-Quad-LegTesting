@@ -1,0 +1,36 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/jetson_interface.dir/src/jetson_gpio_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libjetson_interface.so[0m
+[100%] Built target jetson_interface
+-- Install configuration: "Release"
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/jetson_gpio_interface.xml
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/launch
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/launch/controller_manager.launch.py
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/config
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/config/jetson_interface.yaml
+-- Installing: /home/ws/install/jetson_interface/lib/libjetson_interface.so
+-- Set non-toolchain portion of runtime path of "/home/ws/install/jetson_interface/lib/libjetson_interface.so" to ""
+-- Installing: /home/ws/install/jetson_interface/include
+-- Installing: /home/ws/install/jetson_interface/include/quadruped_hardware
+-- Installing: /home/ws/install/jetson_interface/include/quadruped_hardware/watchdog.hpp
+-- Installing: /home/ws/install/jetson_interface/include/quadruped_hardware/jetson_gpio_interface.hpp
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/environment/library_path.sh
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/environment/library_path.dsv
+-- Installing: /home/ws/install/jetson_interface/share/ament_index/resource_index/package_run_dependencies/jetson_interface
+-- Installing: /home/ws/install/jetson_interface/share/ament_index/resource_index/parent_prefix_path/jetson_interface
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/environment/ament_prefix_path.sh
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/environment/path.sh
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/environment/path.dsv
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.bash
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.sh
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.zsh
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.dsv
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/package.dsv
+-- Installing: /home/ws/install/jetson_interface/share/ament_index/resource_index/packages/jetson_interface
+-- Installing: /home/ws/install/jetson_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/jetson_interface
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/cmake/jetson_interfaceConfig.cmake
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/cmake/jetson_interfaceConfig-version.cmake
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/package.xml

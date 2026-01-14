@@ -1,0 +1,30 @@
+[0.102s] Invoking command in '/home/ws/build/quadruped_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8
+[0.177s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.811s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.912s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.912s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.068s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.072s] -- Found rmw_zenoh_cpp: 0.2.2 (/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake)
+[1.074s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[1.182s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.236s] -- Found hardware_interface: 4.28.1 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.484s] -- Found TinyXML2 via Config file: /usr/local/lib/cmake/tinyxml2
+[1.574s] -- Found controller_interface: 4.28.1 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.582s] -- Found controller_manager_msgs: 4.28.1 (/opt/ros/jazzy/share/controller_manager_msgs/cmake)
+[1.886s] -- Configuring done (1.7s)
+[1.964s] -- Generating done (0.0s)
+[1.979s] -- Build files have been written to: /home/ws/build/quadruped_utils
+[2.109s] [ 25%] [32mBuilding CXX object CMakeFiles/quadruped_utils_controllers.dir/src/StaticJointsController.cpp.o[0m
+[8.020s] [01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type quadruped_utils::StaticJointsController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[8.020s] [01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:230:18:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool success[m[K’
+[8.021s]   230 |             bool [01;31m[Ksuccess[m[K = joint_velocity_command_interface_[i].get().set_value(pose_velocity[i]);
+[8.021s]       |                  [01;31m[K^~~~~~~[m[K
+[8.021s] [01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:228:18:[m[K [01;36m[Knote: [m[K‘[01m[Kbool success[m[K’ previously declared here
+[8.021s]   228 |             bool [01;36m[Ksuccess[m[K = joint_position_command_interface_[i].get().set_value(pose_position[i]);
+[8.021s]       |                  [01;36m[K^~~~~~~[m[K
+[11.186s] gmake[2]: *** [CMakeFiles/quadruped_utils_controllers.dir/build.make:90: CMakeFiles/quadruped_utils_controllers.dir/src/StaticJointsController.cpp.o] Error 1
+[11.186s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/quadruped_utils_controllers.dir/all] Error 2
+[11.187s] gmake: *** [Makefile:146: all] Error 2
+[11.191s] Invoked command in '/home/ws/build/quadruped_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8

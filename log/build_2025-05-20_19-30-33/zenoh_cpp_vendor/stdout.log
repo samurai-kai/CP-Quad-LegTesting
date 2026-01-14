@@ -1,0 +1,310 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_cmake_vendor_package: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/zenoh_cpp_vendor
+[  6%] [34m[1mPerforming build step for 'zenoh_c_vendor'[0m
+[34m[1mGenerating release/target/release/libzenohc.so, release/target/release/libzenohc.a[0m
+"RUSTFLAGS = $$RUSTFLAGS"
+"cargo build --release --manifest-path=/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features --features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls --features=unstable"
+Built target cargo
+[ 12%] [34m[1mPerforming install step for 'zenoh_c_vendor'[0m
+Built target cargo
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_configure.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_opaque.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_commons.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_concrete.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_constants.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_macros.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_memory.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/lib/libzenohc.so
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/lib/pkgconfig/zenohc.pc
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/lib/libzenohc.a
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/lib/cmake/zenohc/zenohcConfig.cmake
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/lib/cmake/zenohc/zenohcConfigVersion.cmake
+[ 18%] [34m[1mCompleted 'zenoh_c_vendor'[0m
+[ 50%] Built target zenoh_c_vendor
+[ 56%] [34m[1mCreating directories for 'zenoh_cpp_vendor'[0m
+[ 62%] [34m[1mPerforming download step for 'zenoh_cpp_vendor'[0m
+[34m=== [1m./zenoh_cpp_vendor[22m (git) ===[0m
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/src/zenoh_cpp_vendor/.git/
+
+From https://github.com/eclipse-zenoh/zenoh-cpp
+ * branch            2a127bb0f537e0028359caf1084c879330341592 -> FETCH_HEAD
+Note: switching to '2a127bb0f537e0028359caf1084c879330341592'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 2a127bb add support for allowed_origin Queryable option (#424)
+Submodule 'zenoh-c' (https://github.com/eclipse-zenoh/zenoh-c.git) registered for path 'zenoh-c'
+Submodule 'zenoh-pico' (https://github.com/eclipse-zenoh/zenoh-pico.git) registered for path 'zenoh-pico'
+Cloning into '/home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/src/zenoh_cpp_vendor/zenoh-c'...
+Cloning into '/home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/src/zenoh_cpp_vendor/zenoh-pico'...
+Submodule path 'zenoh-c': checked out '89acbaa8cbee8c63bc58052a18706e5e6b34cf45'
+Submodule path 'zenoh-pico': checked out '1238f04f5fd14161b6d0009b067a1f4a8a3a2acf'
+[ 68%] [34m[1mNo update_disconnected step for 'zenoh_cpp_vendor'[0m
+[ 75%] [34m[1mNo patch_disconnected step for 'zenoh_cpp_vendor'[0m
+[ 81%] [34m[1mPerforming configure step for 'zenoh_cpp_vendor'[0m
+loading initial cache file /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-config.cmake
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- project_version = 1.2.1
+-- ZENOHCXX_ZENOHC = OFF
+-- ZENOHCXX_ZENOHPICO = OFF
+-- ZENOHCXX_EXAMPLES_PROTOBUF = ON
+-- ZENOHCXX_ENABLE_TESTS = ON
+-- ZENOHCXX_ENABLE_EXAMPLES = ON
+-- CMAKE_BUILD_TYPE = Release
+-- CMAKE_INSTALL_PREFIX = /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+-- zenoh-cxx tests
+-- zenoh-cxx docs
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Doxygen not found, skipping docs
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/src/zenoh_cpp_vendor-build
+[ 87%] [34m[1mPerforming build step for 'zenoh_cpp_vendor'[0m
+[ 93%] [34m[1mPerforming install step for 'zenoh_cpp_vendor'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/scout.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/queryable.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/subscriber.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/logging.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/matching.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/liveliness.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/id.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/interop.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/enums.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/channels.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/query_consolidation.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/publisher.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/querier.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/miss.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/querying_subscriber.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/advanced_subscriber.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/advanced_publisher.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/session_ext.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/publication_cache.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/serialization.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/source_info.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/buffer
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/buffer/zshmmut.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/buffer/zshm.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/buffer/buffer.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/shm.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/client_storage
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/client_storage/client_storage.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/client
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/client/shm_segment.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/client/shm_client.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/client/client.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/shm_provider_backend.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/shm_provider.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/chunk.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/provider.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/types_impl.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/alloc_layout.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/types.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/common
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/common/types.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/common/common.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/cleanup.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/protocol_implementations
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/protocol_implementations/posix
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/protocol_implementations/posix/posix_shm_client.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/protocol_implementations/posix/posix_shm_provider.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/protocol_implementations/posix/posix.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/protocol_implementations/protocol_implementations.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/hello.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/timestamp.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/bytes.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/session.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/query.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/sample.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/encoding.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/base.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/closures.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/keyexpr.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/reply.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/config.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/detail
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/detail/closures_concrete.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/detail/commons.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/detail/availability_checks.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/detail/closures.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/zenohc.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/lib/pkgconfig/zenohcxx.pc
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/lib/cmake/zenohcxx/zenohcxxConfig.cmake
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/lib/cmake/zenohcxx/zenohcxxConfigVersion.cmake
+[100%] [34m[1mCompleted 'zenoh_cpp_vendor'[0m
+[100%] Built target zenoh_cpp_vendor
+-- Install configuration: "Release"
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/libzenohc.so
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/pkgconfig
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/pkgconfig/zenohc.pc
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/libzenohc.a
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohc
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohc/zenohcConfig.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohc/zenohcConfigVersion.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_configure.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_opaque.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_commons.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_concrete.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_constants.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_macros.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_memory.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/vendor_package.bat
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/vendor_package.dsv
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/vendor_package.sh
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/ament_index/resource_index/vendor_packages/zenoh_cpp_vendor
+-- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+-- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib
+-- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/pkgconfig
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/pkgconfig/zenohcxx.pc
+-- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohcxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohcxx/zenohcxxConfig.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohcxx/zenohcxxConfigVersion.cmake
+-- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/scout.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/queryable.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/subscriber.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/logging.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/matching.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/liveliness.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/id.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/interop.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/enums.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/channels.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/query_consolidation.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/publisher.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/querier.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/miss.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/querying_subscriber.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/advanced_subscriber.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/advanced_publisher.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/session_ext.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/publication_cache.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/serialization.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/source_info.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/buffer
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/buffer/zshmmut.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/buffer/zshm.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/buffer/buffer.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/shm.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client_storage
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client_storage/client_storage.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client/shm_segment.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client/shm_client.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client/client.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/shm_provider_backend.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/shm_provider.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/chunk.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/provider.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/types_impl.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/alloc_layout.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/types.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/common
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/common/types.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/common/common.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/cleanup.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/posix
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/posix/posix_shm_client.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/posix/posix_shm_provider.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/posix/posix.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/protocol_implementations.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/hello.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/timestamp.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/bytes.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/session.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/query.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/sample.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/encoding.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/base.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/closures.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/keyexpr.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/reply.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/config.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail/closures_concrete.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail/commons.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail/availability_checks.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail/closures.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/zenohc.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/ament_index/resource_index/package_run_dependencies/zenoh_cpp_vendor
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/ament_index/resource_index/parent_prefix_path/zenoh_cpp_vendor
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/ament_prefix_path.sh
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/ament_prefix_path.dsv
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/path.sh
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/path.dsv
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/local_setup.bash
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/local_setup.sh
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/local_setup.zsh
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/local_setup.dsv
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.dsv
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/ament_index/resource_index/packages/zenoh_cpp_vendor
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake/vendor_package_cmake_prefix.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake/zenoh_cpp_vendorConfig.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake/zenoh_cpp_vendorConfig-version.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.xml

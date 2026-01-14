@@ -1,0 +1,7 @@
+[01m[K/home/ws/src/jetson_interface/src/jetson_gpio_interface.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KCANInterface.hpp: No such file or directory
+    1 | #include [01;31m[K<CANInterface.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/jetson_interface.dir/build.make:76: CMakeFiles/jetson_interface.dir/src/jetson_gpio_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/jetson_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

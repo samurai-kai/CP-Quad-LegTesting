@@ -1,0 +1,240 @@
+[0.094s] Invoking command in '/home/ws/build/quadruped_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_msgs -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_msgs
+[0.651s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.651s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.652s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.652s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.652s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.652s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.652s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.708s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.732s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.839s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.844s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.197s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.202s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.899s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.971s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.998s] -- Added test 'lint_cmake' to check CMake code style
+[4.001s] -- Added test 'xmllint' to check XML markup files
+[4.005s] -- Configuring done (3.9s)
+[4.111s] -- Generating done (0.1s)
+[4.137s] -- Build files have been written to: /home/ws/build/quadruped_msgs
+[4.154s] Invoked command in '/home/ws/build/quadruped_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_msgs -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_msgs
+[4.156s] Invoking command in '/home/ws/build/quadruped_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_msgs -- -j8 -l8
+[4.335s] [  1%] Built target quadruped_msgs__rosidl_generator_type_description
+[4.357s] [  1%] Built target ament_cmake_python_copy_quadruped_msgs
+[4.393s] [  3%] Built target quadruped_msgs__cpp
+[4.420s] [ 25%] Built target quadruped_msgs__rosidl_generator_c
+[4.525s] [ 34%] Built target quadruped_msgs__rosidl_typesupport_fastrtps_cpp
+[4.540s] [ 43%] Built target quadruped_msgs__rosidl_typesupport_cpp
+[4.549s] [ 53%] Built target quadruped_msgs__rosidl_typesupport_fastrtps_c
+[4.568s] [ 62%] Built target quadruped_msgs__rosidl_typesupport_c
+[4.571s] [ 71%] Built target quadruped_msgs__rosidl_typesupport_introspection_c
+[4.623s] [ 81%] Built target quadruped_msgs__rosidl_typesupport_introspection_cpp
+[4.688s] [ 81%] Built target quadruped_msgs
+[4.773s] [ 82%] Built target quadruped_msgs__py
+[4.846s] [ 90%] Built target quadruped_msgs__rosidl_generator_py
+[4.889s] running egg_info
+[4.909s] [ 93%] Built target quadruped_msgs_s__rosidl_typesupport_fastrtps_c
+[4.946s] [ 96%] Built target quadruped_msgs_s__rosidl_typesupport_introspection_c
+[4.949s] writing quadruped_msgs.egg-info/PKG-INFO
+[4.950s] writing dependency_links to quadruped_msgs.egg-info/dependency_links.txt
+[4.950s] writing top-level names to quadruped_msgs.egg-info/top_level.txt
+[4.961s] [100%] Built target quadruped_msgs_s__rosidl_typesupport_c
+[5.069s] reading manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+[5.069s] writing manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+[5.176s] [100%] Built target ament_cmake_python_build_quadruped_msgs_egg
+[5.229s] Invoked command in '/home/ws/build/quadruped_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_msgs -- -j8 -l8
+[5.230s] Invoking command in '/home/ws/build/quadruped_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_msgs
+[5.269s] -- Install configuration: "Release"
+[5.270s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/ament_index/resource_index/rosidl_interfaces/quadruped_msgs
+[5.270s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/msg/QuadrupedState.json
+[5.270s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/msg/GaitPattern.json
+[5.270s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/msg/FootStates.json
+[5.271s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/msg/FootForces.json
+[5.271s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs
+[5.271s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg
+[5.271s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/foot_forces.h
+[5.273s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail
+[5.274s] -- Installing: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__type_support.c
+[5.274s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__description.c
+[5.274s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__functions.c
+[5.274s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__struct.h
+[5.275s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__type_support.h
+[5.277s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__functions.c
+[5.277s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__struct.h
+[5.277s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__functions.c
+[5.277s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__functions.h
+[5.278s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__type_support.h
+[5.279s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__struct.h
+[5.279s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__description.c
+[5.280s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__type_support.h
+[5.280s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__description.c
+[5.281s] -- Installing: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__type_support.c
+[5.281s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__type_support.h
+[5.289s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__functions.c
+[5.290s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__functions.h
+[5.290s] -- Installing: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__type_support.c
+[5.290s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__functions.h
+[5.290s] -- Installing: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__type_support.c
+[5.290s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__functions.h
+[5.290s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__description.c
+[5.291s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__struct.h
+[5.291s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/foot_states.h
+[5.291s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/quadruped_state.h
+[5.291s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.291s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/gait_pattern.h
+[5.291s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/environment/library_path.sh
+[5.291s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/environment/library_path.dsv
+[5.292s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/libquadruped_msgs__rosidl_generator_c.so
+[5.292s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs
+[5.292s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg
+[5.292s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail
+[5.292s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__rosidl_typesupport_fastrtps_c.h
+[5.292s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__rosidl_typesupport_fastrtps_c.h
+[5.292s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__rosidl_typesupport_fastrtps_c.h
+[5.293s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__rosidl_typesupport_fastrtps_c.h
+[5.293s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.293s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/libquadruped_msgs__rosidl_typesupport_fastrtps_c.so
+[5.293s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs
+[5.293s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg
+[5.293s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/foot_states.hpp
+[5.293s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/gait_pattern.hpp
+[5.294s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.294s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail
+[5.294s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__builder.hpp
+[5.294s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__struct.hpp
+[5.294s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__builder.hpp
+[5.294s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__struct.hpp
+[5.294s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__builder.hpp
+[5.294s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__traits.hpp
+[5.295s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__struct.hpp
+[5.295s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__traits.hpp
+[5.295s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__type_support.hpp
+[5.295s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__traits.hpp
+[5.295s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__struct.hpp
+[5.295s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__type_support.hpp
+[5.295s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__builder.hpp
+[5.296s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__traits.hpp
+[5.296s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__type_support.hpp
+[5.296s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__type_support.hpp
+[5.296s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/quadruped_state.hpp
+[5.296s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/foot_forces.hpp
+[5.296s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs
+[5.296s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg
+[5.297s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail
+[5.297s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/dds_fastrtps
+[5.297s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__rosidl_typesupport_fastrtps_cpp.hpp
+[5.297s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.297s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__rosidl_typesupport_fastrtps_cpp.hpp
+[5.297s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__rosidl_typesupport_fastrtps_cpp.hpp
+[5.297s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.298s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/libquadruped_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.298s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs
+[5.298s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg
+[5.298s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail
+[5.298s] -- Installing: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__type_support.c
+[5.298s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__rosidl_typesupport_introspection_c.h
+[5.298s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__rosidl_typesupport_introspection_c.h
+[5.299s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__rosidl_typesupport_introspection_c.h
+[5.299s] -- Installing: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__type_support.c
+[5.299s] -- Installing: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__type_support.c
+[5.299s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__rosidl_typesupport_introspection_c.h
+[5.299s] -- Installing: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__type_support.c
+[5.299s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.299s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/libquadruped_msgs__rosidl_typesupport_introspection_c.so
+[5.300s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/libquadruped_msgs__rosidl_typesupport_c.so
+[5.300s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs
+[5.300s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg
+[5.300s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail
+[5.300s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__type_support.cpp
+[5.300s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__type_support.cpp
+[5.300s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_states__rosidl_typesupport_introspection_cpp.hpp
+[5.300s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__rosidl_typesupport_introspection_cpp.hpp
+[5.301s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/foot_forces__rosidl_typesupport_introspection_cpp.hpp
+[5.301s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__rosidl_typesupport_introspection_cpp.hpp
+[5.301s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/quadruped_state__type_support.cpp
+[5.301s] -- Up-to-date: /home/ws/install/quadruped_msgs/include/quadruped_msgs/quadruped_msgs/msg/detail/gait_pattern__type_support.cpp
+[5.301s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/libquadruped_msgs__rosidl_typesupport_introspection_cpp.so
+[5.301s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/libquadruped_msgs__rosidl_typesupport_cpp.so
+[5.302s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/environment/pythonpath.sh
+[5.302s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/environment/pythonpath.dsv
+[5.302s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs-0.0.0-py3.12.egg-info
+[5.302s] -- Installing: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.302s] -- Installing: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[5.302s] -- Installing: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[5.302s] -- Installing: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.302s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs
+[5.303s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/quadruped_msgs_s__rosidl_typesupport_c.so
+[5.303s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/_quadruped_msgs_s.ep.rosidl_typesupport_c.c
+[5.303s] -- Installing: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/__init__.py
+[5.303s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/_quadruped_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.303s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/quadruped_msgs_s__rosidl_typesupport_introspection_c.so
+[5.303s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/quadruped_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.303s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/_quadruped_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.304s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/msg
+[5.304s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/msg/__init__.py
+[5.305s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/msg/_foot_forces.py
+[5.305s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/msg/_foot_states_s.c
+[5.305s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/msg/_quadruped_state.py
+[5.306s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/msg/_foot_states.py
+[5.306s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/msg/_foot_forces_s.c
+[5.306s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/msg/_gait_pattern.py
+[5.306s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/msg/_quadruped_state_s.c
+[5.306s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/msg/_gait_pattern_s.c
+[5.406s] Listing '/home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs'...
+[5.406s] Compiling '/home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/__init__.py'...
+[5.407s] Listing '/home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/msg'...
+[5.422s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/quadruped_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.422s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/quadruped_msgs_s__rosidl_typesupport_introspection_c.so
+[5.423s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/python3.12/site-packages/quadruped_msgs/quadruped_msgs_s__rosidl_typesupport_c.so
+[5.423s] -- Up-to-date: /home/ws/install/quadruped_msgs/lib/libquadruped_msgs__rosidl_generator_py.so
+[5.423s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/msg/QuadrupedState.idl
+[5.424s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/msg/GaitPattern.idl
+[5.424s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/msg/FootStates.idl
+[5.424s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/msg/FootForces.idl
+[5.424s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/msg/QuadrupedState.msg
+[5.424s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/msg/GaitPattern.msg
+[5.425s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/msg/FootStates.msg
+[5.425s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/msg/FootForces.msg
+[5.425s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/ament_index/resource_index/package_run_dependencies/quadruped_msgs
+[5.425s] -- Installing: /home/ws/install/quadruped_msgs/share/ament_index/resource_index/parent_prefix_path/quadruped_msgs
+[5.426s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/environment/ament_prefix_path.sh
+[5.426s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/environment/ament_prefix_path.dsv
+[5.426s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/environment/path.sh
+[5.426s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/environment/path.dsv
+[5.426s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/local_setup.bash
+[5.427s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/local_setup.sh
+[5.427s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/local_setup.zsh
+[5.427s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/local_setup.dsv
+[5.427s] -- Installing: /home/ws/install/quadruped_msgs/share/quadruped_msgs/package.dsv
+[5.428s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/ament_index/resource_index/packages/quadruped_msgs
+[5.428s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/export_quadruped_msgs__rosidl_generator_cExport.cmake
+[5.428s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/export_quadruped_msgs__rosidl_generator_cExport-release.cmake
+[5.429s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/export_quadruped_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.429s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/export_quadruped_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[5.429s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/export_quadruped_msgs__rosidl_generator_cppExport.cmake
+[5.429s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/export_quadruped_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.429s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/export_quadruped_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[5.429s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/quadruped_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.430s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/quadruped_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[5.430s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/quadruped_msgs__rosidl_typesupport_cExport.cmake
+[5.430s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/quadruped_msgs__rosidl_typesupport_cExport-release.cmake
+[5.430s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/quadruped_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.430s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/quadruped_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[5.430s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/quadruped_msgs__rosidl_typesupport_cppExport.cmake
+[5.430s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/quadruped_msgs__rosidl_typesupport_cppExport-release.cmake
+[5.431s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/export_quadruped_msgs__rosidl_generator_pyExport.cmake
+[5.431s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/export_quadruped_msgs__rosidl_generator_pyExport-release.cmake
+[5.431s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/rosidl_cmake-extras.cmake
+[5.431s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.431s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.431s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.431s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.432s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.432s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.433s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/quadruped_msgsConfig.cmake
+[5.433s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake/quadruped_msgsConfig-version.cmake
+[5.433s] -- Up-to-date: /home/ws/install/quadruped_msgs/share/quadruped_msgs/package.xml
+[5.447s] Invoked command in '/home/ws/build/quadruped_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_msgs

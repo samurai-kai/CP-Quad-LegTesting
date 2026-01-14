@@ -1,0 +1,144 @@
+[0.085s] Invoking command in '/home/ws/build/jetson_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/jetson_interface -- -j8 -l8
+[0.781s] [  1%] Built target GenerateModelHeader
+[0.781s] [  3%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/JetsonGPIO.cpp.o[0m
+[0.781s] [  5%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/MainModule.cpp.o[0m
+[0.781s] [  6%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/GPIOEvent.cpp.o[0m
+[2.275s] [01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/GPIOEvent.cpp:[m[K In lambda function:
+[2.275s] [01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/GPIOEvent.cpp:130:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ reading 7 bytes from a region of size 5 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overread-Wstringop-overread]8;;[m[K]
+[2.275s]   130 |                 return [01;35m[Kwrite(edge_fd, "both", 7)[m[K;
+[2.276s]       |                        [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.276s] In file included from [01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/GPIOEvent.cpp:33[m[K:
+[2.276s] [01m[K/usr/include/unistd.h:378:16:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (read_only, 2, 3)[m[K’
+[2.276s]   378 | extern ssize_t [01;36m[Kwrite[m[K (int __fd, const void *__buf, size_t __n) __wur
+[2.276s]       |                [01;36m[K^~~~~[m[K
+[2.276s] [01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/GPIOEvent.cpp:137:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ reading 7 bytes from a region of size 5 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overread-Wstringop-overread]8;;[m[K]
+[2.277s]   137 |                 return [01;35m[Kwrite(edge_fd, "none", 7)[m[K;
+[2.277s]       |                        [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.277s] [01m[K/usr/include/unistd.h:378:16:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (read_only, 2, 3)[m[K’
+[2.277s]   378 | extern ssize_t [01;36m[Kwrite[m[K (int __fd, const void *__buf, size_t __n) __wur
+[2.277s]       |                [01;36m[K^~~~~[m[K
+[4.860s] [  8%] [32m[1mLinking CXX shared library libJetsonGPIO.so[0m
+[5.191s] [ 23%] Built target JetsonGPIO
+[5.279s] [ 25%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_dictionary_like.dir/unit-tests/test_dictionary_like.cpp.o[0m
+[5.279s] [ 27%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_all_apis.dir/test_all_apis.cpp.o[0m
+[5.311s] [ 28%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_lazy_string.dir/unit-tests/test_lazy_string.cpp.o[0m
+[5.315s] [ 30%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_model_name.dir/unit-tests/test_model_name.cpp.o[0m
+[5.330s] [ 32%] [32mBuilding CXX object CMakeFiles/jetson_interface.dir/src/jetson_gpio_interface.cpp.o[0m
+[5.350s] [ 33%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_startswith.dir/unit-tests/test_startswith.cpp.o[0m
+[5.377s] [ 35%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_event_module.dir/test_event_module.cpp.o[0m
+[5.380s] [ 37%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_format.dir/unit-tests/test_format.cpp.o[0m
+[7.759s] [ 38%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_startswith.dir/TestUtility.cpp.o[0m
+[8.258s] [ 40%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_format.dir/TestUtility.cpp.o[0m
+[8.651s] [ 42%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_lazy_string.dir/TestUtility.cpp.o[0m
+[9.350s] [ 44%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_dictionary_like.dir/TestUtility.cpp.o[0m
+[9.435s] [ 45%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_model_name.dir/TestUtility.cpp.o[0m
+[9.722s] [ 47%] [32m[1mLinking CXX executable test_startswith[0m
+[10.110s] [ 47%] Built target test_startswith
+[10.267s] [ 49%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_lower.dir/unit-tests/test_lower.cpp.o[0m
+[10.270s] [ 50%] [32m[1mLinking CXX executable test_lazy_string[0m
+[10.782s] [ 50%] Built target test_lazy_string
+[10.807s] [ 52%] [32m[1mLinking CXX executable test_format[0m
+[10.911s] [ 54%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_none.dir/unit-tests/test_none.cpp.o[0m
+[10.913s] [ 55%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_event_module.dir/TestUtility.cpp.o[0m
+[10.935s] [ 57%] [32m[1mLinking CXX executable test_dictionary_like[0m
+[11.142s] [ 57%] Built target test_format
+[11.306s] [ 59%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_is_iterable.dir/unit-tests/test_is_iterable.cpp.o[0m
+[11.362s] [ 59%] Built target test_dictionary_like
+[11.449s] [ 61%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_is_iterable.dir/TestUtility.cpp.o[0m
+[11.763s] [ 62%] [32m[1mLinking CXX executable test_model_name[0m
+[12.296s] [ 62%] Built target test_model_name
+[12.545s] [ 64%] [32m[1mLinking CXX executable test_event_module[0m
+[12.993s] [ 64%] Built target test_event_module
+[13.266s] [ 66%] [32m[1mLinking CXX executable test_is_iterable[0m
+[13.387s] [ 67%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_lower.dir/TestUtility.cpp.o[0m
+[13.650s] [ 67%] Built target test_is_iterable
+[13.860s] [ 69%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_none.dir/TestUtility.cpp.o[0m
+[14.724s] [ 71%] [32m[1mLinking CXX executable test_lower[0m
+[14.949s] [ 71%] Built target test_lower
+[15.059s] [ 72%] [32m[1mLinking CXX executable test_none[0m
+[15.288s] [ 72%] Built target test_none
+[16.001s] [ 74%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_all_apis.dir/TestUtility.cpp.o[0m
+[17.122s] [ 76%] [32m[1mLinking CXX executable test_all_apis[0m
+[17.346s] [ 76%] Built target test_all_apis
+[22.905s] [ 77%] [32m[1mLinking CXX shared library libjetson_interface.so[0m
+[23.215s] [ 77%] Built target jetson_interface
+[23.264s] [ 79%] [32mBuilding CXX object JetsonGPIO/samples/CMakeFiles/jetson_model.dir/jetson_model.cpp.o[0m
+[24.078s] [ 81%] [32m[1mLinking CXX executable jetson_model[0m
+[24.249s] [ 81%] Built target jetson_model
+[24.303s] [ 83%] [32mBuilding CXX object JetsonGPIO/samples/CMakeFiles/simple_pwm.dir/simple_pwm.cpp.o[0m
+[25.817s] [ 84%] [32m[1mLinking CXX executable simple_pwm[0m
+[26.027s] [ 84%] Built target simple_pwm
+[26.089s] [ 86%] [32mBuilding CXX object JetsonGPIO/samples/CMakeFiles/simple_out.dir/simple_out.cpp.o[0m
+[27.104s] [ 88%] [32m[1mLinking CXX executable simple_out[0m
+[27.282s] [ 88%] Built target simple_out
+[27.327s] [ 89%] [32mBuilding CXX object JetsonGPIO/samples/CMakeFiles/button_interrupt.dir/button_interrupt.cpp.o[0m
+[28.461s] [ 91%] [32m[1mLinking CXX executable button_interrupt[0m
+[28.633s] [ 91%] Built target button_interrupt
+[28.681s] [ 93%] [32mBuilding CXX object JetsonGPIO/samples/CMakeFiles/button_event.dir/button_event.cpp.o[0m
+[29.699s] [ 94%] [32m[1mLinking CXX executable button_event[0m
+[29.886s] [ 94%] Built target button_event
+[29.934s] [ 96%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_value_type.dir/unit-tests/test_value_type.cpp.o[0m
+[30.967s] [ 98%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_value_type.dir/TestUtility.cpp.o[0m
+[32.056s] [100%] [32m[1mLinking CXX executable test_value_type[0m
+[32.229s] [100%] Built target test_value_type
+[32.259s] Invoked command in '/home/ws/build/jetson_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/jetson_interface -- -j8 -l8
+[32.260s] Invoking command in '/home/ws/build/jetson_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/jetson_interface
+[32.280s] -- Install configuration: "Release"
+[32.280s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/jetson_gpio_interface.xml
+[32.280s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/launch
+[32.280s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/launch/controller_manager.launch.py
+[32.280s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/config
+[32.281s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/config/jetson_interface.yaml
+[32.281s] -- Installing: /home/ws/install/jetson_interface/lib/libjetson_interface.so
+[32.282s] -- Set non-toolchain portion of runtime path of "/home/ws/install/jetson_interface/lib/libjetson_interface.so" to ""
+[32.282s] -- Up-to-date: /home/ws/install/jetson_interface/include
+[32.282s] -- Up-to-date: /home/ws/install/jetson_interface/include/quadruped_hardware
+[32.283s] -- Up-to-date: /home/ws/install/jetson_interface/include/quadruped_hardware/watchdog.hpp
+[32.285s] -- Installing: /home/ws/install/jetson_interface/include/quadruped_hardware/jetson_gpio_interface.hpp
+[32.286s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/library_path.sh
+[32.286s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/library_path.dsv
+[32.286s] -- Up-to-date: /home/ws/install/jetson_interface/share/ament_index/resource_index/package_run_dependencies/jetson_interface
+[32.287s] -- Up-to-date: /home/ws/install/jetson_interface/share/ament_index/resource_index/parent_prefix_path/jetson_interface
+[32.287s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/ament_prefix_path.sh
+[32.287s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/ament_prefix_path.dsv
+[32.287s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/path.sh
+[32.287s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/path.dsv
+[32.287s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.bash
+[32.287s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.sh
+[32.288s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.zsh
+[32.288s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.dsv
+[32.288s] -- Installing: /home/ws/install/jetson_interface/share/jetson_interface/package.dsv
+[32.288s] -- Up-to-date: /home/ws/install/jetson_interface/share/ament_index/resource_index/packages/jetson_interface
+[32.288s] -- Up-to-date: /home/ws/install/jetson_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/jetson_interface
+[32.288s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.288s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.289s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[32.289s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/jetson_interfaceConfig.cmake
+[32.289s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/jetson_interfaceConfig-version.cmake
+[32.289s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/package.xml
+[32.289s] -- Installing: /home/ws/install/jetson_interface/lib/libJetsonGPIO.so.1.2.5
+[32.298s] -- Installing: /home/ws/install/jetson_interface/lib/libJetsonGPIO.so.1
+[32.298s] -- Installing: /home/ws/install/jetson_interface/lib/libJetsonGPIO.so
+[32.299s] -- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO.h
+[32.299s] -- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO/Callback.h
+[32.299s] -- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO/LazyString.h
+[32.299s] -- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO/PWM.h
+[32.299s] -- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO/PublicEnums.h
+[32.299s] -- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO/TypeTraits.h
+[32.300s] -- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO/WaitResult.h
+[32.300s] -- Installing: /home/ws/install/jetson_interface/include/JetsonGPIOConfig.h
+[32.300s] -- Installing: /home/ws/install/jetson_interface/lib/cmake/JetsonGPIO/JetsonGPIOTargets.cmake
+[32.300s] -- Installing: /home/ws/install/jetson_interface/lib/cmake/JetsonGPIO/JetsonGPIOTargets-release.cmake
+[32.300s] -- Installing: /home/ws/install/jetson_interface/lib/cmake/JetsonGPIO/JetsonGPIOConfig.cmake
+[32.300s] -- Installing: /home/ws/install/jetson_interface/lib/cmake/JetsonGPIO/JetsonGPIOConfigVersion.cmake
+[32.301s] -- Installing: /home/ws/install/jetson_interface/share/JetsonGPIO/LICENSE.txt
+[32.301s] -- Installing: /lib/udev/rules.d/99-gpio.rules
+[32.301s] [31mCMake Error at JetsonGPIO/cmake_install.cmake:140 (file):
+[32.301s]   file INSTALL cannot copy file
+[32.301s]   "/home/ws/src/jetson_interface/JetsonGPIO/99-gpio.rules" to
+[32.302s]   "/lib/udev/rules.d/99-gpio.rules": Permission denied.
+[32.302s] Call Stack (most recent call first):
+[32.302s]   cmake_install.cmake:169 (include)
+[32.302s] 
+[32.302s] [0m
+[32.323s] Invoked command in '/home/ws/build/jetson_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/jetson_interface

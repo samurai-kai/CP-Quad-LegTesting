@@ -1,0 +1,24 @@
+[0.693s] Invoking command in '/home/ws/build/quadruped_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_hardware -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_hardware
+[0.809s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.440s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.495s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.521s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.709s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.717s] [31mCMake Error at /opt/ros/jazzy/share/rmw_implementation_cmake/cmake/get_default_rmw_implementation.cmake:60 (message):
+[1.717s]   Could not find ROS middleware implementation 'rmw_zenoh_cpp'.  Choose one
+[1.717s]   of the following: rmw_fastrtps_cpp
+[1.717s] Call Stack (most recent call first):
+[1.717s]   /opt/ros/jazzy/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:19 (get_default_rmw_implementation)
+[1.717s]   /opt/ros/jazzy/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)
+[1.718s]   /opt/ros/jazzy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.718s]   /opt/ros/jazzy/share/rcl/cmake/rclConfig.cmake:41 (include)
+[1.718s]   /opt/ros/jazzy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.718s]   /opt/ros/jazzy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[1.718s]   /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.718s]   /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[1.718s]   CMakeLists.txt:7 (find_package)
+[1.719s] 
+[1.719s] [0m
+[1.719s] -- Configuring incomplete, errors occurred!

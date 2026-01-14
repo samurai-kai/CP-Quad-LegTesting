@@ -1,0 +1,115 @@
+[0.027s] Invoking command in '/home/ws/build/zenoh_cpp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/rmw_zenoh/zenoh_cpp_vendor -DCMAKE_INSTALL_PREFIX=/home/ws/install/zenoh_cpp_vendor
+[0.167s] -- The C compiler identification is GNU 13.3.0
+[0.292s] -- The CXX compiler identification is GNU 13.3.0
+[0.327s] -- Detecting C compiler ABI info
+[0.525s] -- Detecting C compiler ABI info - done
+[0.542s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.551s] -- Detecting C compile features
+[0.552s] -- Detecting C compile features - done
+[0.582s] -- Detecting CXX compiler ABI info
+[0.818s] -- Detecting CXX compiler ABI info - done
+[0.837s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.837s] -- Detecting CXX compile features
+[0.838s] -- Detecting CXX compile features - done
+[0.861s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.299s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.600s] -- Found ament_cmake_vendor_package: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)
+[1.904s] -- Configuring done (1.9s)
+[1.919s] -- Generating done (0.0s)
+[1.931s] -- Build files have been written to: /home/ws/build/zenoh_cpp_vendor
+[1.948s] Invoked command in '/home/ws/build/zenoh_cpp_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/rmw_zenoh/zenoh_cpp_vendor -DCMAKE_INSTALL_PREFIX=/home/ws/install/zenoh_cpp_vendor
+[1.949s] Invoking command in '/home/ws/build/zenoh_cpp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/zenoh_cpp_vendor -- -j8 -l8
+[2.079s] [  6%] [34m[1mCreating directories for 'zenoh_c_vendor'[0m
+[2.154s] [ 12%] [34m[1mPerforming download step for 'zenoh_c_vendor'[0m
+[2.391s] /usr/bin/vcs:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+[2.392s]   from pkg_resources import load_entry_point
+[4.154s] [34m=== [1m./zenoh_c_vendor[22m (git) ===[0m
+[4.154s] hint: Using 'master' as the name for the initial branch. This default branch name
+[4.155s] hint: is subject to change. To configure the initial branch name to use in all
+[4.155s] hint: of your new repositories, which will suppress this warning, call:
+[4.155s] hint: 
+[4.155s] hint: 	git config --global init.defaultBranch <name>
+[4.155s] hint: 
+[4.155s] hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+[4.155s] hint: 'development'. The just-created branch can be renamed via this command:
+[4.156s] hint: 
+[4.156s] hint: 	git branch -m <name>
+[4.156s] Initialized empty Git repository in /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor/.git/
+[4.156s] 
+[4.156s] From https://github.com/eclipse-zenoh/zenoh-c
+[4.156s]  * branch            3540a3ce8126e071236352446bc1564787d3fb04 -> FETCH_HEAD
+[4.156s] Note: switching to '3540a3ce8126e071236352446bc1564787d3fb04'.
+[4.157s] 
+[4.157s] You are in 'detached HEAD' state. You can look around, make experimental
+[4.157s] changes and commit them, and you can discard any commits you make in this
+[4.157s] state without impacting any branches by switching back to a branch.
+[4.157s] 
+[4.157s] If you want to create a new branch to retain commits you create, you may
+[4.157s] do so (now or later) by using -c with the switch command. Example:
+[4.157s] 
+[4.158s]   git switch -c <new-branch-name>
+[4.158s] 
+[4.158s] Or undo this operation with:
+[4.158s] 
+[4.158s]   git switch -
+[4.158s] 
+[4.158s] Turn off this advice by setting config variable advice.detachedHead to false
+[4.158s] 
+[4.159s] HEAD is now at 3540a3c build: Sync  with eclipse-zenoh/zenoh@f735bf5 from 2025-03-05 (#940)
+[4.159s] 
+[4.296s] [ 18%] [34m[1mNo update_disconnected step for 'zenoh_c_vendor'[0m
+[4.379s] [ 25%] [34m[1mNo patch_disconnected step for 'zenoh_c_vendor'[0m
+[4.443s] [ 31%] [34m[1mPerforming configure step for 'zenoh_c_vendor'[0m
+[4.467s] loading initial cache file /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-config.cmake
+[4.590s] -- The C compiler identification is GNU 13.3.0
+[4.704s] -- The CXX compiler identification is GNU 13.3.0
+[4.745s] -- Detecting C compiler ABI info
+[4.961s] -- Detecting C compiler ABI info - done
+[4.994s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.994s] -- Detecting C compile features
+[4.995s] -- Detecting C compile features - done
+[5.012s] -- Detecting CXX compiler ABI info
+[5.221s] -- Detecting CXX compiler ABI info - done
+[5.239s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.242s] -- Detecting CXX compile features
+[5.243s] -- Detecting CXX compile features - done
+[5.248s] -- CMAKE_BUILD_TYPE = Release
+[5.248s] -- ZENOHC_BUILD_IN_SOURCE_TREE = FALSE
+[5.248s] -- ZENOHC_BUILD_WITH_SHARED_MEMORY = FALSE
+[5.249s] -- ZENOHC_BUILD_WITH_UNSTABLE_API = TRUE
+[5.249s] -- ZENOHC_BUILD_TESTS_WITH_CXX = FALSE
+[5.249s] -- ZENOHC_CUSTOM_TARGET = 
+[5.249s] -- ZENOHC_CARGO_CHANNEL = 
+[5.249s] -- ZENOHC_CARGO_FLAGS = --no-default-features;--features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls
+[5.249s] -- BUILD_SHARED_LIBS = ON
+[5.249s] -- ZENOHC_TREAT_WARNING_AS_ERROR = OFF
+[5.250s] -- project_version = 1.2.1
+[5.250s] -- Mode: Non-IDE
+[5.250s] -- Configuring Cargo.toml in /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/debug for zenohcd
+[5.253s] -- Configuring Cargo.toml in /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release for zenohc
+[5.255s] -- Due to ZENOHC_CARGO_FLAGS setting ZENOHC_BUILD_WITH_SHARED_MEMORY = TRUE
+[5.256s] -- cargo_flags = --release;--manifest-path=/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml;--no-default-features;--features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls;--features=unstable
+[5.256s] -- libs = /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.so;/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.a
+[5.264s] -- NATIVE_STATIC_LIBS = rt;pthread;m;dl
+[5.265s] -- zenoh-c install
+[5.266s] -- CMAKE_INSTALL_PREFIX = /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+[5.301s] -- zenoh-c tests
+[5.302s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.513s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.515s] -- Found Threads: TRUE  
+[5.569s] -- zenoh-c examples
+[5.575s] -- Configuring done (1.1s)
+[5.709s] -- Generating done (0.1s)
+[5.719s] -- Build files have been written to: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build
+[5.774s] [ 37%] [34m[1mPerforming build step for 'zenoh_c_vendor'[0m
+[5.920s] [34m[1mGenerating release/target/release/libzenohc.so, release/target/release/libzenohc.a[0m
+[5.944s] "RUSTFLAGS = $$RUSTFLAGS"
+[5.966s] "cargo build --release --manifest-path=/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features --features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls --features=unstable"
+[5.971s] /bin/sh: 1: cargo: not found
+[5.971s] gmake[5]: *** [CMakeFiles/cargo.dir/build.make:146: release/target/release/libzenohc.so] Error 127
+[5.972s] gmake[4]: *** [CMakeFiles/Makefile2:189: CMakeFiles/cargo.dir/all] Error 2
+[5.972s] gmake[3]: *** [Makefile:166: all] Error 2
+[5.975s] gmake[2]: *** [CMakeFiles/zenoh_c_vendor.dir/build.make:86: zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-build] Error 2
+[5.977s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/zenoh_c_vendor.dir/all] Error 2
+[5.977s] gmake: *** [Makefile:146: all] Error 2
+[5.988s] Invoked command in '/home/ws/build/zenoh_cpp_vendor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/zenoh_cpp_vendor -- -j8 -l8

@@ -1,0 +1,34 @@
+[0.685s] Invoking command in '/home/ws/build/quadruped_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_sim -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_sim
+[1.288s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.443s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.864s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.864s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.864s] -- Added test 'lint_cmake' to check CMake code style
+[1.864s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.865s] -- Added test 'xmllint' to check XML markup files
+[1.865s] -- Configuring done (1.1s)
+[1.874s] -- Generating done (0.0s)
+[1.896s] -- Build files have been written to: /home/ws/build/quadruped_sim
+[1.948s] Invoked command in '/home/ws/build/quadruped_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_sim -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_sim
+[1.953s] Invoking command in '/home/ws/build/quadruped_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_sim -- -j8 -l8
+[2.168s] Invoked command in '/home/ws/build/quadruped_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_sim -- -j8 -l8
+[2.169s] Invoking command in '/home/ws/build/quadruped_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_sim
+[2.220s] -- Install configuration: "Release"
+[2.221s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/launch
+[2.221s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/launch/gazebo_sim.launch.py
+[2.221s] -- Up-to-date: /home/ws/install/quadruped_sim/share/ament_index/resource_index/package_run_dependencies/quadruped_sim
+[2.221s] -- Up-to-date: /home/ws/install/quadruped_sim/share/ament_index/resource_index/parent_prefix_path/quadruped_sim
+[2.221s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/environment/ament_prefix_path.sh
+[2.221s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/environment/ament_prefix_path.dsv
+[2.222s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/environment/path.sh
+[2.222s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/environment/path.dsv
+[2.222s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/local_setup.bash
+[2.222s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/local_setup.sh
+[2.222s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/local_setup.zsh
+[2.222s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/local_setup.dsv
+[2.222s] -- Installing: /home/ws/install/quadruped_sim/share/quadruped_sim/package.dsv
+[2.223s] -- Up-to-date: /home/ws/install/quadruped_sim/share/ament_index/resource_index/packages/quadruped_sim
+[2.223s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/cmake/quadruped_simConfig.cmake
+[2.223s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/cmake/quadruped_simConfig-version.cmake
+[2.223s] -- Up-to-date: /home/ws/install/quadruped_sim/share/quadruped_sim/package.xml
+[2.234s] Invoked command in '/home/ws/build/quadruped_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_sim

@@ -1,0 +1,8 @@
+msg/FootForces.idl
+msg/FootForces.msg
+msg/FootStates.idl
+msg/FootStates.msg
+msg/GaitPattern.idl
+msg/GaitPattern.msg
+msg/QuadrupedState.idl
+msg/QuadrupedState.msg

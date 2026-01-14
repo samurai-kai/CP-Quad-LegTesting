@@ -1,0 +1,22 @@
+[01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/GPIOEvent.cpp:[m[K In lambda function:
+[01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/GPIOEvent.cpp:130:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ reading 7 bytes from a region of size 5 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overread-Wstringop-overread]8;;[m[K]
+  130 |                 return [01;35m[Kwrite(edge_fd, "both", 7)[m[K;
+      |                        [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/GPIOEvent.cpp:33[m[K:
+[01m[K/usr/include/unistd.h:378:16:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (read_only, 2, 3)[m[K’
+  378 | extern ssize_t [01;36m[Kwrite[m[K (int __fd, const void *__buf, size_t __n) __wur
+      |                [01;36m[K^~~~~[m[K
+[01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/GPIOEvent.cpp:137:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ reading 7 bytes from a region of size 5 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overread-Wstringop-overread]8;;[m[K]
+  137 |                 return [01;35m[Kwrite(edge_fd, "none", 7)[m[K;
+      |                        [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/unistd.h:378:16:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (read_only, 2, 3)[m[K’
+  378 | extern ssize_t [01;36m[Kwrite[m[K (int __fd, const void *__buf, size_t __n) __wur
+      |                [01;36m[K^~~~~[m[K
+[31mCMake Error at JetsonGPIO/cmake_install.cmake:140 (file):
+  file INSTALL cannot copy file
+  "/home/ws/src/jetson_interface/JetsonGPIO/99-gpio.rules" to
+  "/lib/udev/rules.d/99-gpio.rules": Permission denied.
+Call Stack (most recent call first):
+  cmake_install.cmake:169 (include)
+
+[0m

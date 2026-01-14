@@ -1,0 +1,9 @@
+/usr/bin/vcs:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import load_entry_point
+/bin/sh: 1: cargo: not found
+gmake[5]: *** [CMakeFiles/cargo.dir/build.make:146: release/target/release/libzenohc.so] Error 127
+gmake[4]: *** [CMakeFiles/Makefile2:189: CMakeFiles/cargo.dir/all] Error 2
+gmake[3]: *** [Makefile:166: all] Error 2
+gmake[2]: *** [CMakeFiles/zenoh_c_vendor.dir/build.make:86: zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-build] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/zenoh_c_vendor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

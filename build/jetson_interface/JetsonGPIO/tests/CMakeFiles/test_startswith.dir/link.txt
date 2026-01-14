@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic "CMakeFiles/test_startswith.dir/unit-tests/test_startswith.cpp.o" CMakeFiles/test_startswith.dir/TestUtility.cpp.o -o test_startswith  -Wl,-rpath,/home/ws/build/jetson_interface/JetsonGPIO ../libJetsonGPIO.so.1.2.5 

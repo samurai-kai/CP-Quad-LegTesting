@@ -1,0 +1,6 @@
+[0.084s] Invoking command in '/home/ws/build/zenoh_cpp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/rmw_zenoh/zenoh_cpp_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/zenoh_cpp_vendor
+[0.869s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.319s] -- Found ament_cmake_vendor_package: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)
+[1.869s] -- Configuring done (1.8s)
+[1.900s] -- Generating done (0.0s)
+[1.903s] -- Build files have been written to: /home/ws/build/zenoh_cpp_vendor

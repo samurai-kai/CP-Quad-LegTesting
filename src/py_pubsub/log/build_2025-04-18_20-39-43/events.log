@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000846] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001143] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099461] (-) TimerEvent: {}
+[0.199904] (-) TimerEvent: {}
+[0.300324] (-) TimerEvent: {}
+[0.400744] (-) TimerEvent: {}
+[0.501207] (-) TimerEvent: {}
+[0.601969] (-) TimerEvent: {}
+[0.702466] (-) TimerEvent: {}
+[0.803057] (-) TimerEvent: {}
+[0.903549] (-) TimerEvent: {}
+[1.004046] (-) TimerEvent: {}
+[1.104705] (-) TimerEvent: {}
+[1.205427] (-) TimerEvent: {}
+[1.305886] (-) TimerEvent: {}
+[1.406381] (-) TimerEvent: {}
+[1.506918] (-) TimerEvent: {}
+[1.607382] (-) TimerEvent: {}
+[1.707861] (-) TimerEvent: {}
+[1.808397] (-) TimerEvent: {}
+[1.818645] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/py_pubsub', 'build', '--build-base', '/home/ws/src/py_pubsub/build/py_pubsub/build', 'install', '--record', '/home/ws/src/py_pubsub/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ws/src/py_pubsub', 'env': {'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'orin-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ws/install/rmw_zenoh_cpp/lib:/home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib:/home/ws/install/quadruped_utils/lib:/home/ws/install/quadruped_hardware/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib::/home/acados/acados/lib:/home/acados/acados/lib', 'ACADOS_SOURCE_DIR': '/home/acados/acados', 'BROWSER': '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh', 'HOME': '/home/jack', 'OLDPWD': '/home/ws/src/py_pubsub/py_pubsub', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f0ec87a5-c59a-46c7-886b-24dd2b3c5ac3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jack/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/home/ws/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-8f49d2f1-1487-476f-9bf8-9138cfb8dc35.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/jack/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts:/home/jack/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-8f49d2f1-1487-476f-9bf8-9138cfb8dc35.sock","/home/jack/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1001', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jack/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-68568c701aafb22e.txt', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-e41d4b38ec.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-8f49d2f1-1487-476f-9bf8-9138cfb8dc35.sock', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/ws/install/rmw_zenoh_cpp:/home/ws/install/zenoh_cpp_vendor:/home/ws/install/quadruped_utils:/home/ws/install/quadruped_urdf:/home/ws/install/quadruped_sim:/home/ws/install/quadruped_hardware:/home/ws/install/quadruped_bringup:/home/ws/install/my_package:/home/ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ws/src/py_pubsub/build/py_pubsub', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ws/src/py_pubsub/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ws/install/rmw_zenoh_cpp:/home/ws/install/zenoh_cpp_vendor:/home/ws/install/ros2_bno08x:/home/ws/install/quadruped_utils:/home/ws/install/quadruped_urdf:/home/ws/install/quadruped_sim:/home/ws/install/quadruped_hardware:/home/ws/install/quadruped_bringup:/home/ws/install/my_package:/home/ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.908528] (-) TimerEvent: {}
+[2.009082] (-) TimerEvent: {}
+[2.109547] (-) TimerEvent: {}
+[2.157509] (py_pubsub) StderrLine: {'line': b"/usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.158065] (py_pubsub) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.209700] (-) TimerEvent: {}
+[2.310266] (-) TimerEvent: {}
+[2.388239] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[2.410435] (-) TimerEvent: {}
+[2.426585] (py_pubsub) StdoutLine: {'line': b'creating build/py_pubsub/py_pubsub.egg-info\n'}
+[2.427055] (py_pubsub) StdoutLine: {'line': b'writing build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[2.427837] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[2.428109] (py_pubsub) StdoutLine: {'line': b'writing entry points to build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[2.428360] (py_pubsub) StdoutLine: {'line': b'writing requirements to build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[2.428599] (py_pubsub) StdoutLine: {'line': b'writing top-level names to build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[2.428888] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.509752] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.510467] (-) TimerEvent: {}
+[2.510778] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.511510] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.512035] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[2.512430] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[2.512797] (py_pubsub) StdoutLine: {'line': b'creating /home/ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.513187] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.513486] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.513835] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[2.523602] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[2.562669] (py_pubsub) StdoutLine: {'line': b'creating /home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[2.563396] (py_pubsub) StdoutLine: {'line': b'copying /home/ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[2.563749] (py_pubsub) StdoutLine: {'line': b'copying /home/ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[2.564588] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc\n'}
+[2.565140] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc\n'}
+[2.566060] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[2.566483] (py_pubsub) StdoutLine: {'line': b'creating /home/ws/src/py_pubsub/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[2.566907] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/ws/src/py_pubsub/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[2.567348] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/ws/src/py_pubsub/install/py_pubsub/share/py_pubsub\n'}
+[2.567742] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.607043] (py_pubsub) StdoutLine: {'line': b'Copying build/py_pubsub/py_pubsub.egg-info to /home/ws/src/py_pubsub/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info\n'}
+[2.608882] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[2.610556] (-) TimerEvent: {}
+[2.710959] (-) TimerEvent: {}
+[2.811492] (-) TimerEvent: {}
+[2.843418] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/ws/src/py_pubsub/install/py_pubsub/lib/py_pubsub\n'}
+[2.844214] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/ws/src/py_pubsub/build/py_pubsub/install.log'\n"}
+[2.911673] (-) TimerEvent: {}
+[2.914372] (py_pubsub) CommandEnded: {'returncode': 0}
+[2.949401] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[2.951666] (-) EventReactorShutdown: {}

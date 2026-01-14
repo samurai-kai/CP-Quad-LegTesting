@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from quadruped_msgs/msg/FootForces.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module quadruped_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message to hold force commands for each foot" "\n"
+      "Each foot has a 3D force vector (x, y, z)")
+    struct FootForces {
+      @verbatim (language="comment", text=
+        "Force vectors (N) for each foot in the foot frame" "\n"
+        "Positive z is pushing the foot down" "\n"
+        "Front left")
+      geometry_msgs::msg::Vector3 foot1_force;
+
+      @verbatim (language="comment", text=
+        "Front right")
+      geometry_msgs::msg::Vector3 foot2_force;
+
+      @verbatim (language="comment", text=
+        "Rear left")
+      geometry_msgs::msg::Vector3 foot3_force;
+
+      @verbatim (language="comment", text=
+        "Rear right")
+      geometry_msgs::msg::Vector3 foot4_force;
+
+      @verbatim (language="comment", text=
+        "Sum of all foot forces")
+      geometry_msgs::msg::Vector3 total_force;
+    };
+  };
+};

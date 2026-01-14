@@ -1,0 +1,51 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_zenoh_cpp: 0.2.2 (/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake)
+-- Using RMW implementation 'rmw_zenoh_cpp' as default
+-- Found controller_interface: 4.28.1 (/opt/ros/jazzy/share/controller_interface/cmake)
+-- Found TinyXML2 via Config file: /usr/local/lib/cmake/tinyxml2
+-- pinocchio_default FOUND. pinocchio_default at /opt/ros/jazzy/lib/aarch64-linux-gnu/libpinocchio_default.so
+-- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/jazzy/lib/aarch64-linux-gnu/libpinocchio_parsers.so
+-- boost_filesystem FOUND. boost_filesystem at /lib/aarch64-linux-gnu/libboost_filesystem.so
+-- boost_serialization FOUND. boost_serialization at /lib/aarch64-linux-gnu/libboost_serialization.so
+-- boost_system FOUND. boost_system at /lib/aarch64-linux-gnu/libboost_system.so
+-- Found Boost: /usr/include (found version "1.83.0") found components: filesystem serialization system 
+-- eigenpy FOUND. eigenpy at /opt/ros/jazzy/lib/aarch64-linux-gnu/libeigenpy.so
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.26.4
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development.Module NumPy 
+-- PythonLibraryDirs: 
+-- PythonLibVersionString: 3.12.3
+-- Python site lib: lib/python3.12/site-packages
+-- Python include dirs: /usr/include/python3.12
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.26.4
+-- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+-- Found Boost: /usr/include (found version "1.83.0") found components: python312 
+-- Default C++ standard: 201703
+-- C++ standard sufficient: Minimal required 14, currently defined: 17
+-- hpp-fcl FOUND. hpp-fcl at /opt/ros/jazzy/lib/aarch64-linux-gnu/libhpp-fcl.so
+-- Found Boost: /usr/include (found version "1.83.0") found components: chrono serialization filesystem 
+-- C++ standard sufficient: Minimal required 14, currently defined: 17
+-- C++ standard sufficient: Minimal required 14, currently defined: 17
+-- Found tf2_ros: 0.36.10 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found quadruped_msgs: 0.0.0 (/home/ws/install/quadruped_msgs/share/quadruped_msgs/cmake)
+-- Running ACADOS code generation to /home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated
+-- Configuring done (5.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/quadruped_mpc
+[  9%] [32mBuilding C object CMakeFiles/acados_generated_code.dir/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/acados_generated_code.dir/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/acados_generated_code.dir/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c.o[0m
+[ 36%] [32m[1mLinking C shared library libacados_generated_code.so[0m
+[ 54%] Built target acados_generated_code
+[ 63%] [32mBuilding CXX object CMakeFiles/quadruped_mpc_controllers.dir/src/controller_interfaces/state_estimator.cpp.o[0m

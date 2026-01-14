@@ -1,0 +1,46 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_zenoh_cpp: 0.2.2 (/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake)
+-- Using RMW implementation 'rmw_zenoh_cpp' as default
+-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found ament_cmake_gmock: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+-- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (1.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/ws/build/bno08x_driver
+[ 27%] Built target sh2_library
+[ 38%] Built target gmock_main
+[ 55%] Built target gmock
+[ 77%] Built target bno08x_driver
+[ 88%] Built target test_watchdog
+[100%] Built target test_i2c_mock
+-- Install configuration: "Release"
+-- Up-to-date: /home/ws/install/bno08x_driver/lib/bno08x_driver/bno08x_driver
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/config
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/config/bno085_i2c.yaml
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/config/bno085_uart.yaml
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/launch
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/launch/bno085_i2c.launch.py
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/launch/bno085_uart.launch.py
+-- Up-to-date: /home/ws/install/bno08x_driver/share/ament_index/resource_index/package_run_dependencies/bno08x_driver
+-- Up-to-date: /home/ws/install/bno08x_driver/share/ament_index/resource_index/parent_prefix_path/bno08x_driver
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/environment/path.sh
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/environment/path.dsv
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/local_setup.bash
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/local_setup.sh
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/local_setup.zsh
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/local_setup.dsv
+-- Installing: /home/ws/install/bno08x_driver/share/bno08x_driver/package.dsv
+-- Up-to-date: /home/ws/install/bno08x_driver/share/ament_index/resource_index/packages/bno08x_driver
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/cmake/bno08x_driverConfig.cmake
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/cmake/bno08x_driverConfig-version.cmake
+-- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/package.xml

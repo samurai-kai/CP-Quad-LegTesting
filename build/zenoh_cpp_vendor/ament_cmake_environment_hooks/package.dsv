@@ -1,0 +1,4 @@
+source;share/zenoh_cpp_vendor/local_setup.bash
+source;share/zenoh_cpp_vendor/local_setup.dsv
+source;share/zenoh_cpp_vendor/local_setup.sh
+source;share/zenoh_cpp_vendor/local_setup.zsh

@@ -1,0 +1,19 @@
+[0.082s] Invoking command in '/home/ws/build/jetson_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/jetson_interface -- -j8 -l8
+[0.678s] [  1%] Built target GenerateModelHeader
+[0.678s] [  3%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/GPIOEvent.cpp.o[0m
+[0.678s] [  5%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/WaitResult.cpp.o[0m
+[0.678s] [  6%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/LazyString.cpp.o[0m
+[0.951s] In file included from [01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/GPIOEvent.cpp:26[m[K:
+[0.951s] [01m[K/home/ws/src/jetson_interface/JetsonGPIO/include/private/GPIOEvent.h:60:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64_t[m[K’ has not been declared
+[0.951s]    60 |                                 [01;31m[Kuint64_t[m[K bounce_time, uint64_t timeout);
+[0.952s]       |                                 [01;31m[K^~~~~~~~[m[K
+[0.952s] [01m[K/home/ws/src/jetson_interface/JetsonGPIO/include/private/GPIOEvent.h:60:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64_t[m[K’ has not been declared
+[0.952s]    60 |                                 uint64_t bounce_time, [01;31m[Kuint64_t[m[K timeout);
+[0.952s]       |                                                       [01;31m[K^~~~~~~~[m[K
+[0.952s] [01m[K/home/ws/src/jetson_interface/JetsonGPIO/include/private/GPIOEvent.h:66:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64_t[m[K’ has not been declared
+[0.952s]    66 |                          [01;31m[Kuint64_t[m[K bounce_time);
+[0.952s]       |                          [01;31m[K^~~~~~~~[m[K
+[2.000s] gmake[2]: *** [JetsonGPIO/CMakeFiles/JetsonGPIO.dir/build.make:160: JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/GPIOEvent.cpp.o] Error 1
+[2.000s] gmake[1]: *** [CMakeFiles/Makefile2:245: JetsonGPIO/CMakeFiles/JetsonGPIO.dir/all] Error 2
+[2.000s] gmake: *** [Makefile:146: all] Error 2
+[2.007s] Invoked command in '/home/ws/build/jetson_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/jetson_interface -- -j8 -l8

@@ -1,0 +1,68 @@
+[0.093s] Invoking command in '/home/ws/build/quadruped_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8
+[0.209s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.935s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.061s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.081s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.344s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.358s] -- Found rmw_zenoh_cpp: 0.2.2 (/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake)
+[1.360s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[1.501s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.542s] -- Found hardware_interface: 4.28.1 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.842s] -- Found TinyXML2 via Config file: /usr/local/lib/cmake/tinyxml2
+[1.944s] -- Found controller_interface: 4.28.1 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.953s] -- Found controller_manager_msgs: 4.28.1 (/opt/ros/jazzy/share/controller_manager_msgs/cmake)
+[2.246s] -- Configuring done (2.1s)
+[2.330s] -- Generating done (0.0s)
+[2.344s] -- Build files have been written to: /home/ws/build/quadruped_utils
+[2.612s] [ 33%] [32mBuilding CXX object CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o[0m
+[2.618s] [ 66%] [32mBuilding CXX object CMakeFiles/quadruped_utils_controllers.dir/src/EstopController.cpp.o[0m
+[10.577s] [01m[K/home/ws/src/quadruped_utils/src/ZeroJointsController.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type quadruped_utils::ZeroJointController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[10.577s] [01m[K/home/ws/src/quadruped_utils/src/ZeroJointsController.cpp:238:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.577s]   238 |                 auto effort = [01;35m[Kjoint_effort_state_interface_[i].get().get_value()[m[K;
+[10.578s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[10.578s] In file included from [01m[K/home/ws/src/quadruped_utils/include/quadruped_utils/ZeroJointsController.hpp:12[m[K,
+[10.578s]                  from [01m[K/home/ws/src/quadruped_utils/src/ZeroJointsController.cpp:5[m[K:
+[10.578s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.578s]    94 |   double [01;36m[Kget_value[m[K() const
+[10.578s]       |          [01;36m[K^~~~~~~~~[m[K
+[19.348s] [100%] [32m[1mLinking CXX shared library libquadruped_utils_controllers.so[0m
+[19.982s] [100%] Built target quadruped_utils_controllers
+[20.026s] Invoked command in '/home/ws/build/quadruped_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8
+[20.026s] Invoking command in '/home/ws/build/quadruped_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_utils
+[20.072s] -- Install configuration: "Debug"
+[20.073s] -- Installing: /home/ws/install/quadruped_utils/lib/libquadruped_utils_controllers.so
+[20.096s] -- Set non-toolchain portion of runtime path of "/home/ws/install/quadruped_utils/lib/libquadruped_utils_controllers.so" to ""
+[20.097s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/launch
+[20.098s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/launch/ZeroJoint.launch.py
+[20.098s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/launch/testcontroller.launch.py
+[20.099s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/config
+[20.099s] -- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/config/controller.yaml
+[20.100s] -- Up-to-date: /home/ws/install/quadruped_utils/include
+[20.104s] -- Up-to-date: /home/ws/install/quadruped_utils/include/quadruped_utils
+[20.104s] -- Installing: /home/ws/install/quadruped_utils/include/quadruped_utils/EstopController.hpp
+[20.106s] -- Installing: /home/ws/install/quadruped_utils/include/quadruped_utils/ZeroJointsController.hpp
+[20.107s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/ZeroJointsController.xml
+[20.108s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/library_path.sh
+[20.109s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/library_path.dsv
+[20.109s] -- Up-to-date: /home/ws/install/quadruped_utils/share/ament_index/resource_index/package_run_dependencies/quadruped_utils
+[20.110s] -- Up-to-date: /home/ws/install/quadruped_utils/share/ament_index/resource_index/parent_prefix_path/quadruped_utils
+[20.110s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/ament_prefix_path.sh
+[20.110s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/ament_prefix_path.dsv
+[20.111s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/path.sh
+[20.111s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/path.dsv
+[20.112s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.bash
+[20.112s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.sh
+[20.113s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.zsh
+[20.114s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.dsv
+[20.114s] -- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/package.dsv
+[20.115s] -- Up-to-date: /home/ws/install/quadruped_utils/share/ament_index/resource_index/packages/quadruped_utils
+[20.116s] -- Up-to-date: /home/ws/install/quadruped_utils/share/ament_index/resource_index/controller_interface__pluginlib__plugin/quadruped_utils
+[20.116s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.117s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.117s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[20.118s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/quadruped_utilsConfig.cmake
+[20.118s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/quadruped_utilsConfig-version.cmake
+[20.119s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/package.xml
+[20.128s] Invoked command in '/home/ws/build/quadruped_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_utils

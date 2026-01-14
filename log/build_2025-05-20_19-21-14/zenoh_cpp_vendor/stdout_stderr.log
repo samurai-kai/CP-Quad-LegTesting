@@ -1,0 +1,111 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_cmake_vendor_package: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/zenoh_cpp_vendor
+[  6%] [34m[1mCreating directories for 'zenoh_c_vendor'[0m
+[ 12%] [34m[1mPerforming download step for 'zenoh_c_vendor'[0m
+/usr/bin/vcs:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import load_entry_point
+[34m=== [1m./zenoh_c_vendor[22m (git) ===[0m
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor/.git/
+
+From https://github.com/eclipse-zenoh/zenoh-c
+ * branch            3540a3ce8126e071236352446bc1564787d3fb04 -> FETCH_HEAD
+Note: switching to '3540a3ce8126e071236352446bc1564787d3fb04'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3540a3c build: Sync  with eclipse-zenoh/zenoh@f735bf5 from 2025-03-05 (#940)
+
+[ 18%] [34m[1mNo update_disconnected step for 'zenoh_c_vendor'[0m
+[ 25%] [34m[1mNo patch_disconnected step for 'zenoh_c_vendor'[0m
+[ 31%] [34m[1mPerforming configure step for 'zenoh_c_vendor'[0m
+loading initial cache file /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-config.cmake
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_BUILD_TYPE = Release
+-- ZENOHC_BUILD_IN_SOURCE_TREE = FALSE
+-- ZENOHC_BUILD_WITH_SHARED_MEMORY = FALSE
+-- ZENOHC_BUILD_WITH_UNSTABLE_API = TRUE
+-- ZENOHC_BUILD_TESTS_WITH_CXX = FALSE
+-- ZENOHC_CUSTOM_TARGET = 
+-- ZENOHC_CARGO_CHANNEL = 
+-- ZENOHC_CARGO_FLAGS = --no-default-features;--features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls
+-- BUILD_SHARED_LIBS = ON
+-- ZENOHC_TREAT_WARNING_AS_ERROR = OFF
+-- project_version = 1.2.1
+-- Mode: Non-IDE
+-- Configuring Cargo.toml in /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/debug for zenohcd
+-- Configuring Cargo.toml in /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release for zenohc
+-- Due to ZENOHC_CARGO_FLAGS setting ZENOHC_BUILD_WITH_SHARED_MEMORY = TRUE
+-- cargo_flags = --release;--manifest-path=/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml;--no-default-features;--features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls;--features=unstable
+-- libs = /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.so;/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.a
+-- NATIVE_STATIC_LIBS = rt;pthread;m;dl
+-- zenoh-c install
+-- CMAKE_INSTALL_PREFIX = /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+-- zenoh-c tests
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- zenoh-c examples
+-- Configuring done (1.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build
+[ 37%] [34m[1mPerforming build step for 'zenoh_c_vendor'[0m
+[34m[1mGenerating release/target/release/libzenohc.so, release/target/release/libzenohc.a[0m
+"RUSTFLAGS = $$RUSTFLAGS"
+"cargo build --release --manifest-path=/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features --features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls --features=unstable"
+/bin/sh: 1: cargo: not found
+gmake[5]: *** [CMakeFiles/cargo.dir/build.make:146: release/target/release/libzenohc.so] Error 127
+gmake[4]: *** [CMakeFiles/Makefile2:189: CMakeFiles/cargo.dir/all] Error 2
+gmake[3]: *** [Makefile:166: all] Error 2
+gmake[2]: *** [CMakeFiles/zenoh_c_vendor.dir/build.make:86: zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-build] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/zenoh_c_vendor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

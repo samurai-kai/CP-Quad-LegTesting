@@ -1,0 +1,6 @@
+[0.098s] Invoking command in '/home/ws/build/imu_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/imu_hardware_interface -- -j8 -l8
+[0.657s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_hardware_interface.dir/src/imu_hardware_interface.cpp.o[0m
+[27.113s] gmake[2]: *** [CMakeFiles/imu_hardware_interface.dir/build.make:76: CMakeFiles/imu_hardware_interface.dir/src/imu_hardware_interface.cpp.o] Interrupt
+[27.113s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/imu_hardware_interface.dir/all] Interrupt
+[27.113s] gmake: *** [Makefile:146: all] Interrupt
+[27.203s] Invoked command in '/home/ws/build/imu_hardware_interface' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/imu_hardware_interface -- -j8 -l8

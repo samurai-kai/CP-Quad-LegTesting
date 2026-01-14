@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-0a9523fd8eace6cf76d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "quadruped_msgs__py",
+					"jsonFile" : "directory-quadruped_msgs__py-Release-fb100b640cb937f31a0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ws/build/quadruped_msgs/quadruped_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "quadruped_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_quadruped_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_quadruped_msgs_egg-Release-d5deb81c297dac054877.json",
+					"name" : "ament_cmake_python_build_quadruped_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_quadruped_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_quadruped_msgs-Release-c530ab5f764f73d22c87.json",
+					"name" : "ament_cmake_python_copy_quadruped_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs-Release-d8e41960a3c5db733ea7.json",
+					"name" : "quadruped_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs__cpp-Release-aa5e3a28244c17ed1f3c.json",
+					"name" : "quadruped_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "quadruped_msgs__py::@7e552d8fc18660abea12",
+					"jsonFile" : "target-quadruped_msgs__py-Release-a58bde3a5f39e6e63e6d.json",
+					"name" : "quadruped_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs__rosidl_generator_c-Release-1865edb83e32525d827f.json",
+					"name" : "quadruped_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs__rosidl_generator_py-Release-e6c5de32c503a03479ac.json",
+					"name" : "quadruped_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs__rosidl_generator_type_description-Release-4093672f030f7b25d746.json",
+					"name" : "quadruped_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs__rosidl_typesupport_c-Release-2e189a5cf667f20df57e.json",
+					"name" : "quadruped_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs__rosidl_typesupport_cpp-Release-aea09db29929bb0184d5.json",
+					"name" : "quadruped_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs__rosidl_typesupport_fastrtps_c-Release-8b1ba33ed5657072e6ef.json",
+					"name" : "quadruped_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs__rosidl_typesupport_fastrtps_cpp-Release-a163fd86af3187f6c7f5.json",
+					"name" : "quadruped_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs__rosidl_typesupport_introspection_c-Release-39bc34c1e671c037dd6b.json",
+					"name" : "quadruped_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs__rosidl_typesupport_introspection_cpp-Release-686e36d712f766466972.json",
+					"name" : "quadruped_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs_s__rosidl_typesupport_c-Release-251ad2512796fc293171.json",
+					"name" : "quadruped_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs_s__rosidl_typesupport_fastrtps_c-Release-58cb32c69b0896fdda5e.json",
+					"name" : "quadruped_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs_s__rosidl_typesupport_introspection_c-Release-df4d6e85287eb2db3897.json",
+					"name" : "quadruped_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_msgs_uninstall-Release-0decbb8aa1b76f9b7a70.json",
+					"name" : "quadruped_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-4053236b9f629ae81f3b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ws/build/quadruped_msgs",
+		"source" : "/home/ws/src/quadruped_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,16 @@
+[0.074s] Invoking command in '/home/ws/build/quadruped_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8
+[0.364s] [ 25%] [32mBuilding CXX object CMakeFiles/quadruped_utils_controllers.dir/src/StaticJointsController.cpp.o[0m
+[6.769s] [01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type quadruped_utils::StaticJointsController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[6.769s] [01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:193:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kalt[m[K’ was not declared in this scope
+[6.770s]   193 |     if([01;31m[Kalt[m[K==false) {
+[6.770s]       |        [01;31m[K^~~[m[K
+[6.787s] [01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:207:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kalt[m[K’ was not declared in this scope
+[6.787s]   207 |     elseif([01;31m[Kalt[m[K==true) {
+[6.788s]       |            [01;31m[K^~~[m[K
+[6.804s] [01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:207:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kelseif[m[K’ was not declared in this scope
+[6.805s]   207 |     [01;31m[Kelseif[m[K(alt==true) {
+[6.805s]       |     [01;31m[K^~~~~~[m[K
+[9.743s] gmake[2]: *** [CMakeFiles/quadruped_utils_controllers.dir/build.make:90: CMakeFiles/quadruped_utils_controllers.dir/src/StaticJointsController.cpp.o] Error 1
+[9.744s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/quadruped_utils_controllers.dir/all] Error 2
+[9.744s] gmake: *** [Makefile:146: all] Error 2
+[9.748s] Invoked command in '/home/ws/build/quadruped_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8

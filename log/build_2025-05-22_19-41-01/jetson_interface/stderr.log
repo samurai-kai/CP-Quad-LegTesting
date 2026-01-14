@@ -1,0 +1,23 @@
+[33mCMake Warning at CMakeLists.txt:14 (find_package):
+  By not providing "FindJetsonGPIO.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "JetsonGPIO", but CMake did not find one.
+
+  Could not find a package configuration file provided by "JetsonGPIO" with
+  any of the following names:
+
+    JetsonGPIOConfig.cmake
+    jetsongpio-config.cmake
+
+  Add the installation prefix of "JetsonGPIO" to CMAKE_PREFIX_PATH or set
+  "JetsonGPIO_DIR" to a directory containing one of the above files.  If
+  "JetsonGPIO" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+[31mCMake Error at CMakeLists.txt:27 (target_link_libraries):
+  Cannot specify link libraries for target "mytarget" which is not built by
+  this project.
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

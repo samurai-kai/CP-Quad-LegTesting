@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-4adae9912475019fac2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rmw_zenoh_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rmw_zenoh_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rmw_zenoh_cpp-Release-48a9ee418c0b30a4ba4f.json",
+					"name" : "rmw_zenoh_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rmw_zenoh_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rmw_zenoh_cpp_uninstall-Release-46949666ef53b555b100.json",
+					"name" : "rmw_zenoh_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rmw_zenohd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rmw_zenohd-Release-08df0a0b7c2cd89381b8.json",
+					"name" : "rmw_zenohd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-afa6e3829e666928b346.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ws/build/rmw_zenoh_cpp",
+		"source" : "/home/ws/src/rmw_zenoh/rmw_zenoh_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

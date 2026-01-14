@@ -1,0 +1,13 @@
+# Target labels
+ zenoh_c_vendor
+# Source files and their labels
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/zenoh_c_vendor
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/zenoh_c_vendor.rule
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/zenoh_c_vendor-complete.rule
+/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-build.rule
+/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-configure.rule
+/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-download.rule
+/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-install.rule
+/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-mkdir.rule
+/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-patch_disconnected.rule
+/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-update_disconnected.rule

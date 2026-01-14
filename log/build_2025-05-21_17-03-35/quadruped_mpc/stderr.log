@@ -1,0 +1,72 @@
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:[m[K In function ‘[01m[Kquadruped_ode_expl_ode_fun_f0[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:57:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 | casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+      |                                [01;35m[K^[m[K
+
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:57:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 | , casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+      |                                [01;35m[K^[m[K
+
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:57:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 | casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+      |                                 [01;35m[K~~~~^~~[m[K
+
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:[m[K In function ‘[01m[Kquadruped_ode_expl_ode_fun_init_mem[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:235:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  235 | ruped_ode_expl_ode_fun_init_mem([01;35m[Kint mem[m[K) {
+      |                                 [01;35m[K~~~~^~~[m[K
+
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:[m[K In function ‘[01m[Kquadruped_ode_expl_ode_fun_free_mem[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:239:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  239 | ruped_ode_expl_ode_fun_free_mem([01;35m[Kint mem[m[K) {
+      |                                 [01;35m[K~~~~^~~[m[K
+
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:[m[K In function ‘[01m[Kquadruped_ode_expl_ode_fun_release[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c:246:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  246 | druped_ode_expl_ode_fun_release([01;35m[Kint mem[m[K) {
+      |                                 [01;35m[K~~~~^~~[m[K
+
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_adj_f0[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:59:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+      |                                                                              [01;35m[K^[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:59:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+      |                                                                                               [01;35m[K^[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:59:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+      |                                                                                                  [01;35m[K~~~~^~~[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_adj_init_mem[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:320:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  320 | CASADI_SYMBOL_EXPORT int quadruped_ode_expl_vde_adj_init_mem([01;35m[Kint mem[m[K) {
+      |                                                              [01;35m[K~~~~^~~[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_adj_free_mem[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:324:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  324 | CASADI_SYMBOL_EXPORT void quadruped_ode_expl_vde_adj_free_mem([01;35m[Kint mem[m[K) {
+      |                                                               [01;35m[K~~~~^~~[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_adj_release[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c:331:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  331 | CASADI_SYMBOL_EXPORT void quadruped_ode_expl_vde_adj_release([01;35m[Kint mem[m[K) {
+      |                                                              [01;35m[K~~~~^~~[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_forw_f0[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:61:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+      |                                                                              [01;35m[K^[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:61:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+      |                                                                                               [01;35m[K^[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:61:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+      |                                                                                                  [01;35m[K~~~~^~~[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_forw_init_mem[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:6175:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 6175 | CASADI_SYMBOL_EXPORT int quadruped_ode_expl_vde_forw_init_mem([01;35m[Kint mem[m[K) {
+      |                                                               [01;35m[K~~~~^~~[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_forw_free_mem[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:6179:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 6179 | CASADI_SYMBOL_EXPORT void quadruped_ode_expl_vde_forw_free_mem([01;35m[Kint mem[m[K) {
+      |                                                                [01;35m[K~~~~^~~[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:[m[K In function ‘[01m[Kquadruped_ode_expl_vde_forw_release[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c:6186:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 6186 | CASADI_SYMBOL_EXPORT void quadruped_ode_expl_vde_forw_release([01;35m[Kint mem[m[K) {
+      |                                                               [01;35m[K~~~~^~~[m[K

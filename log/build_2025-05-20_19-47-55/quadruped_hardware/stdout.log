@@ -1,0 +1,58 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_zenoh_cpp: 0.2.2 (/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake)
+-- Using RMW implementation 'rmw_zenoh_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found hardware_interface: 4.28.1 (/opt/ros/jazzy/share/hardware_interface/cmake)
+-- Found TinyXML2 via Config file: /usr/local/lib/cmake/tinyxml2
+-- Found controller_interface: 4.28.1 (/opt/ros/jazzy/share/controller_interface/cmake)
+-- Configuring done (3.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/quadruped_hardware
+[ 25%] [32mBuilding CXX object CMakeFiles/quadruped_hardware.dir/src/MotorDriver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/quadruped_hardware.dir/src/ROS2_CAN_Motor.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/quadruped_hardware.dir/src/CANInterface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libquadruped_hardware.so[0m
+[100%] Built target quadruped_hardware
+-- Install configuration: "Release"
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/ros2CANMotor_Description.xml
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/launch
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/launch/controller_manager.launch.py
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/config
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/config/quadruped_hardware.yaml
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/config/ros2_control_config.yaml
+-- Installing: /home/ws/install/quadruped_hardware/lib/libquadruped_hardware.so
+-- Set non-toolchain portion of runtime path of "/home/ws/install/quadruped_hardware/lib/libquadruped_hardware.so" to ""
+-- Installing: /home/ws/install/quadruped_hardware/include
+-- Installing: /home/ws/install/quadruped_hardware/include/quadruped_hardware
+-- Installing: /home/ws/install/quadruped_hardware/include/quadruped_hardware/ROS2_CAN_Motor.hpp
+-- Installing: /home/ws/install/quadruped_hardware/include/quadruped_hardware/ROS2_CAN_Interface.hpp
+-- Installing: /home/ws/install/quadruped_hardware/include/quadruped_hardware/hex_utils.hpp
+-- Installing: /home/ws/install/quadruped_hardware/include/quadruped_hardware/MotorDriver.hpp
+-- Installing: /home/ws/install/quadruped_hardware/include/quadruped_hardware/CANInterface.hpp
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/environment/library_path.sh
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/environment/library_path.dsv
+-- Installing: /home/ws/install/quadruped_hardware/share/ament_index/resource_index/package_run_dependencies/quadruped_hardware
+-- Installing: /home/ws/install/quadruped_hardware/share/ament_index/resource_index/parent_prefix_path/quadruped_hardware
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/environment/ament_prefix_path.sh
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/environment/ament_prefix_path.dsv
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/environment/path.sh
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/environment/path.dsv
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/local_setup.bash
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/local_setup.sh
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/local_setup.zsh
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/local_setup.dsv
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/package.dsv
+-- Installing: /home/ws/install/quadruped_hardware/share/ament_index/resource_index/packages/quadruped_hardware
+-- Installing: /home/ws/install/quadruped_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/quadruped_hardware
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/cmake/quadruped_hardwareConfig.cmake
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/cmake/quadruped_hardwareConfig-version.cmake
+-- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/package.xml

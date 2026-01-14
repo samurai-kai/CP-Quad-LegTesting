@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/z_pub_shm_thr.dir/z_pub_shm_thr.c.o -o ../release/target/release/examples/z_pub_shm_thr   -L/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release  -Wl,-rpath,/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release -lzenohc 

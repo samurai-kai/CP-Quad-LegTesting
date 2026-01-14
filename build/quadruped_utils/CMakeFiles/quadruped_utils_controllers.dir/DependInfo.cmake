@@ -1,0 +1,25 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/ws/src/quadruped_utils/src/EstopController.cpp" "CMakeFiles/quadruped_utils_controllers.dir/src/EstopController.cpp.o" "gcc" "CMakeFiles/quadruped_utils_controllers.dir/src/EstopController.cpp.o.d"
+  "/home/ws/src/quadruped_utils/src/StaticJointsController.cpp" "CMakeFiles/quadruped_utils_controllers.dir/src/StaticJointsController.cpp.o" "gcc" "CMakeFiles/quadruped_utils_controllers.dir/src/StaticJointsController.cpp.o.d"
+  "/home/ws/src/quadruped_utils/src/ZeroJointsController.cpp" "CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o" "gcc" "CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

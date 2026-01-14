@@ -1,0 +1,15 @@
+{
+  "package_name": "quadruped_msgs",
+  "output_dir": "/home/ws/build/quadruped_msgs/rosidl_generator_type_description/quadruped_msgs",
+  "idl_tuples": [
+    "/home/ws/build/quadruped_msgs/rosidl_adapter/quadruped_msgs:msg/QuadrupedState.idl",
+    "/home/ws/build/quadruped_msgs/rosidl_adapter/quadruped_msgs:msg/GaitPattern.idl",
+    "/home/ws/build/quadruped_msgs/rosidl_adapter/quadruped_msgs:msg/FootStates.idl",
+    "/home/ws/build/quadruped_msgs/rosidl_adapter/quadruped_msgs:msg/FootForces.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs"
+  ]
+}

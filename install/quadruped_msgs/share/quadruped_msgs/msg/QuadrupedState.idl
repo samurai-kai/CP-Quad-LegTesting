@@ -1,0 +1,129 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from quadruped_msgs/msg/QuadrupedState.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module quadruped_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Foot positions in cartesian coordinates")
+    struct QuadrupedState {
+      @verbatim (language="comment", text=
+        "Front left foot position")
+      geometry_msgs::msg::Point p1;
+
+      @verbatim (language="comment", text=
+        "Front right foot position")
+      geometry_msgs::msg::Point p2;
+
+      @verbatim (language="comment", text=
+        "Rear left foot position")
+      geometry_msgs::msg::Point p3;
+
+      @verbatim (language="comment", text=
+        "Rear right foot position")
+      geometry_msgs::msg::Point p4;
+
+      @verbatim (language="comment", text=
+        "Center of mass position")
+      geometry_msgs::msg::Point pc;
+
+      @verbatim (language="comment", text=
+        "Foot velocities" "\n"
+        "Front left foot velocity")
+      geometry_msgs::msg::Vector3 v1;
+
+      @verbatim (language="comment", text=
+        "Front right foot velocity")
+      geometry_msgs::msg::Vector3 v2;
+
+      @verbatim (language="comment", text=
+        "Rear left foot velocity")
+      geometry_msgs::msg::Vector3 v3;
+
+      @verbatim (language="comment", text=
+        "Rear right foot velocity")
+      geometry_msgs::msg::Vector3 v4;
+
+      @verbatim (language="comment", text=
+        "Hip position 1")
+      geometry_msgs::msg::Point h1;
+
+      @verbatim (language="comment", text=
+        "Hip position 2")
+      geometry_msgs::msg::Point h2;
+
+      @verbatim (language="comment", text=
+        "Hip position 3")
+      geometry_msgs::msg::Point h3;
+
+      @verbatim (language="comment", text=
+        "Hip position 4")
+      geometry_msgs::msg::Point h4;
+
+      @verbatim (language="comment", text=
+        "Joint states" "\n"
+        "Joint positions (8)")
+      sequence<double> joint_positions;
+
+      @verbatim (language="comment", text=
+        "Joint velocities (8)")
+      sequence<double> joint_velocities;
+
+      @verbatim (language="comment", text=
+        "Joint efforts (8)")
+      sequence<double> joint_efforts;
+
+      @verbatim (language="comment", text=
+        "IMU state" "\n"
+        "Body orientation")
+      geometry_msgs::msg::Quaternion orientation;
+
+      @verbatim (language="comment", text=
+        "Angular velocity")
+      geometry_msgs::msg::Vector3 angular_velocity;
+
+      @verbatim (language="comment", text=
+        "Center of mass velocity" "\n"
+        "Center of mass velocity")
+      geometry_msgs::msg::Vector3 com_velocity;
+
+      @verbatim (language="comment", text=
+        "Jacobians (stored as row-major arrays)" "\n"
+        "Front left leg Jacobian (3x2=6 elements)")
+      sequence<double> j1;
+
+      @verbatim (language="comment", text=
+        "Front right leg Jacobian (3x2=6 elements)")
+      sequence<double> j2;
+
+      @verbatim (language="comment", text=
+        "Rear left leg Jacobian (3x2=6 elements)")
+      sequence<double> j3;
+
+      @verbatim (language="comment", text=
+        "Rear right leg Jacobian (3x2=6 elements)")
+      sequence<double> j4;
+
+      @verbatim (language="comment", text=
+        "Contact states" "\n"
+        "Front left foot contact state")
+      boolean contact_1;
+
+      @verbatim (language="comment", text=
+        "Front right foot contact state")
+      boolean contact_2;
+
+      @verbatim (language="comment", text=
+        "Rear left foot contact state")
+      boolean contact_3;
+
+      @verbatim (language="comment", text=
+        "Rear right foot contact state")
+      boolean contact_4;
+    };
+  };
+};

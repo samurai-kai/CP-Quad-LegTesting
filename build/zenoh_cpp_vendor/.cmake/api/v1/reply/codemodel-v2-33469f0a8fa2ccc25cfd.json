@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ed154d854808d83ffc4f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zenoh_cpp_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-3f442553af1657ab1306.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zenoh_c_vendor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zenoh_c_vendor-Release-f852c420a410cb2176bb.json",
+					"name" : "zenoh_c_vendor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zenoh_cpp_vendor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zenoh_cpp_vendor-Release-d439504e3a1e00d5d4ac.json",
+					"name" : "zenoh_cpp_vendor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zenoh_cpp_vendor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zenoh_cpp_vendor_uninstall-Release-5f13484008ebb41ec0f6.json",
+					"name" : "zenoh_cpp_vendor_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ws/build/zenoh_cpp_vendor",
+		"source" : "/home/ws/src/rmw_zenoh/zenoh_cpp_vendor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

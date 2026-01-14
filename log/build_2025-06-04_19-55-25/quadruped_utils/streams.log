@@ -1,0 +1,8 @@
+[0.083s] Invoking command in '/home/ws/build/quadruped_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8
+[0.350s] [ 25%] [32mBuilding CXX object CMakeFiles/quadruped_utils_controllers.dir/src/StaticJointsController.cpp.o[0m
+[5.535s] gmake[2]: *** wait: No child processes.  Stop.
+[5.536s] gmake[2]: *** Waiting for unfinished jobs....
+[5.536s] gmake[2]: *** wait: No child processes.  Stop.
+[5.537s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/quadruped_utils_controllers.dir/all] Error 2
+[5.538s] gmake: *** [Makefile:146: all] Interrupt
+[5.583s] Invoked command in '/home/ws/build/quadruped_utils' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8

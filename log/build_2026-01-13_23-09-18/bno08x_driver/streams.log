@@ -1,0 +1,25 @@
+[0.086s] Invoking command in '/home/ws/build/bno08x_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/bno08x_ros2_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/bno08x_driver
+[0.876s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.011s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.119s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.158s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.215s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.634s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.638s] -- Configuring incomplete, errors occurred!
+[1.639s] [31mCMake Error at /opt/ros/jazzy/share/rmw_implementation_cmake/cmake/get_default_rmw_implementation.cmake:60 (message):
+[1.639s]   Could not find ROS middleware implementation 'rmw_zenoh_cpp'.  Choose one
+[1.639s]   of the following: rmw_fastrtps_cpp
+[1.639s] Call Stack (most recent call first):
+[1.639s]   /opt/ros/jazzy/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:19 (get_default_rmw_implementation)
+[1.640s]   /opt/ros/jazzy/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)
+[1.640s]   /opt/ros/jazzy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.640s]   /opt/ros/jazzy/share/rcl/cmake/rclConfig.cmake:41 (include)
+[1.640s]   /opt/ros/jazzy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.640s]   /opt/ros/jazzy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[1.640s]   /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.640s]   /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[1.641s]   CMakeLists.txt:20 (find_package)
+[1.641s] 
+[1.641s] [0m
+[1.679s] Invoked command in '/home/ws/build/bno08x_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/bno08x_ros2_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/bno08x_driver

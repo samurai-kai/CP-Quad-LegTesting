@@ -1,0 +1,91 @@
+[0.076s] Invoking command in '/home/ws/build/bno08x_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/bno08x_ros2_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/bno08x_driver
+[0.632s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.777s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.841s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.883s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.924s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.977s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.151s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.175s] -- Found rmw_zenoh_cpp: 0.2.2 (/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake)
+[1.180s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[1.311s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.420s] -- Found ament_cmake_gmock: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.421s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.423s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.428s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.656s] -- Configuring done (1.6s)
+[1.840s] -- Generating done (0.2s)
+[1.854s] -- Build files have been written to: /home/ws/build/bno08x_driver
+[1.918s] Invoked command in '/home/ws/build/bno08x_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/bno08x_ros2_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/bno08x_driver
+[1.919s] Invoking command in '/home/ws/build/bno08x_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/bno08x_driver -- -j8 -l8
+[2.144s] [  5%] [32mBuilding C object include/sh2/CMakeFiles/sh2_library.dir/sh2.c.o[0m
+[2.155s] [ 11%] [32mBuilding C object include/sh2/CMakeFiles/sh2_library.dir/sh2_SensorValue.c.o[0m
+[2.165s] [ 22%] Built target gmock_main
+[2.171s] [ 38%] Built target gmock
+[2.179s] [ 44%] [32mBuilding C object include/sh2/CMakeFiles/sh2_library.dir/sh2_util.c.o[0m
+[2.203s] [ 50%] [32mBuilding C object include/sh2/CMakeFiles/sh2_library.dir/shtp.c.o[0m
+[2.266s] [ 55%] [32mBuilding CXX object CMakeFiles/test_i2c_mock.dir/test/i2c_interface_mock_test.cpp.o[0m
+[2.268s] [ 61%] [32mBuilding CXX object CMakeFiles/test_watchdog.dir/test/watchdog_test.cpp.o[0m
+[3.265s] [ 66%] [32m[1mLinking C static library libsh2_library.a[0m
+[3.440s] [ 66%] Built target sh2_library
+[5.926s] [ 72%] [32m[1mLinking CXX executable test_watchdog[0m
+[6.197s] [ 72%] Built target test_watchdog
+[10.814s] [ 77%] [32m[1mLinking CXX executable test_i2c_mock[0m
+[11.031s] [ 77%] Built target test_i2c_mock
+[11.105s] [ 83%] [32mBuilding CXX object CMakeFiles/bno08x_driver.dir/src/bno08x.cpp.o[0m
+[12.249s] [ 88%] [32mBuilding CXX object CMakeFiles/bno08x_driver.dir/src/ros_node.cpp.o[0m
+[18.568s] [ 94%] [32mBuilding CXX object CMakeFiles/bno08x_driver.dir/src/bno08x_ros.cpp.o[0m
+[26.511s] In file included from [01m[K/home/ws/src/bno08x_ros2_driver/src/bno08x_ros.cpp:3[m[K:
+[26.512s] [01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:[m[K In member function ‘[01m[Kvirtual int UARTInterface::[01;32m[Kwrite[m[K(uint8_t*, unsigned int)[m[K’:
+[26.512s] [01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:117:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[26.512s]   117 |         [01;35m[K::write(uart_fd_, "\x7E", 1)[m[K;
+[26.512s]       |         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[26.512s] [01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:120:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[26.513s]   120 |         [01;35m[K::write(uart_fd_, "\x01", 1)[m[K;
+[26.513s]       |         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[26.513s] [01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:126:24:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[26.513s]   126 |                 [01;35m[K::write(uart_fd_, "\x7D", 1)[m[K;  // Escape sequence
+[26.513s]       |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[26.513s] [01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:129:20:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[26.513s]   129 |             [01;35m[K::write(uart_fd_, &c, 1)[m[K;
+[26.514s]       |             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[26.514s] [01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:133:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[26.514s]   133 |         [01;35m[K::write(uart_fd_, "\x7E", 1)[m[K;
+[26.514s]       |         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[26.515s] [01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:[m[K In member function ‘[01m[Kvirtual int UARTInterface::[01;32m[Kread[m[K(uint8_t*, unsigned int, uint32_t*)[m[K’:
+[26.515s] [01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:101:27:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K read[m[K(int, void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[26.515s]   101 |                     [01;35m[K::read(uart_fd_, &c, 1)[m[K;
+[26.515s]       |                     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[26.515s] [01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:[m[K In member function ‘[01m[Kvirtual int UARTInterface::[01;32m[Kopen[m[K()[m[K’:
+[26.515s] [01m[K/home/ws/src/bno08x_ros2_driver/include/bno08x_driver/uart_interface.hpp:63:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[26.515s]    63 |         [01;35m[K::write(uart_fd_, softreset_pkt, sizeof(softreset_pkt))[m[K;
+[26.516s]       |         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[34.536s] [100%] [32m[1mLinking CXX executable bno08x_driver[0m
+[34.822s] [100%] Built target bno08x_driver
+[34.850s] Invoked command in '/home/ws/build/bno08x_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/bno08x_driver -- -j8 -l8
+[34.853s] Invoking command in '/home/ws/build/bno08x_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/bno08x_driver
+[34.871s] -- Install configuration: "Release"
+[34.872s] -- Installing: /home/ws/install/bno08x_driver/lib/bno08x_driver/bno08x_driver
+[34.874s] -- Set non-toolchain portion of runtime path of "/home/ws/install/bno08x_driver/lib/bno08x_driver/bno08x_driver" to ""
+[34.874s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/config
+[34.874s] -- Installing: /home/ws/install/bno08x_driver/share/bno08x_driver/config/bno085_i2c.yaml
+[34.876s] -- Installing: /home/ws/install/bno08x_driver/share/bno08x_driver/config/bno085_uart.yaml
+[34.876s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/launch
+[34.877s] -- Installing: /home/ws/install/bno08x_driver/share/bno08x_driver/launch/bno085_i2c.launch.py
+[34.877s] -- Installing: /home/ws/install/bno08x_driver/share/bno08x_driver/launch/bno085_uart.launch.py
+[34.877s] -- Up-to-date: /home/ws/install/bno08x_driver/share/ament_index/resource_index/package_run_dependencies/bno08x_driver
+[34.877s] -- Installing: /home/ws/install/bno08x_driver/share/ament_index/resource_index/parent_prefix_path/bno08x_driver
+[34.877s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/environment/ament_prefix_path.sh
+[34.877s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/environment/ament_prefix_path.dsv
+[34.878s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/environment/path.sh
+[34.878s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/environment/path.dsv
+[34.878s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/local_setup.bash
+[34.878s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/local_setup.sh
+[34.878s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/local_setup.zsh
+[34.878s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/local_setup.dsv
+[34.879s] -- Installing: /home/ws/install/bno08x_driver/share/bno08x_driver/package.dsv
+[34.879s] -- Up-to-date: /home/ws/install/bno08x_driver/share/ament_index/resource_index/packages/bno08x_driver
+[34.879s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/cmake/bno08x_driverConfig.cmake
+[34.879s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/cmake/bno08x_driverConfig-version.cmake
+[34.879s] -- Installing: /home/ws/install/bno08x_driver/share/bno08x_driver/package.xml
+[34.888s] Invoked command in '/home/ws/build/bno08x_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/bno08x_driver

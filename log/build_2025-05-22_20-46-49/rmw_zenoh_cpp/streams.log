@@ -1,0 +1,19 @@
+[0.137s] Invoking command in '/home/ws/build/rmw_zenoh_cpp': CMAKE_PREFIX_PATH=/home/ws/install/zenoh_cpp_vendor:/home/ws/install/rmw_zenoh_cpp:/home/ws/install/quadruped_utils:/home/ws/install/quadruped_urdf:/home/ws/install/quadruped_sim:/home/ws/install/quadruped_mpc:/home/ws/install/quadruped_msgs:/home/ws/install/quadruped_hardware:/home/ws/install/quadruped_bringup:/home/ws/install/jetson_interface:/home/ws/install/imu_hardware_interface:/home/ws/install/bno08x_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/rmw_zenoh/rmw_zenoh_cpp -DCMAKE_INSTALL_PREFIX=/home/ws/install/rmw_zenoh_cpp
+[0.169s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.708s] -- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[0.710s] -- Found rcpputils: 2.11.1 (/opt/ros/jazzy/share/rcpputils/cmake)
+[0.734s] -- Found rosidl_typesupport_fastrtps_c: 3.6.1 (/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake)
+[0.737s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.764s] -- Found rosidl_typesupport_fastrtps_cpp: 3.6.1 (/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/cmake)
+[0.767s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.787s] -- Found tracetools: 8.2.3 (/opt/ros/jazzy/share/tracetools/cmake)
+[0.796s] -- Found zenoh_cpp_vendor: 0.2.2 (/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake)
+[0.799s] -- defined lib target zenohcxx::zenohc for zenohc::lib
+[0.801s] -- Found ament_cmake_copyright: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+[0.802s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[0.803s] -- Found ament_cmake_lint_cmake: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+[0.804s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[0.805s] -- Found ament_cmake_xmllint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+[1.015s] -- Configuring done (0.9s)
+[1.042s] -- Generating done (0.0s)
+[1.054s] -- Build files have been written to: /home/ws/build/rmw_zenoh_cpp

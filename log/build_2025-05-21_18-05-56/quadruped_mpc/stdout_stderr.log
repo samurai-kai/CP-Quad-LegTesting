@@ -1,0 +1,106 @@
+[ 54%] Built target acados_generated_code
+[ 63%] [32mBuilding CXX object CMakeFiles/quadruped_mpc_controllers.dir/src/controller_interfaces/state_estimator.cpp.o[0m
+In file included from [01m[K/home/ws/src/quadruped_mpc/src/controller_interfaces/state_estimator.cpp:2[m[K:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/control_laws/StateEstimation.hpp:[m[K In member function ‘[01m[Kbool quadruped_mpc::StateEstimator::[01;32m[Kestimate_base_position[m[K()[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/control_laws/StateEstimation.hpp:226:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdt[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  226 |     double [01;35m[Kdt[m[K = 0.0;
+      |            [01;35m[K^~[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/control_laws/StateEstimation.hpp:321:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv_com_magnitude[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  321 |     double [01;35m[Kv_com_magnitude[m[K = v_com.norm();
+      |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/control_laws/StateEstimation.hpp:[m[K In member function ‘[01m[Kbool quadruped_mpc::StateEstimator::[01;32m[Kupdate_odometry[m[K()[m[K’:
+[01m[K/home/ws/src/quadruped_mpc/include/quadruped_mpc/control_laws/StateEstimation.hpp:394:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstate_published[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  394 |     bool [01;35m[Kstate_published[m[K = false;
+      |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/quadruped_mpc/src/controller_interfaces/state_estimator.cpp:[m[K In lambda function:
+[01m[K/home/ws/src/quadruped_mpc/src/controller_interfaces/state_estimator.cpp:118:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  118 |       [this]([01;35m[Kconst rosgraph_msgs::msg::Clock::SharedPtr msg[m[K) {
+      |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[ 72%] [32m[1mLinking CXX shared library libquadruped_mpc_controllers.so[0m
+[100%] Built target quadruped_mpc_controllers
+-- Install configuration: "Release"
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/environment/library_path.sh
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/environment/library_path.dsv
+-- Installing: /home/ws/install/quadruped_mpc/lib/libquadruped_mpc_controllers.so
+-- Set non-toolchain portion of runtime path of "/home/ws/install/quadruped_mpc/lib/libquadruped_mpc_controllers.so" to ""
+-- Installing: /home/ws/install/quadruped_mpc/lib/libacados_generated_code.so
+-- Set non-toolchain portion of runtime path of "/home/ws/install/quadruped_mpc/lib/libacados_generated_code.so" to ""
+-- Up-to-date: /home/ws/install/quadruped_mpc/include/quadruped_mpc/acados_generated
+-- Up-to-date: /home/ws/install/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_sim_solver_quadruped_ode.h
+-- Up-to-date: /home/ws/install/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model
+-- Up-to-date: /home/ws/install/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_model.h
+-- Up-to-date: /home/ws/install/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_solver_quadruped_ode.h
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/quadruped_mpcTargets.cmake
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/quadruped_mpcTargets-release.cmake
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/plugin_description.xml
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/config
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/config/optimal_controller.yaml
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/config/quadruped_controllers.yaml
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/launch
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/launch/mpc.launch.py
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/utilities
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/utilities/KalmanFilter.hpp
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/control_laws
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/control_laws/GaitPatternGenerator.hpp
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/control_laws/StateEstimation.hpp
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/control_laws/BalanceControl.hpp
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/control_laws/FootControl.hpp
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/controller_interfaces
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/controller_interfaces/balance_controller.hpp
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/controller_interfaces/state_estimator.hpp
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/controller_interfaces/foot_controller.hpp
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/controller_interfaces/gait_pattern_generator.hpp
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_solver_quadruped_ode.c
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/Makefile
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_sim_solver_quadruped_ode.h
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model
+-- Installing: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.c
+-- Installing: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.c
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_adj.o
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.o
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_model.h
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_ode_fun.o
+-- Installing: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/quadruped_ode_model/quadruped_ode_expl_vde_forw.c
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/main_quadruped_ode.c
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_solver.pxd
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_solver_quadruped_ode.h
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_solver_quadruped_ode.o
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/main_sim_quadruped_ode.c
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/libacados_ocp_solver_quadruped_ode.so
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/include/quadruped_mpc/acados_generated/acados_sim_solver_quadruped_ode.c
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/quadruped_teleop.py
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados/test_optimal_controller.py
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados/generate_controller.py
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados/optimal_controller.py
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados/logs
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados/__pycache__
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/scripts/acados/quadruped_model.py
+-- Up-to-date: /home/ws/install/quadruped_mpc/lib/quadruped_mpc/quadruped_teleop.py
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/plugin_description.xml
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/ament_index/resource_index/package_run_dependencies/quadruped_mpc
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/ament_index/resource_index/parent_prefix_path/quadruped_mpc
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/environment/path.sh
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/environment/path.dsv
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/local_setup.bash
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/local_setup.sh
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/local_setup.zsh
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/local_setup.dsv
+-- Installing: /home/ws/install/quadruped_mpc/share/quadruped_mpc/package.dsv
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/ament_index/resource_index/packages/quadruped_mpc
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/ament_index/resource_index/controller_interface__pluginlib__plugin/quadruped_mpc
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/export_quadruped_mpcExport.cmake
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/export_quadruped_mpcExport-release.cmake
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/export_quadruped_mpcExport.cmake
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/export_quadruped_mpcExport-release.cmake
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/quadruped_mpcConfig.cmake
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/cmake/quadruped_mpcConfig-version.cmake
+-- Up-to-date: /home/ws/install/quadruped_mpc/share/quadruped_mpc/package.xml

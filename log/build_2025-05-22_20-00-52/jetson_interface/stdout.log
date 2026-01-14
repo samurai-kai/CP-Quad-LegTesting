@@ -1,0 +1,118 @@
+[  1%] Built target GenerateModelHeader
+[  3%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/JetsonGPIO.cpp.o[0m
+[  5%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/MainModule.cpp.o[0m
+[  6%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/GPIOEvent.cpp.o[0m
+[  8%] [32m[1mLinking CXX shared library libJetsonGPIO.so[0m
+[ 23%] Built target JetsonGPIO
+[ 25%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_dictionary_like.dir/unit-tests/test_dictionary_like.cpp.o[0m
+[ 27%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_all_apis.dir/test_all_apis.cpp.o[0m
+[ 28%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_lazy_string.dir/unit-tests/test_lazy_string.cpp.o[0m
+[ 30%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_model_name.dir/unit-tests/test_model_name.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/jetson_interface.dir/src/jetson_gpio_interface.cpp.o[0m
+[ 33%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_startswith.dir/unit-tests/test_startswith.cpp.o[0m
+[ 35%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_event_module.dir/test_event_module.cpp.o[0m
+[ 37%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_format.dir/unit-tests/test_format.cpp.o[0m
+[ 38%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_startswith.dir/TestUtility.cpp.o[0m
+[ 40%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_format.dir/TestUtility.cpp.o[0m
+[ 42%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_lazy_string.dir/TestUtility.cpp.o[0m
+[ 44%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_dictionary_like.dir/TestUtility.cpp.o[0m
+[ 45%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_model_name.dir/TestUtility.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable test_startswith[0m
+[ 47%] Built target test_startswith
+[ 49%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_lower.dir/unit-tests/test_lower.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable test_lazy_string[0m
+[ 50%] Built target test_lazy_string
+[ 52%] [32m[1mLinking CXX executable test_format[0m
+[ 54%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_none.dir/unit-tests/test_none.cpp.o[0m
+[ 55%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_event_module.dir/TestUtility.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable test_dictionary_like[0m
+[ 57%] Built target test_format
+[ 59%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_is_iterable.dir/unit-tests/test_is_iterable.cpp.o[0m
+[ 59%] Built target test_dictionary_like
+[ 61%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_is_iterable.dir/TestUtility.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable test_model_name[0m
+[ 62%] Built target test_model_name
+[ 64%] [32m[1mLinking CXX executable test_event_module[0m
+[ 64%] Built target test_event_module
+[ 66%] [32m[1mLinking CXX executable test_is_iterable[0m
+[ 67%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_lower.dir/TestUtility.cpp.o[0m
+[ 67%] Built target test_is_iterable
+[ 69%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_none.dir/TestUtility.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable test_lower[0m
+[ 71%] Built target test_lower
+[ 72%] [32m[1mLinking CXX executable test_none[0m
+[ 72%] Built target test_none
+[ 74%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_all_apis.dir/TestUtility.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable test_all_apis[0m
+[ 76%] Built target test_all_apis
+[ 77%] [32m[1mLinking CXX shared library libjetson_interface.so[0m
+[ 77%] Built target jetson_interface
+[ 79%] [32mBuilding CXX object JetsonGPIO/samples/CMakeFiles/jetson_model.dir/jetson_model.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable jetson_model[0m
+[ 81%] Built target jetson_model
+[ 83%] [32mBuilding CXX object JetsonGPIO/samples/CMakeFiles/simple_pwm.dir/simple_pwm.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable simple_pwm[0m
+[ 84%] Built target simple_pwm
+[ 86%] [32mBuilding CXX object JetsonGPIO/samples/CMakeFiles/simple_out.dir/simple_out.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable simple_out[0m
+[ 88%] Built target simple_out
+[ 89%] [32mBuilding CXX object JetsonGPIO/samples/CMakeFiles/button_interrupt.dir/button_interrupt.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable button_interrupt[0m
+[ 91%] Built target button_interrupt
+[ 93%] [32mBuilding CXX object JetsonGPIO/samples/CMakeFiles/button_event.dir/button_event.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable button_event[0m
+[ 94%] Built target button_event
+[ 96%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_value_type.dir/unit-tests/test_value_type.cpp.o[0m
+[ 98%] [32mBuilding CXX object JetsonGPIO/tests/CMakeFiles/test_value_type.dir/TestUtility.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_value_type[0m
+[100%] Built target test_value_type
+-- Install configuration: "Release"
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/jetson_gpio_interface.xml
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/launch
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/launch/controller_manager.launch.py
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/config
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/config/jetson_interface.yaml
+-- Installing: /home/ws/install/jetson_interface/lib/libjetson_interface.so
+-- Set non-toolchain portion of runtime path of "/home/ws/install/jetson_interface/lib/libjetson_interface.so" to ""
+-- Up-to-date: /home/ws/install/jetson_interface/include
+-- Up-to-date: /home/ws/install/jetson_interface/include/quadruped_hardware
+-- Up-to-date: /home/ws/install/jetson_interface/include/quadruped_hardware/watchdog.hpp
+-- Installing: /home/ws/install/jetson_interface/include/quadruped_hardware/jetson_gpio_interface.hpp
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/library_path.sh
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/library_path.dsv
+-- Up-to-date: /home/ws/install/jetson_interface/share/ament_index/resource_index/package_run_dependencies/jetson_interface
+-- Up-to-date: /home/ws/install/jetson_interface/share/ament_index/resource_index/parent_prefix_path/jetson_interface
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/path.sh
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/path.dsv
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.bash
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.sh
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.zsh
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.dsv
+-- Installing: /home/ws/install/jetson_interface/share/jetson_interface/package.dsv
+-- Up-to-date: /home/ws/install/jetson_interface/share/ament_index/resource_index/packages/jetson_interface
+-- Up-to-date: /home/ws/install/jetson_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/jetson_interface
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/jetson_interfaceConfig.cmake
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/jetson_interfaceConfig-version.cmake
+-- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/package.xml
+-- Installing: /home/ws/install/jetson_interface/lib/libJetsonGPIO.so.1.2.5
+-- Installing: /home/ws/install/jetson_interface/lib/libJetsonGPIO.so.1
+-- Installing: /home/ws/install/jetson_interface/lib/libJetsonGPIO.so
+-- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO.h
+-- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO/Callback.h
+-- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO/LazyString.h
+-- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO/PWM.h
+-- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO/PublicEnums.h
+-- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO/TypeTraits.h
+-- Installing: /home/ws/install/jetson_interface/include/JetsonGPIO/WaitResult.h
+-- Installing: /home/ws/install/jetson_interface/include/JetsonGPIOConfig.h
+-- Installing: /home/ws/install/jetson_interface/lib/cmake/JetsonGPIO/JetsonGPIOTargets.cmake
+-- Installing: /home/ws/install/jetson_interface/lib/cmake/JetsonGPIO/JetsonGPIOTargets-release.cmake
+-- Installing: /home/ws/install/jetson_interface/lib/cmake/JetsonGPIO/JetsonGPIOConfig.cmake
+-- Installing: /home/ws/install/jetson_interface/lib/cmake/JetsonGPIO/JetsonGPIOConfigVersion.cmake
+-- Installing: /home/ws/install/jetson_interface/share/JetsonGPIO/LICENSE.txt
+-- Installing: /lib/udev/rules.d/99-gpio.rules

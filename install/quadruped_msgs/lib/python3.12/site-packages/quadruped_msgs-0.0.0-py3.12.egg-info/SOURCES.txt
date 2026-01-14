@@ -1,0 +1,11 @@
+setup.py
+quadruped_msgs/__init__.py
+quadruped_msgs.egg-info/PKG-INFO
+quadruped_msgs.egg-info/SOURCES.txt
+quadruped_msgs.egg-info/dependency_links.txt
+quadruped_msgs.egg-info/top_level.txt
+quadruped_msgs/msg/__init__.py
+quadruped_msgs/msg/_foot_forces.py
+quadruped_msgs/msg/_foot_states.py
+quadruped_msgs/msg/_gait_pattern.py
+quadruped_msgs/msg/_quadruped_state.py

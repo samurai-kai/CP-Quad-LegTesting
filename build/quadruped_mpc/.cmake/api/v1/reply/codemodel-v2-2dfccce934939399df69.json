@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-fc2c1ab4ff7dec791b45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "quadruped_mpc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "acados_generated_code::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acados_generated_code-Release-a3d73ab9572e9b17fc02.json",
+					"name" : "acados_generated_code",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_mpc_controllers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_mpc_controllers-Release-23555091315c6942c102.json",
+					"name" : "quadruped_mpc_controllers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_mpc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_mpc_uninstall-Release-d90df4e7c9a8af00367e.json",
+					"name" : "quadruped_mpc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-20a5fb83e1e65ac356f8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ws/build/quadruped_mpc",
+		"source" : "/home/ws/src/quadruped_mpc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

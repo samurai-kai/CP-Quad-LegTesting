@@ -1,0 +1,22 @@
+[2.347s] Invoking command in '/home/ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/ws/build/py_pubsub/build install --record /home/ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[2.896s] running egg_info
+[2.936s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.936s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.936s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.936s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.937s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[3.012s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.013s] adding license file 'LICENSE'
+[3.014s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.014s] running build
+[3.015s] running build_py
+[3.015s] running install
+[3.029s] running install_lib
+[3.069s] running install_data
+[3.069s] running install_egg_info
+[3.109s] removing '/home/ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[3.110s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[3.112s] running install_scripts
+[3.383s] Installing talker script to /home/ws/install/py_pubsub/lib/py_pubsub
+[3.384s] writing list of installed files to '/home/ws/build/py_pubsub/install.log'
+[3.475s] Invoked command in '/home/ws/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/ws/build/py_pubsub/build install --record /home/ws/build/py_pubsub/install.log --single-version-externally-managed install_data

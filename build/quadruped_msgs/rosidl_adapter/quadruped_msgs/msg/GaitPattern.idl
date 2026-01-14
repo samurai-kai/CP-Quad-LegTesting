@@ -1,0 +1,67 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from quadruped_msgs/msg/GaitPattern.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module quadruped_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Desired foot impact locations")
+    struct GaitPattern {
+      @verbatim (language="comment", text=
+        "x, y, z in meters")
+      geometry_msgs::msg::Vector3 foot1_step_position;
+
+      geometry_msgs::msg::Vector3 foot2_step_position;
+
+      geometry_msgs::msg::Vector3 foot3_step_position;
+
+      geometry_msgs::msg::Vector3 foot4_step_position;
+
+      @verbatim (language="comment", text=
+        "Desired COM location" "\n"
+        "x, y, z in meters")
+      geometry_msgs::msg::Vector3 com_position;
+
+      @verbatim (language="comment", text=
+        "Phases for each foot (0.0 to 1.0)")
+      float foot1_phase;
+
+      float foot2_phase;
+
+      float foot3_phase;
+
+      float foot4_phase;
+
+      @verbatim (language="comment", text=
+        "States for each foot")
+      int32 foot1_state;
+
+      int32 foot2_state;
+
+      int32 foot3_state;
+
+      int32 foot4_state;
+
+      @verbatim (language="comment", text=
+        "Step height parameter")
+      float step_height;
+
+      @verbatim (language="comment", text=
+        "Prediction arrays (flattened 2D arrays)" "\n"
+        "Format: [foot1_stage1, foot1_stage2, ..., foot2_stage1, ..., foot4_stageN]")
+      sequence<int32> predicted_states;
+
+      sequence<float> predicted_phases;
+
+      @verbatim (language="comment", text=
+        "Prediction metadata")
+      int32 prediction_stages;
+
+      float prediction_horizon;
+
+      float prediction_timestep;
+    };
+  };
+};

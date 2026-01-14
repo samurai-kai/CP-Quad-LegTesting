@@ -1,0 +1,43 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_cmake_vendor_package: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/zenoh_cpp_vendor
+/bin/sh: 1: cargo: not found
+gmake[5]: *** [CMakeFiles/cargo.dir/build.make:146: release/target/release/libzenohc.so] Error 127
+gmake[4]: *** [CMakeFiles/Makefile2:189: CMakeFiles/cargo.dir/all] Error 2
+gmake[3]: *** [Makefile:166: all] Error 2
+gmake[2]: *** [CMakeFiles/zenoh_c_vendor.dir/build.make:86: zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-build] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/zenoh_c_vendor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
+[  6%] [34m[1mPerforming configure step for 'zenoh_c_vendor'[0m
+loading initial cache file /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-config.cmake
+-- CMAKE_BUILD_TYPE = Release
+-- ZENOHC_BUILD_IN_SOURCE_TREE = FALSE
+-- ZENOHC_BUILD_WITH_SHARED_MEMORY = FALSE
+-- ZENOHC_BUILD_WITH_UNSTABLE_API = TRUE
+-- ZENOHC_BUILD_TESTS_WITH_CXX = FALSE
+-- ZENOHC_CUSTOM_TARGET = 
+-- ZENOHC_CARGO_CHANNEL = 
+-- ZENOHC_CARGO_FLAGS = --no-default-features;--features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls
+-- BUILD_SHARED_LIBS = ON
+-- ZENOHC_TREAT_WARNING_AS_ERROR = OFF
+-- project_version = 1.2.1
+-- Mode: Non-IDE
+-- Configuring Cargo.toml in /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/debug for zenohcd
+-- Configuring Cargo.toml in /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release for zenohc
+-- Due to ZENOHC_CARGO_FLAGS setting ZENOHC_BUILD_WITH_SHARED_MEMORY = TRUE
+-- cargo_flags = --release;--manifest-path=/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml;--no-default-features;--features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls;--features=unstable
+-- libs = /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.so;/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.a
+-- NATIVE_STATIC_LIBS = rt;pthread;m;dl
+-- zenoh-c install
+-- CMAKE_INSTALL_PREFIX = /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+-- zenoh-c tests
+-- zenoh-c examples
+-- Configuring done (0.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build
+[ 12%] [34m[1mPerforming build step for 'zenoh_c_vendor'[0m
+[34m[1mGenerating release/target/release/libzenohc.so, release/target/release/libzenohc.a[0m
+"RUSTFLAGS = $$RUSTFLAGS"
+"cargo build --release --manifest-path=/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features --features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls --features=unstable"

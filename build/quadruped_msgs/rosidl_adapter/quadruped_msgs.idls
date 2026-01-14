@@ -1,0 +1,4 @@
+/home/ws/build/quadruped_msgs/rosidl_adapter/quadruped_msgs:msg/QuadrupedState.idl
+/home/ws/build/quadruped_msgs/rosidl_adapter/quadruped_msgs:msg/GaitPattern.idl
+/home/ws/build/quadruped_msgs/rosidl_adapter/quadruped_msgs:msg/FootStates.idl
+/home/ws/build/quadruped_msgs/rosidl_adapter/quadruped_msgs:msg/FootForces.idl

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from quadruped_msgs/msg/FootStates.msg
+// generated code does not contain a copyright notice
+
+
+module quadruped_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "States for each foot (0 = Stance, 1 = Swing)")
+    struct FootStates {
+      int16 foot1_state;
+
+      int16 foot2_state;
+
+      int16 foot3_state;
+
+      int16 foot4_state;
+    };
+  };
+};

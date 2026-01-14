@@ -1,0 +1,18 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found rcpputils: 2.11.1 (/opt/ros/jazzy/share/rcpputils/cmake)
+-- Found rosidl_typesupport_fastrtps_c: 3.6.1 (/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_typesupport_fastrtps_cpp: 3.6.1 (/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Found tracetools: 8.2.3 (/opt/ros/jazzy/share/tracetools/cmake)
+-- Found zenoh_cpp_vendor: 0.2.2 (/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake)
+-- defined lib target zenohcxx::zenohc for zenohc::lib
+-- Found ament_cmake_copyright: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_xmllint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/rmw_zenoh_cpp

@@ -1,0 +1,47 @@
+-- Install configuration: "Release"
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/sensors.xacro
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/leg.xacro
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/quadruped_ros2_control.xacro
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/materials.xacro
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/body.xacro
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/properties.xacro
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/properties_real.xacro
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Rear Left Shin.STL
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Body_bin.STL
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Front Left Thigh.STL
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Rear Left Thigh.STL
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Thigh.STL
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Rear Right Thigh.STL
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Front Right Thigh.STL
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Front Right Shin.STL
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Front Left Shin.STL
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Body.STL
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Rear Right Shin.STL
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/meshes/Shin.STL
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/QuadrupedURDF_real.urdf.xacro
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/gazebo.xacro
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/joint_interfaces.xacro
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/urdf/QuadrupedURDF_sim.urdf.xacro
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/config
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/config/initial_joint_positions.yaml
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/config/initial_joint_positions_real.yaml
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/launch
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/launch/real_urdf.launch.py
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/launch/sim_urdf.launch.py
+-- Installing: /home/ws/install/quadruped_urdf/share/ament_index/resource_index/package_run_dependencies/quadruped_urdf
+-- Installing: /home/ws/install/quadruped_urdf/share/ament_index/resource_index/parent_prefix_path/quadruped_urdf
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/environment/ament_prefix_path.sh
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/environment/ament_prefix_path.dsv
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/environment/path.sh
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/environment/path.dsv
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/local_setup.bash
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/local_setup.sh
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/local_setup.zsh
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/local_setup.dsv
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/package.dsv
+-- Installing: /home/ws/install/quadruped_urdf/share/ament_index/resource_index/packages/quadruped_urdf
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/cmake/quadruped_urdfConfig.cmake
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/cmake/quadruped_urdfConfig-version.cmake
+-- Installing: /home/ws/install/quadruped_urdf/share/quadruped_urdf/package.xml

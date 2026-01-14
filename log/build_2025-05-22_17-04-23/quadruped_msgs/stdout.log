@@ -1,0 +1,44 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/ws/build/quadruped_msgs
+[  1%] Built target quadruped_msgs__rosidl_generator_type_description
+[  3%] Built target quadruped_msgs__cpp
+[ 25%] Built target quadruped_msgs__rosidl_generator_c
+[ 25%] Built target ament_cmake_python_copy_quadruped_msgs
+[ 34%] Built target quadruped_msgs__rosidl_typesupport_cpp
+[ 43%] Built target quadruped_msgs__rosidl_typesupport_introspection_cpp
+[ 53%] Built target quadruped_msgs__rosidl_typesupport_fastrtps_c
+[ 62%] Built target quadruped_msgs__rosidl_typesupport_introspection_c
+[ 71%] Built target quadruped_msgs__rosidl_typesupport_c
+[ 81%] Built target quadruped_msgs__rosidl_typesupport_fastrtps_cpp
+[ 81%] Built target quadruped_msgs
+[ 82%] Built target quadruped_msgs__py
+[ 90%] Built target quadruped_msgs__rosidl_generator_py
+[ 93%] Built target quadruped_msgs_s__rosidl_typesupport_fastrtps_c
+[ 96%] Built target quadruped_msgs_s__rosidl_typesupport_c
+[100%] Built target quadruped_msgs_s__rosidl_typesupport_introspection_c
+running egg_info
+writing quadruped_msgs.egg-info/PKG-INFO
+writing dependency_links to quadruped_msgs.egg-info/dependency_links.txt
+writing top-level names to quadruped_msgs.egg-info/top_level.txt
+reading manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+writing manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_quadruped_msgs_egg

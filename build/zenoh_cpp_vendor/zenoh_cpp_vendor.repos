@@ -1,0 +1,5 @@
+repositories:
+  zenoh_cpp_vendor:
+    type: git
+    url: https://github.com/eclipse-zenoh/zenoh-cpp
+    version: 2a127bb0f537e0028359caf1084c879330341592

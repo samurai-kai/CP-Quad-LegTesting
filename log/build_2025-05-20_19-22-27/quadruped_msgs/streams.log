@@ -1,0 +1,90 @@
+[0.087s] Invoking command in '/home/ws/build/quadruped_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_msgs -- -j8 -l8
+[0.679s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.679s] [  1%] Built target ament_cmake_python_copy_quadruped_msgs
+[0.902s] running egg_info
+[0.903s] creating quadruped_msgs.egg-info
+[0.950s] writing quadruped_msgs.egg-info/PKG-INFO
+[0.951s] writing dependency_links to quadruped_msgs.egg-info/dependency_links.txt
+[0.955s] writing top-level names to quadruped_msgs.egg-info/top_level.txt
+[0.955s] writing manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+[1.103s] reading manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+[1.105s] writing manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+[1.231s] [  1%] Built target ament_cmake_python_build_quadruped_msgs_egg
+[1.766s] [  1%] Built target quadruped_msgs__rosidl_generator_type_description
+[1.797s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.861s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.941s] [  4%] Built target quadruped_msgs__cpp
+[4.182s] [  6%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadruped_msgs/msg/detail/quadruped_state__description.c.o[0m
+[4.319s] [  7%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadruped_msgs/msg/detail/foot_states__functions.c.o[0m
+[4.517s] [  9%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadruped_msgs/msg/detail/foot_states__type_support.c.o[0m
+[4.612s] [ 10%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadruped_msgs/msg/detail/foot_forces__description.c.o[0m
+[4.745s] [ 12%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadruped_msgs/msg/detail/foot_forces__functions.c.o[0m
+[4.956s] [ 14%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadruped_msgs/msg/detail/foot_forces__type_support.c.o[0m
+[5.038s] [ 15%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadruped_msgs/msg/detail/foot_states__description.c.o[0m
+[5.140s] [ 17%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadruped_msgs/msg/detail/gait_pattern__type_support.c.o[0m
+[5.230s] [ 18%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadruped_msgs/msg/detail/gait_pattern__functions.c.o[0m
+[5.491s] [ 20%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadruped_msgs/msg/detail/gait_pattern__description.c.o[0m
+[5.613s] [ 21%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadruped_msgs/msg/detail/quadruped_state__type_support.c.o[0m
+[5.695s] [ 23%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadruped_msgs/msg/detail/quadruped_state__functions.c.o[0m
+[5.967s] [ 25%] [32m[1mLinking C shared library libquadruped_msgs__rosidl_generator_c.so[0m
+[6.052s] [ 25%] Built target quadruped_msgs__rosidl_generator_c
+[6.076s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.416s] [ 28%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadruped_msgs/msg/quadruped_state__type_support.cpp.o[0m
+[8.149s] [ 29%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadruped_msgs/msg/foot_states__type_support.cpp.o[0m
+[8.849s] [ 31%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadruped_msgs/msg/foot_forces__type_support.cpp.o[0m
+[9.561s] [ 32%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadruped_msgs/msg/gait_pattern__type_support.cpp.o[0m
+[10.296s] [ 34%] [32m[1mLinking CXX shared library libquadruped_msgs__rosidl_typesupport_cpp.so[0m
+[10.387s] [ 34%] Built target quadruped_msgs__rosidl_typesupport_cpp
+[10.412s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.928s] [ 37%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadruped_msgs/msg/detail/quadruped_state__type_support.cpp.o[0m
+[13.061s] [ 39%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadruped_msgs/msg/detail/foot_forces__type_support.cpp.o[0m
+[13.864s] [ 40%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadruped_msgs/msg/detail/foot_states__type_support.cpp.o[0m
+[14.588s] [ 42%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadruped_msgs/msg/detail/gait_pattern__type_support.cpp.o[0m
+[15.311s] [ 43%] [32m[1mLinking CXX shared library libquadruped_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[15.470s] [ 43%] Built target quadruped_msgs__rosidl_typesupport_introspection_cpp
+[15.497s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.810s] [ 46%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadruped_msgs/msg/quadruped_state__type_support.cpp.o[0m
+[16.925s] [ 48%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadruped_msgs/msg/foot_forces__type_support.cpp.o[0m
+[17.027s] [ 50%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadruped_msgs/msg/foot_states__type_support.cpp.o[0m
+[17.129s] [ 51%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadruped_msgs/msg/gait_pattern__type_support.cpp.o[0m
+[17.238s] [ 53%] [32m[1mLinking CXX shared library libquadruped_msgs__rosidl_typesupport_c.so[0m
+[17.324s] [ 53%] Built target quadruped_msgs__rosidl_typesupport_c
+[17.348s] [ 54%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.834s] [ 56%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadruped_msgs/msg/detail/quadruped_state__type_support.c.o[0m
+[19.056s] [ 57%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadruped_msgs/msg/detail/foot_forces__type_support.c.o[0m
+[19.149s] [ 59%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadruped_msgs/msg/detail/foot_states__type_support.c.o[0m
+[19.247s] [ 60%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadruped_msgs/msg/detail/gait_pattern__type_support.c.o[0m
+[19.346s] [ 62%] [32m[1mLinking C shared library libquadruped_msgs__rosidl_typesupport_introspection_c.so[0m
+[19.414s] [ 62%] Built target quadruped_msgs__rosidl_typesupport_introspection_c
+[19.438s] [ 64%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[21.065s] [ 65%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadruped_msgs/msg/detail/dds_fastrtps/quadruped_state__type_support.cpp.o[0m
+[23.042s] [ 67%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadruped_msgs/msg/detail/dds_fastrtps/foot_forces__type_support.cpp.o[0m
+[24.139s] [ 68%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadruped_msgs/msg/detail/dds_fastrtps/foot_states__type_support.cpp.o[0m
+[25.276s] [ 70%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadruped_msgs/msg/detail/dds_fastrtps/gait_pattern__type_support.cpp.o[0m
+[26.513s] [ 71%] [32m[1mLinking CXX shared library libquadruped_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.679s] [ 71%] Built target quadruped_msgs__rosidl_typesupport_fastrtps_cpp
+[26.704s] [ 73%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[28.370s] [ 75%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadruped_msgs/msg/detail/quadruped_state__type_support_c.cpp.o[0m
+[29.804s] [ 76%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadruped_msgs/msg/detail/foot_forces__type_support_c.cpp.o[0m
+[30.862s] [ 78%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadruped_msgs/msg/detail/foot_states__type_support_c.cpp.o[0m
+[31.958s] [ 79%] [32mBuilding CXX object CMakeFiles/quadruped_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadruped_msgs/msg/detail/gait_pattern__type_support_c.cpp.o[0m
+[33.180s] [ 81%] [32m[1mLinking CXX shared library libquadruped_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[33.284s] [ 81%] Built target quadruped_msgs__rosidl_typesupport_fastrtps_c
+[33.331s] [ 81%] Built target quadruped_msgs
+[33.380s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[36.117s] [ 82%] Built target quadruped_msgs__py
+[36.163s] [ 84%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadruped_msgs/msg/_quadruped_state_s.c.o[0m
+[37.257s] [ 85%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadruped_msgs/msg/_foot_forces_s.c.o[0m
+[37.581s] [ 87%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadruped_msgs/msg/_foot_states_s.c.o[0m
+[37.896s] [ 89%] [32mBuilding C object CMakeFiles/quadruped_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadruped_msgs/msg/_gait_pattern_s.c.o[0m
+[38.287s] [ 90%] [32m[1mLinking C shared library libquadruped_msgs__rosidl_generator_py.so[0m
+[38.391s] [ 90%] Built target quadruped_msgs__rosidl_generator_py
+[38.444s] [ 92%] [32mBuilding C object CMakeFiles/quadruped_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/quadruped_msgs/_quadruped_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.794s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/quadruped_msgs/quadruped_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[38.863s] [ 93%] Built target quadruped_msgs_s__rosidl_typesupport_fastrtps_c
+[38.919s] [ 95%] [32mBuilding C object CMakeFiles/quadruped_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/quadruped_msgs/_quadruped_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[39.276s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/quadruped_msgs/quadruped_msgs_s__rosidl_typesupport_c.so[0m
+[39.356s] [ 96%] Built target quadruped_msgs_s__rosidl_typesupport_c
+[39.407s] [ 98%] [32mBuilding C object CMakeFiles/quadruped_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/quadruped_msgs/_quadruped_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[39.754s] [100%] [32m[1mLinking C shared module rosidl_generator_py/quadruped_msgs/quadruped_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[39.823s] [100%] Built target quadruped_msgs_s__rosidl_typesupport_introspection_c

@@ -1,0 +1,37 @@
+[0.056s] Invoking command in '/home/ws/build/quadruped_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_utils -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_utils
+[0.236s] -- The C compiler identification is GNU 13.3.0
+[0.452s] -- The CXX compiler identification is GNU 13.3.0
+[0.516s] -- Detecting C compiler ABI info
+[0.841s] -- Detecting C compiler ABI info - done
+[0.859s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.860s] -- Detecting C compile features
+[0.861s] -- Detecting C compile features - done
+[0.911s] -- Detecting CXX compiler ABI info
+[1.403s] -- Detecting CXX compiler ABI info - done
+[1.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.456s] -- Detecting CXX compile features
+[1.458s] -- Detecting CXX compile features - done
+[1.471s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.022s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.346s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.476s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.517s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.566s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.617s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.814s] [31mCMake Error at /opt/ros/jazzy/share/rmw_implementation_cmake/cmake/get_default_rmw_implementation.cmake:60 (message):
+[2.814s]   Could not find ROS middleware implementation 'rmw_zenoh_cpp'.  Choose one
+[2.815s]   of the following: rmw_fastrtps_cpp
+[2.815s] Call Stack (most recent call first):
+[2.815s]   /opt/ros/jazzy/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:19 (get_default_rmw_implementation)
+[2.815s]   /opt/ros/jazzy/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)
+[2.815s]   /opt/ros/jazzy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.815s]   /opt/ros/jazzy/share/rcl/cmake/rclConfig.cmake:41 (include)
+[2.816s]   /opt/ros/jazzy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.816s]   /opt/ros/jazzy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[2.816s]   /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.816s]   /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[2.816s]   CMakeLists.txt:6 (find_package)
+[2.816s] 
+[2.816s] [0m
+[2.820s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.820s] -- Configuring incomplete, errors occurred!

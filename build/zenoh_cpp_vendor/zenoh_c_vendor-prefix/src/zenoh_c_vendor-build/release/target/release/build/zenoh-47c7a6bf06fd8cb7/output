@@ -1,0 +1,1 @@
+cargo:rustc-env=RUSTC_VERSION=rustc 1.75.0 (82e1608df 2023-12-21)

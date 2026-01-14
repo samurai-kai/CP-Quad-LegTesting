@@ -1,0 +1,63 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_zenoh_cpp: 0.2.2 (/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake)
+-- Using RMW implementation 'rmw_zenoh_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found hardware_interface: 4.28.1 (/opt/ros/jazzy/share/hardware_interface/cmake)
+-- Found TinyXML2 via Config file: /usr/local/lib/cmake/tinyxml2
+-- Found controller_interface: 4.28.1 (/opt/ros/jazzy/share/controller_interface/cmake)
+-- Found controller_manager_msgs: 4.28.1 (/opt/ros/jazzy/share/controller_manager_msgs/cmake)
+-- Configuring done (4.9s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/ws/build/quadruped_utils
+[ 50%] [32mBuilding CXX object CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o[0m
+[01m[K/home/ws/src/quadruped_utils/src/ZeroJointsController.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type quadruped_utils::ZeroJointController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/ws/src/quadruped_utils/src/ZeroJointsController.cpp:238:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  238 |  effort = [01;35m[Kjoint_effort_state_interface_[i].get().get_value()[m[K;
+      |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+In file included from [01m[K/home/ws/src/quadruped_utils/include/quadruped_utils/ZeroJointsController.hpp:12[m[K,
+                 from [01m[K/home/ws/src/quadruped_utils/src/ZeroJointsController.cpp:5[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libquadruped_utils_controllers.so[0m
+[100%] Built target quadruped_utils_controllers
+-- Install configuration: "Debug"
+-- Installing: /home/ws/install/quadruped_utils/lib/libquadruped_utils_controllers.so
+-- Set non-toolchain portion of runtime path of "/home/ws/install/quadruped_utils/lib/libquadruped_utils_controllers.so" to ""
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/launch
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/launch/ZeroJoint.launch.py
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/launch/testcontroller.launch.py
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/config
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/config/controller.yaml
+-- Installing: /home/ws/install/quadruped_utils/include
+-- Installing: /home/ws/install/quadruped_utils/include/quadruped_utils
+-- Installing: /home/ws/install/quadruped_utils/include/quadruped_utils/ZeroJointsController.hpp
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/ZeroJointsController.xml
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/library_path.sh
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/library_path.dsv
+-- Installing: /home/ws/install/quadruped_utils/share/ament_index/resource_index/package_run_dependencies/quadruped_utils
+-- Installing: /home/ws/install/quadruped_utils/share/ament_index/resource_index/parent_prefix_path/quadruped_utils
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/ament_prefix_path.sh
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/ament_prefix_path.dsv
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/path.sh
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/path.dsv
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.bash
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.sh
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.zsh
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.dsv
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/package.dsv
+-- Installing: /home/ws/install/quadruped_utils/share/ament_index/resource_index/packages/quadruped_utils
+-- Installing: /home/ws/install/quadruped_utils/share/ament_index/resource_index/controller_interface__pluginlib__plugin/quadruped_utils
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/quadruped_utilsConfig.cmake
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/quadruped_utilsConfig-version.cmake
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/package.xml

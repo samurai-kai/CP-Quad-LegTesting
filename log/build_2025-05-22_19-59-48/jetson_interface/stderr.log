@@ -1,0 +1,13 @@
+In file included from [01m[K/home/ws/src/jetson_interface/JetsonGPIO/src/GPIOEvent.cpp:26[m[K:
+[01m[K/home/ws/src/jetson_interface/JetsonGPIO/include/private/GPIOEvent.h:60:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64_t[m[K’ has not been declared
+   60 |                                 [01;31m[Kuint64_t[m[K bounce_time, uint64_t timeout);
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ws/src/jetson_interface/JetsonGPIO/include/private/GPIOEvent.h:60:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64_t[m[K’ has not been declared
+   60 |                                 uint64_t bounce_time, [01;31m[Kuint64_t[m[K timeout);
+      |                                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ws/src/jetson_interface/JetsonGPIO/include/private/GPIOEvent.h:66:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64_t[m[K’ has not been declared
+   66 |                          [01;31m[Kuint64_t[m[K bounce_time);
+      |                          [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [JetsonGPIO/CMakeFiles/JetsonGPIO.dir/build.make:160: JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/GPIOEvent.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:245: JetsonGPIO/CMakeFiles/JetsonGPIO.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

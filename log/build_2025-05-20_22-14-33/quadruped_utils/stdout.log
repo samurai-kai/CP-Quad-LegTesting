@@ -1,0 +1,36 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libquadruped_utils_controllers.so[0m
+[100%] Built target quadruped_utils_controllers
+-- Install configuration: "Debug"
+-- Installing: /home/ws/install/quadruped_utils/lib/libquadruped_utils_controllers.so
+-- Set non-toolchain portion of runtime path of "/home/ws/install/quadruped_utils/lib/libquadruped_utils_controllers.so" to ""
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/launch
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/launch/ZeroJoint.launch.py
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/launch/testcontroller.launch.py
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/config
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/config/controller.yaml
+-- Up-to-date: /home/ws/install/quadruped_utils/include
+-- Up-to-date: /home/ws/install/quadruped_utils/include/quadruped_utils
+-- Installing: /home/ws/install/quadruped_utils/include/quadruped_utils/ZeroJointsController.hpp
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/ZeroJointsController.xml
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/library_path.sh
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/library_path.dsv
+-- Up-to-date: /home/ws/install/quadruped_utils/share/ament_index/resource_index/package_run_dependencies/quadruped_utils
+-- Up-to-date: /home/ws/install/quadruped_utils/share/ament_index/resource_index/parent_prefix_path/quadruped_utils
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/path.sh
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/path.dsv
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.bash
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.sh
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.zsh
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.dsv
+-- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/package.dsv
+-- Up-to-date: /home/ws/install/quadruped_utils/share/ament_index/resource_index/packages/quadruped_utils
+-- Up-to-date: /home/ws/install/quadruped_utils/share/ament_index/resource_index/controller_interface__pluginlib__plugin/quadruped_utils
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/quadruped_utilsConfig.cmake
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/quadruped_utilsConfig-version.cmake
+-- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/package.xml

@@ -1,0 +1,1 @@
+{"rustc":3400696002367083135,"features":"[\"default\", \"std\"]","target":427768481117760528,"profile":261615272145243715,"path":17849140805309147501,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/thiserror-eb699454890c2434/dep-build-script-build-script-build"}}],"rustflags":[],"metadata":11722078131081488174,"config":2202906307356721367,"compile_kind":0}

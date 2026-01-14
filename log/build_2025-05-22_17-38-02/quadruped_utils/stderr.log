@@ -1,0 +1,39 @@
+[01m[K/home/ws/src/quadruped_utils/src/EstopController.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type estopcontroller::EstopController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/ws/src/quadruped_utils/src/EstopController.cpp:38:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   38 |     double external_state = [01;35m[Kstate_interfaces_[0].get_value()[m[K;
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/home/ws/src/quadruped_utils/src/EstopController.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ws/src/quadruped_utils/src/EstopController.cpp:41:26:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::LoanedStateInterface>, hardware_interface::LoanedStateInterface>::value_type[m[K’ {aka ‘[01m[Kclass hardware_interface::LoanedStateInterface[m[K’} has no member named ‘[01m[Kset_value[m[K’; did you mean ‘[01m[Kget_value[m[K’?
+   41 |     state_interfaces_[1].[01;31m[Kset_value[m[K(external_state);
+      |                          [01;31m[K^~~~~~~~~[m[K
+      |                          [32m[Kget_value[m[K
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/ws/src/quadruped_utils/src/EstopController.cpp:51[m[K:
+[01m[K/home/ws/src/quadruped_utils/src/EstopController.cpp:[m[K At global scope:
+[01m[K/home/ws/src/quadruped_utils/src/EstopController.cpp:53:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_bridge_controller[m[K’ does not name a type
+   53 |   [01;31m[Kstate_bridge_controller[m[K::EstopController,
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/quadruped_utils/src/EstopController.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::[01;32m[KProxyExec0[m[K()[m[K’:
+[01m[K/home/ws/src/quadruped_utils/src/EstopController.cpp:52:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+   52 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/quadruped_utils/src/EstopController.cpp:52:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [41], const char [42])[m[K’
+   52 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:55[m[K:
+[01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> class_loader::impl::UniquePtr<class_loader::impl::AbstractMetaObjectBase> class_loader::impl::[01;32m[KregisterPlugin[m[K(const std::string&, const std::string&)[m[K’
+  241 | [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      | [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ws/src/quadruped_utils/src/EstopController.cpp:52:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/quadruped_utils_controllers.dir/build.make:90: CMakeFiles/quadruped_utils_controllers.dir/src/EstopController.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/quadruped_utils_controllers.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

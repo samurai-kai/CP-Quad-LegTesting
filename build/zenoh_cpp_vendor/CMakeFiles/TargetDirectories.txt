@@ -1,0 +1,11 @@
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/uninstall.dir
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/zenoh_cpp_vendor_uninstall.dir
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/zenoh_c_vendor.dir
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/zenoh_cpp_vendor.dir
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/test.dir
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/edit_cache.dir
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/rebuild_cache.dir
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/list_install_components.dir
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/install.dir
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/install/local.dir
+/home/ws/build/zenoh_cpp_vendor/CMakeFiles/install/strip.dir

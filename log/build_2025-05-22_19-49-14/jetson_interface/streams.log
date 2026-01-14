@@ -1,0 +1,49 @@
+[0.077s] Invoking command in '/home/ws/build/jetson_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/jetson_interface -- -j8 -l8
+[0.622s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.854s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.875s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.895s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.920s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.081s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.084s] -- Found rmw_zenoh_cpp: 0.2.2 (/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake)
+[1.087s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[1.210s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.279s] -- Found hardware_interface: 4.28.1 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.558s] -- Found TinyXML2 via Config file: /usr/local/lib/cmake/tinyxml2
+[1.649s] -- Found controller_interface: 4.28.1 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.698s] [33mCMake Warning at CMakeLists.txt:14 (find_package):
+[1.698s]   By not providing "FindJetsonGPIO.cmake" in CMAKE_MODULE_PATH this project
+[1.699s]   has asked CMake to find a package configuration file provided by
+[1.699s]   "JetsonGPIO", but CMake did not find one.
+[1.699s] 
+[1.699s]   Could not find a package configuration file provided by "JetsonGPIO" with
+[1.699s]   any of the following names:
+[1.700s] 
+[1.711s]     JetsonGPIOConfig.cmake
+[1.724s]     jetsongpio-config.cmake
+[1.724s] 
+[1.724s]   Add the installation prefix of "JetsonGPIO" to CMAKE_PREFIX_PATH or set
+[1.724s]   "JetsonGPIO_DIR" to a directory containing one of the above files.  If
+[1.724s]   "JetsonGPIO" provides a separate development package or SDK, be sure it has
+[1.725s]   been installed.
+[1.725s] 
+[1.726s] [0m
+[1.923s] -- Configuring done (1.8s)
+[1.979s] [31mCMake Error at CMakeLists.txt:29 (target_link_libraries):
+[1.979s]   Target "jetson_interface" links to:
+[1.979s] 
+[1.980s]     JetsonGPIO::JetsonGPIO
+[1.980s] 
+[1.980s]   but the target was not found.  Possible reasons include:
+[1.980s] 
+[1.980s]     * There is a typo in the target name.
+[1.980s]     * A find_package call is missing for an IMPORTED target.
+[1.980s]     * An ALIAS target is missing.
+[1.981s] 
+[1.981s] 
+[1.981s] [0m
+[1.981s] -- Generating done (0.0s)
+[1.984s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.007s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[2.012s] Invoked command in '/home/ws/build/jetson_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/jetson_interface -- -j8 -l8

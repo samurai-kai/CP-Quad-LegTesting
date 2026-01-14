@@ -1,0 +1,137 @@
+[0.080s] Invoking command in '/home/ws/build/zenoh_cpp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/rmw_zenoh/zenoh_cpp_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/zenoh_cpp_vendor
+[0.646s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.774s] -- Found ament_cmake_vendor_package: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)
+[1.077s] -- Configuring done (1.0s)
+[1.122s] -- Generating done (0.0s)
+[1.156s] -- Build files have been written to: /home/ws/build/zenoh_cpp_vendor
+[1.171s] Invoked command in '/home/ws/build/zenoh_cpp_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/rmw_zenoh/zenoh_cpp_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/zenoh_cpp_vendor
+[1.173s] Invoking command in '/home/ws/build/zenoh_cpp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/zenoh_cpp_vendor -- -j8 -l8
+[1.299s] [ 50%] Built target zenoh_c_vendor
+[1.351s] [100%] Built target zenoh_cpp_vendor
+[1.383s] Invoked command in '/home/ws/build/zenoh_cpp_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/zenoh_cpp_vendor -- -j8 -l8
+[1.385s] Invoking command in '/home/ws/build/zenoh_cpp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/zenoh_cpp_vendor
+[1.409s] -- Install configuration: "Release"
+[1.410s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+[1.410s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib
+[1.410s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/libzenohc.so
+[1.410s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/pkgconfig
+[1.410s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/pkgconfig/zenohc.pc
+[1.410s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/libzenohc.a
+[1.411s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake
+[1.411s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohc
+[1.411s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohc/zenohcConfig.cmake
+[1.411s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohc/zenohcConfigVersion.cmake
+[1.411s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include
+[1.411s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_configure.h
+[1.411s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_opaque.h
+[1.412s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh.h
+[1.412s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_commons.h
+[1.412s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_concrete.h
+[1.412s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_constants.h
+[1.415s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_macros.h
+[1.415s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_memory.h
+[1.416s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/vendor_package.bat
+[1.418s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/vendor_package.dsv
+[1.419s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/vendor_package.sh
+[1.420s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/ament_index/resource_index/vendor_packages/zenoh_cpp_vendor
+[1.421s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+[1.421s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib
+[1.421s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/pkgconfig
+[1.422s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/pkgconfig/zenohcxx.pc
+[1.422s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake
+[1.422s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohcxx
+[1.423s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohcxx/zenohcxxConfig.cmake
+[1.423s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohcxx/zenohcxxConfigVersion.cmake
+[1.424s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include
+[1.424s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh
+[1.424s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api.hxx
+[1.424s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api
+[1.424s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/scout.hxx
+[1.425s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/queryable.hxx
+[1.425s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/subscriber.hxx
+[1.425s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/logging.hxx
+[1.425s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/matching.hxx
+[1.425s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/liveliness.hxx
+[1.425s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/id.hxx
+[1.426s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/interop.hxx
+[1.426s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/enums.hxx
+[1.426s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/channels.hxx
+[1.426s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/query_consolidation.hxx
+[1.426s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/publisher.hxx
+[1.426s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/querier.hxx
+[1.426s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext
+[1.427s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/miss.hxx
+[1.427s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/querying_subscriber.hxx
+[1.427s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/advanced_subscriber.hxx
+[1.427s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/advanced_publisher.hxx
+[1.427s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/session_ext.hxx
+[1.428s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/publication_cache.hxx
+[1.428s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/serialization.hxx
+[1.428s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/source_info.hxx
+[1.428s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm
+[1.428s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/buffer
+[1.428s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/buffer/zshmmut.hxx
+[1.428s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/buffer/zshm.hxx
+[1.429s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/buffer/buffer.hxx
+[1.429s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/shm.hxx
+[1.429s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client_storage
+[1.429s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client_storage/client_storage.hxx
+[1.429s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client
+[1.446s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client/shm_segment.hxx
+[1.447s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client/shm_client.hxx
+[1.447s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client/client.hxx
+[1.447s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider
+[1.447s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/shm_provider_backend.hxx
+[1.447s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/shm_provider.hxx
+[1.448s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/chunk.hxx
+[1.448s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/provider.hxx
+[1.448s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/types_impl.hxx
+[1.448s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/alloc_layout.hxx
+[1.448s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/types.hxx
+[1.448s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/common
+[1.449s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/common/types.hxx
+[1.449s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/common/common.hxx
+[1.449s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/cleanup.hxx
+[1.449s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations
+[1.449s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/posix
+[1.449s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/posix/posix_shm_client.hxx
+[1.450s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/posix/posix_shm_provider.hxx
+[1.450s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/posix/posix.hxx
+[1.450s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/protocol_implementations.hxx
+[1.450s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/hello.hxx
+[1.450s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/timestamp.hxx
+[1.450s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/bytes.hxx
+[1.450s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/session.hxx
+[1.451s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/query.hxx
+[1.451s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/sample.hxx
+[1.451s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/encoding.hxx
+[1.451s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/base.hxx
+[1.451s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/closures.hxx
+[1.452s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/keyexpr.hxx
+[1.452s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/reply.hxx
+[1.452s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/config.hxx
+[1.452s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail
+[1.453s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail/closures_concrete.hxx
+[1.453s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail/commons.hxx
+[1.453s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail/availability_checks.hxx
+[1.453s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail/closures.hxx
+[1.453s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/zenohc.hxx
+[1.454s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh.hxx
+[1.454s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/ament_index/resource_index/package_run_dependencies/zenoh_cpp_vendor
+[1.454s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/ament_index/resource_index/parent_prefix_path/zenoh_cpp_vendor
+[1.454s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/ament_prefix_path.sh
+[1.454s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/ament_prefix_path.dsv
+[1.454s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/path.sh
+[1.455s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/path.dsv
+[1.457s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/local_setup.bash
+[1.458s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/local_setup.sh
+[1.458s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/local_setup.zsh
+[1.458s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/local_setup.dsv
+[1.458s] -- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.dsv
+[1.458s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/ament_index/resource_index/packages/zenoh_cpp_vendor
+[1.458s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake/vendor_package_cmake_prefix.cmake
+[1.459s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.459s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake/zenoh_cpp_vendorConfig.cmake
+[1.460s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake/zenoh_cpp_vendorConfig-version.cmake
+[1.460s] -- Up-to-date: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.xml
+[1.460s] Invoked command in '/home/ws/build/zenoh_cpp_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/zenoh_cpp_vendor

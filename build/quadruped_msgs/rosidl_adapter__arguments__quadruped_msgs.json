@@ -1,0 +1,9 @@
+{
+  "package_name": "quadruped_msgs",
+  "non_idl_tuples": [
+    "/home/ws/src/quadruped_msgs:msg/QuadrupedState.msg",
+    "/home/ws/src/quadruped_msgs:msg/GaitPattern.msg",
+    "/home/ws/src/quadruped_msgs:msg/FootStates.msg",
+    "/home/ws/src/quadruped_msgs:msg/FootForces.msg"
+  ]
+}

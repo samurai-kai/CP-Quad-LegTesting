@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ws/build/zenoh_cpp_vendor/CMakeFiles/zenoh_c_vendor"
+		},
+		{
+			"file" : "/home/ws/build/zenoh_cpp_vendor/CMakeFiles/zenoh_c_vendor.rule"
+		},
+		{
+			"file" : "/home/ws/build/zenoh_cpp_vendor/CMakeFiles/zenoh_c_vendor-complete.rule"
+		},
+		{
+			"file" : "/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-build.rule"
+		},
+		{
+			"file" : "/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-configure.rule"
+		},
+		{
+			"file" : "/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-download.rule"
+		},
+		{
+			"file" : "/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-install.rule"
+		},
+		{
+			"file" : "/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-mkdir.rule"
+		},
+		{
+			"file" : "/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-patch_disconnected.rule"
+		},
+		{
+			"file" : "/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zenoh_c_vendor"
+		],
+		"name" : "zenoh_c_vendor"
+	}
+}

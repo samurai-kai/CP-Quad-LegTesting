@@ -1,0 +1,7 @@
+prefix=/home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+
+Name: zenohcxx
+Description: C++ bindings for Zenoh
+URL: https://github.com/eclipse-zenoh/zenoh-cpp
+Version: 1.2.1
+Cflags: -I${prefix}/include

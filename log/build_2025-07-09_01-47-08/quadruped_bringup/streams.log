@@ -1,0 +1,36 @@
+[0.648s] Invoking command in '/home/ws/build/quadruped_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_bringup
+[0.748s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.514s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.780s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.780s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.781s] -- Added test 'lint_cmake' to check CMake code style
+[1.781s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.785s] -- Added test 'xmllint' to check XML markup files
+[1.792s] -- Configuring done (1.1s)
+[1.837s] -- Generating done (0.0s)
+[1.854s] -- Build files have been written to: /home/ws/build/quadruped_bringup
+[1.963s] Invoked command in '/home/ws/build/quadruped_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_bringup
+[1.965s] Invoking command in '/home/ws/build/quadruped_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_bringup -- -j8 -l8
+[2.118s] Invoked command in '/home/ws/build/quadruped_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_bringup -- -j8 -l8
+[2.121s] Invoking command in '/home/ws/build/quadruped_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_bringup
+[2.153s] -- Install configuration: "Release"
+[2.154s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/launch
+[2.155s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/launch/remote.launch.py
+[2.155s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/launch/gz.launch.py
+[2.156s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/launch/real.launch.py
+[2.156s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/ament_index/resource_index/package_run_dependencies/quadruped_bringup
+[2.156s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/ament_index/resource_index/parent_prefix_path/quadruped_bringup
+[2.157s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/environment/ament_prefix_path.sh
+[2.158s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/environment/ament_prefix_path.dsv
+[2.159s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/environment/path.sh
+[2.159s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/environment/path.dsv
+[2.160s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/local_setup.bash
+[2.160s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/local_setup.sh
+[2.160s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/local_setup.zsh
+[2.160s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/local_setup.dsv
+[2.164s] -- Installing: /home/ws/install/quadruped_bringup/share/quadruped_bringup/package.dsv
+[2.171s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/ament_index/resource_index/packages/quadruped_bringup
+[2.171s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/cmake/quadruped_bringupConfig.cmake
+[2.171s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/cmake/quadruped_bringupConfig-version.cmake
+[2.172s] -- Up-to-date: /home/ws/install/quadruped_bringup/share/quadruped_bringup/package.xml
+[2.174s] Invoked command in '/home/ws/build/quadruped_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_bringup

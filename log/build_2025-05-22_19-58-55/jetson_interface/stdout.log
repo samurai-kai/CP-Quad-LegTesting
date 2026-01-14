@@ -1,0 +1,4 @@
+[  1%] Built target GenerateModelHeader
+[  3%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/GPIOEvent.cpp.o[0m
+[  5%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/WaitResult.cpp.o[0m
+[  6%] [32mBuilding CXX object JetsonGPIO/CMakeFiles/JetsonGPIO.dir/src/LazyString.cpp.o[0m

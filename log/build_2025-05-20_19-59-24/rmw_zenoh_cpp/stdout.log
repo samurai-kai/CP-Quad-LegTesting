@@ -1,0 +1,48 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found rcpputils: 2.11.1 (/opt/ros/jazzy/share/rcpputils/cmake)
+-- Found rosidl_typesupport_fastrtps_c: 3.6.1 (/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_typesupport_fastrtps_cpp: 3.6.1 (/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Found tracetools: 8.2.3 (/opt/ros/jazzy/share/tracetools/cmake)
+-- Found zenoh_cpp_vendor: 0.2.2 (/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake)
+-- defined lib target zenohcxx::zenohc for zenohc::lib
+-- Found ament_cmake_copyright: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_xmllint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/rmw_zenoh_cpp
+[ 82%] Built target rmw_zenoh_cpp
+[100%] Built target rmw_zenohd
+-- Install configuration: "Release"
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/ament_index/resource_index/rmw_typesupport_c/rmw_zenoh_cpp
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/ament_index/resource_index/rmw_typesupport_cpp/rmw_zenoh_cpp
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/ament_index/resource_index/rmw_typesupport/rmw_zenoh_cpp
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/lib/librmw_zenoh_cpp.so
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/config
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/config/DEFAULT_RMW_ZENOH_SESSION_CONFIG.json5
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/config/DEFAULT_RMW_ZENOH_ROUTER_CONFIG.json5
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/config/routerconfig.json5
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/lib/rmw_zenoh_cpp/rmw_zenohd
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/ament_index/resource_index/package_run_dependencies/rmw_zenoh_cpp
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/ament_index/resource_index/parent_prefix_path/rmw_zenoh_cpp
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/environment/path.sh
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/environment/path.dsv
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/local_setup.bash
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/local_setup.sh
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/local_setup.zsh
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/local_setup.dsv
+-- Installing: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.dsv
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/ament_index/resource_index/packages/rmw_zenoh_cpp
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/export_rmw_zenoh_cppExport.cmake
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/export_rmw_zenoh_cppExport-release.cmake
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/rmw_zenoh_cppConfig.cmake
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake/rmw_zenoh_cppConfig-version.cmake
+-- Up-to-date: /home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.xml

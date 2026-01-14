@@ -1,0 +1,28 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_zenoh_cpp: 0.2.2 (/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/cmake)
+-- Using RMW implementation 'rmw_zenoh_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found hardware_interface: 4.28.1 (/opt/ros/jazzy/share/hardware_interface/cmake)
+-- Found TinyXML2 via Config file: /usr/local/lib/cmake/tinyxml2
+-- Found controller_interface: 4.28.1 (/opt/ros/jazzy/share/controller_interface/cmake)
+-- Found controller_manager_msgs: 4.28.1 (/opt/ros/jazzy/share/controller_manager_msgs/cmake)
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/quadruped_utils
+[ 25%] [32mBuilding CXX object CMakeFiles/quadruped_utils_controllers.dir/src/StaticJointsController.cpp.o[0m
+[01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type quadruped_utils::StaticJointsController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:230:18:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool success[m[K’
+  230 |             bool [01;31m[Ksuccess[m[K = joint_velocity_command_interface_[i].get().set_value(pose_velocity[i]);
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/ws/src/quadruped_utils/src/StaticJointsController.cpp:228:18:[m[K [01;36m[Knote: [m[K‘[01m[Kbool success[m[K’ previously declared here
+  228 |             bool [01;36m[Ksuccess[m[K = joint_position_command_interface_[i].get().set_value(pose_position[i]);
+      |                  [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/quadruped_utils_controllers.dir/build.make:90: CMakeFiles/quadruped_utils_controllers.dir/src/StaticJointsController.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/quadruped_utils_controllers.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,24 @@
+[0.643s] Invoking command in '/home/ws/build/quadruped_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_bringup
+[0.853s] -- The C compiler identification is GNU 13.3.0
+[1.057s] -- The CXX compiler identification is GNU 13.3.0
+[1.136s] -- Detecting C compiler ABI info
+[1.476s] -- Detecting C compiler ABI info - done
+[1.502s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.507s] -- Detecting C compile features
+[1.507s] -- Detecting C compile features - done
+[1.537s] -- Detecting CXX compiler ABI info
+[2.092s] -- Detecting CXX compiler ABI info - done
+[2.143s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.144s] -- Detecting CXX compile features
+[2.146s] -- Detecting CXX compile features - done
+[2.159s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.849s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.331s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.700s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.700s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.704s] -- Added test 'lint_cmake' to check CMake code style
+[3.707s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.712s] -- Added test 'xmllint' to check XML markup files
+[3.733s] -- Configuring done (3.1s)
+[3.747s] -- Generating done (0.0s)
+[3.750s] -- Build files have been written to: /home/ws/build/quadruped_bringup

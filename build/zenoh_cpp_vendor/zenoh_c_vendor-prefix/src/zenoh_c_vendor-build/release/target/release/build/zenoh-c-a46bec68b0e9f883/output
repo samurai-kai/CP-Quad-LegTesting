@@ -1,0 +1,6 @@
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=src
+cargo:rerun-if-changed=splitguide.yaml
+cargo:rerun-if-changed=cbindgen.toml
+cargo:rerun-if-changed=build-resources
+cargo:rerun-if-changed=include

@@ -1,0 +1,844 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_cmake_vendor_package: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/zenoh_cpp_vendor
+[  6%] [34m[1mPerforming build step for 'zenoh_c_vendor'[0m
+[34m[1mGenerating release/target/release/libzenohc.so, release/target/release/libzenohc.a[0m
+"RUSTFLAGS = $$RUSTFLAGS"
+"cargo build --release --manifest-path=/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features --features=shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_udp zenoh/transport_tls --features=unstable"
+[0m[1minfo: [0msyncing channel updates for '1.75.0-aarch64-unknown-linux-gnu'
+[0m[1minfo: [0mlatest update on 2023-12-28, rust version 1.75.0 (82e1608df 2023-12-21)
+[0m[1minfo: [0mdownloading component 'cargo'
+[0m[1minfo: [0mdownloading component 'clippy'
+[0m[1minfo: [0mdownloading component 'rust-docs'
+[0m[1minfo: [0mdownloading component 'rust-std'
+[0m[1minfo: [0mdownloading component 'rustc'
+[0m[1minfo: [0mdownloading component 'rustfmt'
+[0m[1minfo: [0minstalling component 'cargo'
+[0m[1minfo: [0minstalling component 'clippy'
+[0m[1minfo: [0minstalling component 'rust-docs'
+[0m[1minfo: [0minstalling component 'rust-std'
+[0m[1minfo: [0minstalling component 'rustc'
+[0m[1minfo: [0minstalling component 'rustfmt'
+[1m[32m    Updating[0m crates.io index
+[1m[32m    Updating[0m git repository `https://github.com/eclipse-zenoh/zenoh.git`
+[1m[32m Downloading[0m crates ...
+[1m[32m  Downloaded[0m ahash v0.8.11
+[1m[32m  Downloaded[0m advisory-lock v0.3.0
+[1m[32m  Downloaded[0m atty v0.2.14
+[1m[32m  Downloaded[0m thiserror-impl v1.0.63
+[1m[32m  Downloaded[0m array-init v2.1.0
+[1m[32m  Downloaded[0m thread_local v1.1.8
+[1m[32m  Downloaded[0m asn1-rs-impl v0.2.0
+[1m[32m  Downloaded[0m matchers v0.1.0
+[1m[32m  Downloaded[0m git-version-macro v0.3.9
+[1m[32m  Downloaded[0m ident_case v1.0.1
+[1m[32m  Downloaded[0m futures-sink v0.3.30
+[1m[32m  Downloaded[0m time-macros v0.2.18
+[1m[32m  Downloaded[0m cfg-if v1.0.0
+[1m[32m  Downloaded[0m byteorder v1.5.0
+[1m[32m  Downloaded[0m tracing-serde v0.1.3
+[1m[32m  Downloaded[0m cache-padded v1.3.0
+[1m[32m  Downloaded[0m block-buffer v0.10.4
+[1m[32m  Downloaded[0m concurrent-queue v2.5.0
+[1m[32m  Downloaded[0m clap_lex v0.2.4
+[1m[32m  Downloaded[0m time-core v0.1.2
+[1m[32m  Downloaded[0m thiserror-impl v2.0.11
+[1m[32m  Downloaded[0m cipher v0.4.4
+[1m[32m  Downloaded[0m thread-priority v1.1.0
+[1m[32m  Downloaded[0m git-version v0.3.9
+[1m[32m  Downloaded[0m keyed-set v1.0.0
+[1m[32m  Downloaded[0m heck v0.4.1
+[1m[32m  Downloaded[0m asn1-rs-derive v0.5.1
+[1m[32m  Downloaded[0m equivalent v1.0.1
+[1m[32m  Downloaded[0m darling_macro v0.20.10
+[1m[32m  Downloaded[0m num-conv v0.1.0
+[1m[32m  Downloaded[0m lazy_static v1.5.0
+[1m[32m  Downloaded[0m fastrand v2.1.1
+[1m[32m  Downloaded[0m unwrap-infallible v0.1.5
+[1m[32m  Downloaded[0m crc v3.2.1
+[1m[32m  Downloaded[0m bincode v1.3.3
+[1m[32m  Downloaded[0m anyhow v1.0.89
+[1m[32m  Downloaded[0m unzip-n v0.1.2
+[1m[32m  Downloaded[0m option-ext v0.2.0
+[1m[32m  Downloaded[0m fnv v1.0.7
+[1m[32m  Downloaded[0m errno v0.3.9
+[1m[32m  Downloaded[0m validated_struct_macros v2.1.0
+[1m[32m  Downloaded[0m dirs v5.0.1
+[1m[32m  Downloaded[0m futures-core v0.3.30
+[1m[32m  Downloaded[0m futures-task v0.3.30
+[1m[32m  Downloaded[0m static_init_macro v1.0.2
+[1m[32m  Downloaded[0m data-encoding v2.6.0
+[1m[32m  Downloaded[0m deranged v0.3.11
+[1m[32m  Downloaded[0m fixedbitset v0.4.2
+[1m[32m  Downloaded[0m cfg_aliases v0.1.1
+[1m[32m  Downloaded[0m itoa v1.0.11
+[1m[32m  Downloaded[0m validated_struct v2.1.0
+[1m[32m  Downloaded[0m uhlc v0.8.0
+[1m[32m  Downloaded[0m tracing-log v0.2.0
+[1m[32m  Downloaded[0m digest v0.10.7
+[1m[32m  Downloaded[0m twox-hash v1.6.3
+[1m[32m  Downloaded[0m tokio-macros v2.4.0
+[1m[32m  Downloaded[0m hex v0.4.3
+[1m[32m  Downloaded[0m futures-io v0.3.30
+[1m[32m  Downloaded[0m futures-executor v0.3.30
+[1m[32m  Downloaded[0m dirs-sys v0.4.1
+[1m[32m  Downloaded[0m home v0.5.9
+[1m[32m  Downloaded[0m allocator-api2 v0.2.18
+[1m[32m  Downloaded[0m dyn-clone v1.0.17
+[1m[32m  Downloaded[0m bitflags v2.6.0
+[1m[32m  Downloaded[0m schemars_derive v0.8.21
+[1m[32m  Downloaded[0m phf_macros v0.11.2
+[1m[32m  Downloaded[0m ipnetwork v0.20.0
+[1m[32m  Downloaded[0m cpufeatures v0.2.14
+[1m[32m  Downloaded[0m futures-macro v0.3.30
+[1m[32m  Downloaded[0m token-cell v1.5.0
+[1m[32m  Downloaded[0m displaydoc v0.2.5
+[1m[32m  Downloaded[0m memoffset v0.6.5
+[1m[32m  Downloaded[0m unicode-xid v0.2.5
+[1m[32m  Downloaded[0m getrandom v0.2.15
+[1m[32m  Downloaded[0m slab v0.4.9
+[1m[32m  Downloaded[0m pnet_sys v0.35.0
+[1m[32m  Downloaded[0m phf_generator v0.11.2
+[1m[32m  Downloaded[0m phf v0.11.2
+[1m[32m  Downloaded[0m indexmap v1.9.3
+[1m[32m  Downloaded[0m vec_map v0.8.2
+[1m[32m  Downloaded[0m proc-macro-crate v3.2.0
+[1m[32m  Downloaded[0m rustc_version v0.4.1
+[1m[32m  Downloaded[0m parking v2.2.1
+[1m[32m  Downloaded[0m libloading v0.8.5
+[1m[32m  Downloaded[0m strsim v0.11.1
+[1m[32m  Downloaded[0m termcolor v1.4.1
+[1m[32m  Downloaded[0m sha2 v0.10.8
+[1m[32m  Downloaded[0m siphasher v0.3.11
+[1m[32m  Downloaded[0m scopeguard v1.2.0
+[1m[32m  Downloaded[0m rustls-pemfile v2.1.3
+[1m[32m  Downloaded[0m lz4_flex v0.11.3
+[1m[32m  Downloaded[0m log v0.4.22
+[1m[32m  Downloaded[0m synstructure v0.13.1
+[1m[32m  Downloaded[0m subtle v2.6.1
+[1m[32m  Downloaded[0m pnet_base v0.35.0
+[1m[32m  Downloaded[0m shlex v1.3.0
+[1m[32m  Downloaded[0m static_assertions v1.1.0
+[1m[32m  Downloaded[0m ref-cast-impl v1.0.23
+[1m[32m  Downloaded[0m rand_chacha v0.3.1
+[1m[32m  Downloaded[0m rand_core v0.6.4
+[1m[32m  Downloaded[0m rustversion v1.0.17
+[1m[32m  Downloaded[0m ppv-lite86 v0.2.20
+[1m[32m  Downloaded[0m paste v1.0.15
+[1m[32m  Downloaded[0m semver v1.0.23
+[1m[32m  Downloaded[0m pin-utils v0.1.0
+[1m[32m  Downloaded[0m stabby-macros v36.1.1
+[1m[32m  Downloaded[0m num-integer v0.1.46
+[1m[32m  Downloaded[0m tempfile v3.12.0
+[1m[32m  Downloaded[0m hmac v0.12.1
+[1m[32m  Downloaded[0m spin v0.9.8
+[1m[32m  Downloaded[0m futures v0.3.30
+[1m[32m  Downloaded[0m stabby v36.1.1
+[1m[32m  Downloaded[0m tracing-attributes v0.1.27
+[1m[32m  Downloaded[0m toml_datetime v0.6.8
+[1m[32m  Downloaded[0m flume v0.11.0
+[1m[32m  Downloaded[0m base64 v0.22.1
+[1m[32m  Downloaded[0m serde_derive v1.0.210
+[1m[32m  Downloaded[0m serde_yaml v0.9.34+deprecated
+[1m[32m  Downloaded[0m der-parser v9.0.0
+[1m[32m  Downloaded[0m socket2 v0.5.7
+[1m[32m  Downloaded[0m powerfmt v0.2.0
+[1m[32m  Downloaded[0m evalexpr v11.3.1
+[1m[32m  Downloaded[0m shared_memory v0.12.4
+[1m[32m  Downloaded[0m aes v0.8.4
+[1m[32m  Downloaded[0m zerocopy-derive v0.7.35
+[1m[32m  Downloaded[0m rustls-pki-types v1.11.0
+[1m[32m  Downloaded[0m strsim v0.10.0
+[1m[32m  Downloaded[0m static_init v1.0.3
+[1m[32m  Downloaded[0m textwrap v0.16.2
+[1m[32m  Downloaded[0m version_check v0.9.5
+[1m[32m  Downloaded[0m stabby-abi v36.1.1
+[1m[32m  Downloaded[0m nu-ansi-term v0.46.0
+[1m[32m  Downloaded[0m nanorand v0.7.0
+[1m[32m  Downloaded[0m os_str_bytes v6.6.1
+[1m[32m  Downloaded[0m hashbrown v0.12.3
+[1m[32m  Downloaded[0m overload v0.1.1
+[1m[32m  Downloaded[0m no-std-net v0.6.0
+[1m[32m  Downloaded[0m hashbrown v0.14.5
+[1m[32m  Downloaded[0m ucd-trie v0.1.6
+[1m[32m  Downloaded[0m itertools v0.13.0
+[1m[32m  Downloaded[0m serde_json v1.0.128
+[1m[32m  Downloaded[0m tokio-rustls v0.26.1
+[1m[32m  Downloaded[0m serde_with v3.12.0
+[1m[32m  Downloaded[0m smallvec v1.13.2
+[1m[32m  Downloaded[0m chrono v0.4.38
+[1m[32m  Downloaded[0m rustls-webpki v0.102.8
+[1m[32m  Downloaded[0m syn v1.0.109
+[1m[32m  Downloaded[0m pnet_datalink v0.35.0
+[1m[32m  Downloaded[0m pest_generator v2.7.12
+[1m[32m  Downloaded[0m pin-project-lite v0.2.14
+[1m[32m  Downloaded[0m num-traits v0.2.19
+[1m[32m  Downloaded[0m toml v0.5.11
+[1m[32m  Downloaded[0m pest_meta v2.7.12
+[1m[32m  Downloaded[0m serde_with_macros v3.12.0
+[1m[32m  Downloaded[0m quote v1.0.37
+[1m[32m  Downloaded[0m serde_derive_internals v0.29.1
+[1m[32m  Downloaded[0m pest_derive v2.7.12
+[1m[32m  Downloaded[0m ron v0.8.1
+[1m[32m  Downloaded[0m clap v3.2.25
+[1m[32m  Downloaded[0m libc v0.2.158
+[1m[32m  Downloaded[0m ryu v1.0.18
+[1m[32m  Downloaded[0m schemars v0.8.21
+[1m[32m  Downloaded[0m sharded-slab v0.1.7
+[1m[32m  Downloaded[0m unsafe-libyaml v0.2.11
+[1m[32m  Downloaded[0m tracing-core v0.1.32
+[1m[32m  Downloaded[0m serde v1.0.210
+[1m[32m  Downloaded[0m tracing v0.1.40
+[1m[32m  Downloaded[0m rusticata-macros v4.1.0
+[1m[32m  Downloaded[0m cbindgen v0.26.0
+[1m[32m  Downloaded[0m rand v0.8.5
+[1m[32m  Downloaded[0m proc-macro2 v1.0.86
+[1m[32m  Downloaded[0m num-bigint v0.4.6
+[1m[32m  Downloaded[0m mio v1.0.2
+[1m[32m  Downloaded[0m nom v7.1.3
+[1m[32m  Downloaded[0m minimal-lexical v0.2.1
+[1m[32m  Downloaded[0m memchr v2.7.4
+[1m[32m  Downloaded[0m regex-automata v0.1.10
+[1m[32m  Downloaded[0m pest v2.7.12
+[1m[32m  Downloaded[0m zerocopy v0.7.35
+[1m[32m  Downloaded[0m x509-parser v0.16.0
+[1m[32m  Downloaded[0m toml_edit v0.22.20
+[1m[32m  Downloaded[0m winnow v0.6.18
+[1m[32m  Downloaded[0m sha2-const-stable v0.1.0
+[1m[32m  Downloaded[0m syn v2.0.87
+[1m[32m  Downloaded[0m regex-syntax v0.6.29
+[1m[32m  Downloaded[0m rustls v0.23.23
+[1m[32m  Downloaded[0m rustix v0.38.37
+[1m[32m  Downloaded[0m regex-syntax v0.8.4
+[1m[32m  Downloaded[0m regex v1.10.6
+[1m[32m  Downloaded[0m regex-automata v0.4.7
+[1m[32m  Downloaded[0m petgraph v0.6.5
+[1m[32m  Downloaded[0m sha3 v0.10.8
+[1m[32m  Downloaded[0m tokio v1.40.0
+[1m[32m  Downloaded[0m nix v0.23.2
+[1m[32m  Downloaded[0m webpki-roots v0.26.5
+[1m[32m  Downloaded[0m tracing-subscriber v0.3.18
+[1m[32m  Downloaded[0m tokio-util v0.7.12
+[1m[32m  Downloaded[0m time v0.3.36
+[1m[32m  Downloaded[0m linux-raw-sys v0.4.14
+[1m[32m  Downloaded[0m ring v0.17.8
+[1m[32m  Downloaded[0m once_cell v1.19.0
+[1m[32m  Downloaded[0m unicode-ident v1.0.13
+[1m[32m  Downloaded[0m typenum v1.17.0
+[1m[32m  Downloaded[0m tls-listener v0.11.0
+[1m[32m  Downloaded[0m futures-util v0.3.30
+[1m[32m  Downloaded[0m aho-corasick v1.1.3
+[1m[32m  Downloaded[0m zeroize v1.8.1
+[1m[32m  Downloaded[0m const_format v0.2.33
+[1m[32m  Downloaded[0m untrusted v0.9.0
+[1m[32m  Downloaded[0m indexmap v2.5.0
+[1m[32m  Downloaded[0m shellexpand v3.1.0
+[1m[32m  Downloaded[0m cc v1.1.20
+[1m[32m  Downloaded[0m base64 v0.21.7
+[1m[32m  Downloaded[0m asn1-rs v0.6.2
+[1m[32m  Downloaded[0m oid-registry v0.7.1
+[1m[32m  Downloaded[0m darling_core v0.20.10
+[1m[32m  Downloaded[0m darling v0.20.10
+[1m[32m  Downloaded[0m event-listener v5.3.1
+[1m[32m  Downloaded[0m const_format_proc_macros v0.2.33
+[1m[32m  Downloaded[0m lock_api v0.4.12
+[1m[32m  Downloaded[0m thiserror v1.0.63
+[1m[32m  Downloaded[0m secrecy v0.8.0
+[1m[32m  Downloaded[0m ringbuffer-spsc v0.1.9
+[1m[32m  Downloaded[0m crossbeam-queue v0.3.12
+[1m[32m  Downloaded[0m futures-channel v0.3.30
+[1m[32m  Downloaded[0m ref-cast v1.0.23
+[1m[32m  Downloaded[0m iana-time-zone v0.1.60
+[1m[32m  Downloaded[0m num_cpus v1.16.0
+[1m[32m  Downloaded[0m bytes v1.7.1
+[1m[32m  Downloaded[0m thiserror v2.0.11
+[1m[32m  Downloaded[0m phf_shared v0.11.2
+[1m[32m  Downloaded[0m async-trait v0.1.82
+[1m[32m  Downloaded[0m fs_extra v1.3.0
+[1m[32m  Downloaded[0m crossbeam-utils v0.8.20
+[1m[32m  Downloaded[0m bitflags v1.3.2
+[1m[32m  Downloaded[0m autocfg v1.3.0
+[1m[32m  Downloaded[0m keccak v0.1.5
+[1m[32m  Downloaded[0m json5 v0.4.1
+[1m[32m  Downloaded[0m inout v0.1.3
+[1m[32m  Downloaded[0m humantime v2.1.0
+[1m[32m  Downloaded[0m generic-array v0.14.7
+[1m[32m  Downloaded[0m fs2 v0.4.3
+[1m[32m  Downloaded[0m either v1.13.0
+[1m[32m  Downloaded[0m crc-catalog v2.4.0
+[1m[32m  Downloaded[0m leb128 v0.2.5
+[1m[32m  Downloaded[0m crypto-common v0.1.6
+[1m[32m   Compiling[0m proc-macro2 v1.0.86
+[1m[32m   Compiling[0m unicode-ident v1.0.13
+[1m[32m   Compiling[0m libc v0.2.158
+[1m[32m   Compiling[0m autocfg v1.3.0
+[1m[32m   Compiling[0m version_check v0.9.5
+[1m[32m   Compiling[0m serde v1.0.210
+[1m[32m   Compiling[0m cfg-if v1.0.0
+[1m[32m   Compiling[0m byteorder v1.5.0
+[1m[32m   Compiling[0m once_cell v1.19.0
+[1m[32m   Compiling[0m memchr v2.7.4
+[1m[32m   Compiling[0m ahash v0.8.11
+[1m[32m   Compiling[0m serde_json v1.0.128
+[1m[32m   Compiling[0m allocator-api2 v0.2.18
+[1m[32m   Compiling[0m anyhow v1.0.89
+[1m[32m   Compiling[0m pin-project-lite v0.2.14
+[1m[32m   Compiling[0m quote v1.0.37
+[1m[32m   Compiling[0m itoa v1.0.11
+[1m[32m   Compiling[0m ryu v1.0.18
+[1m[32m   Compiling[0m syn v1.0.109
+[1m[32m   Compiling[0m schemars v0.8.21
+[1m[32m   Compiling[0m syn v2.0.87
+[1m[32m   Compiling[0m paste v1.0.15
+[1m[32m   Compiling[0m getrandom v0.2.15
+[1m[32m   Compiling[0m lock_api v0.4.12
+[1m[32m   Compiling[0m thiserror v1.0.63
+[1m[32m   Compiling[0m rand_core v0.6.4
+[1m[32m   Compiling[0m scopeguard v1.2.0
+[1m[32m   Compiling[0m lazy_static v1.5.0
+[1m[32m   Compiling[0m tracing-core v0.1.32
+[1m[32m   Compiling[0m log v0.4.22
+[1m[32m   Compiling[0m bytes v1.7.1
+[1m[32m   Compiling[0m zenoh-result v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m spin v0.9.8
+[1m[32m   Compiling[0m mio v1.0.2
+[1m[32m   Compiling[0m socket2 v0.5.7
+[1m[32m   Compiling[0m dyn-clone v1.0.17
+[1m[32m   Compiling[0m futures-core v0.3.30
+[1m[32m   Compiling[0m either v1.13.0
+[1m[32m   Compiling[0m futures-sink v0.3.30
+[1m[32m   Compiling[0m token-cell v1.5.0
+[1m[32m   Compiling[0m num-traits v0.2.19
+[1m[32m   Compiling[0m zenoh-macros v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m equivalent v1.0.1
+[1m[32m   Compiling[0m base64 v0.21.7
+[1m[32m   Compiling[0m slab v0.4.9
+[1m[32m   Compiling[0m shlex v1.3.0
+[1m[32m   Compiling[0m crossbeam-utils v0.8.20
+[1m[32m   Compiling[0m cc v1.1.20
+[1m[32m   Compiling[0m cfg_aliases v0.1.1
+[1m[32m   Compiling[0m futures-channel v0.3.30
+[1m[32m   Compiling[0m typenum v1.17.0
+[1m[32m   Compiling[0m subtle v2.6.1
+[1m[32m   Compiling[0m futures-io v0.3.30
+[1m[32m   Compiling[0m futures-task v0.3.30
+[1m[32m   Compiling[0m zenoh-collections v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m winnow v0.6.18
+[1m[32m   Compiling[0m pin-utils v0.1.0
+[1m[32m   Compiling[0m unicode-xid v0.2.5
+[1m[32m   Compiling[0m rustversion v1.0.17
+[1m[32m   Compiling[0m toml_datetime v0.6.8
+[1m[32m   Compiling[0m zenoh-buffers v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m const_format_proc_macros v0.2.33
+[1m[32m   Compiling[0m memoffset v0.6.5
+[1m[32m   Compiling[0m generic-array v0.14.7
+[1m[32m   Compiling[0m num-conv v0.1.0
+[1m[32m   Compiling[0m powerfmt v0.2.0
+[1m[32m   Compiling[0m option-ext v0.2.0
+[1m[32m   Compiling[0m humantime v2.1.0
+[1m[32m   Compiling[0m regex-syntax v0.8.4
+[1m[32m   Compiling[0m stabby-macros v36.1.1
+[1m[32m   Compiling[0m ring v0.17.8
+[1m[32m   Compiling[0m zeroize v1.8.1
+[1m[32m   Compiling[0m regex-syntax v0.6.29
+[1m[32m   Compiling[0m ucd-trie v0.1.6
+[1m[32m   Compiling[0m time-core v0.1.2
+[1m[32m   Compiling[0m rustls-pki-types v1.11.0
+[1m[32m   Compiling[0m time-macros v0.2.18
+[1m[32m   Compiling[0m serde_derive_internals v0.29.1
+[1m[32m   Compiling[0m const_format v0.2.33
+[1m[32m   Compiling[0m regex-automata v0.4.7
+[1m[32m   Compiling[0m regex-automata v0.1.10
+[1m[32m   Compiling[0m deranged v0.3.11
+[1m[32m   Compiling[0m dirs-sys v0.4.1
+[1m[32m   Compiling[0m zerocopy-derive v0.7.35
+[1m[32m   Compiling[0m serde_derive v1.0.210
+[1m[32m   Compiling[0m schemars_derive v0.8.21
+[1m[32m   Compiling[0m tokio-macros v2.4.0
+[1m[32m   Compiling[0m thiserror-impl v1.0.63
+[1m[32m   Compiling[0m tracing-attributes v0.1.27
+[1m[32m   Compiling[0m zerocopy v0.7.35
+[1m[32m   Compiling[0m ppv-lite86 v0.2.20
+[1m[32m   Compiling[0m rand_chacha v0.3.1
+[1m[32m   Compiling[0m hashbrown v0.14.5
+[1m[32m   Compiling[0m tokio v1.40.0
+[1m[32m   Compiling[0m rand v0.8.5
+[1m[32m   Compiling[0m keyed-set v1.0.0
+[1m[32m   Compiling[0m indexmap v2.5.0
+[1m[32m   Compiling[0m tracing v0.1.40
+[1m[32m   Compiling[0m futures-macro v0.3.30
+[1m[32m   Compiling[0m pest v2.7.12
+[1m[32m   Compiling[0m async-trait v0.1.82
+[1m[32m   Compiling[0m toml_edit v0.22.20
+[1m[32m   Compiling[0m futures-util v0.3.30
+[1m[32m   Compiling[0m static_init_macro v1.0.2
+[1m[32m   Compiling[0m untrusted v0.9.0
+[1m[32m   Compiling[0m stabby-abi v36.1.1
+[1m[32m   Compiling[0m ident_case v1.0.1
+[1m[32m   Compiling[0m strsim v0.11.1
+[1m[32m   Compiling[0m no-std-net v0.6.0
+[1m[32m   Compiling[0m overload v0.1.1
+[1m[32m   Compiling[0m fnv v1.0.7
+[1m[32m   Compiling[0m bitflags v1.3.2
+[1m[32m   Compiling[0m proc-macro-crate v3.2.0
+[1m[32m   Compiling[0m time v0.3.36
+[1m[32m   Compiling[0m darling_core v0.20.10
+[1m[32m   Compiling[0m nu-ansi-term v0.46.0
+[1m[32m   Compiling[0m pnet_base v0.35.0
+[1m[32m   Compiling[0m bitflags v2.6.0
+[1m[32m   Compiling[0m ron v0.8.1
+[1m[32m   Compiling[0m ipnetwork v0.20.0
+[1m[32m   Compiling[0m uhlc v0.8.0
+[1m[32m   Compiling[0m tracing-serde v0.1.3
+[1m[32m   Compiling[0m pest_meta v2.7.12
+[1m[32m   Compiling[0m zenoh-keyexpr v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m dirs v5.0.1
+[1m[32m   Compiling[0m regex v1.10.6
+[1m[32m   Compiling[0m matchers v0.1.0
+[1m[32m   Compiling[0m static_init v1.0.3
+[1m[32m   Compiling[0m nanorand v0.7.0
+[1m[32m   Compiling[0m tracing-log v0.2.0
+[1m[32m   Compiling[0m pnet_sys v0.35.0
+[1m[32m   Compiling[0m sharded-slab v0.1.7
+[1m[32m   Compiling[0m thread_local v1.1.8
+[1m[32m   Compiling[0m sha2-const-stable v0.1.0
+[1m[32m   Compiling[0m stabby v36.1.1
+[1m[32m   Compiling[0m smallvec v1.13.2
+[1m[32m   Compiling[0m rustls v0.23.23
+[1m[32m   Compiling[0m zenoh-protocol v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m pnet_datalink v0.35.0
+[1m[32m   Compiling[0m tracing-subscriber v0.3.18
+[1m[32m   Compiling[0m flume v0.11.0
+[1m[32m   Compiling[0m pest_generator v2.7.12
+[1m[32m   Compiling[0m shellexpand v3.1.0
+[1m[32m   Compiling[0m zenoh-runtime v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m nix v0.23.2
+[1m[32m   Compiling[0m zenoh-core v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m darling_macro v0.20.10
+[1m[32m   Compiling[0m rustls-webpki v0.102.8
+[1m[32m   Compiling[0m futures-executor v0.3.30
+[1m[32m   Compiling[0m libloading v0.8.5
+[1m[32m   Compiling[0m minimal-lexical v0.2.1
+[1m[32m   Compiling[0m crc-catalog v2.4.0
+[1m[32m   Compiling[0m home v0.5.9
+[1m[32m   Compiling[0m crc v3.2.1
+[1m[32m   Compiling[0m zenoh-util v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m nom v7.1.3
+[1m[32m   Compiling[0m shared_memory v0.12.4
+[1m[32m   Compiling[0m futures v0.3.30
+[1m[32m   Compiling[0m pest_derive v2.7.12
+[1m[32m   Compiling[0m darling v0.20.10
+[1m[32m   Compiling[0m thread-priority v1.1.0
+[1m[32m   Compiling[0m unzip-n v0.1.2
+[1m[32m   Compiling[0m synstructure v0.13.1
+[1m[32m   Compiling[0m crossbeam-queue v0.3.12
+[1m[32m   Compiling[0m advisory-lock v0.3.0
+[1m[32m   Compiling[0m json5 v0.4.1
+[1m[32m   Compiling[0m serde_with_macros v3.12.0
+[1m[32m   Compiling[0m validated_struct_macros v2.1.0
+[1m[32m   Compiling[0m asn1-rs-derive v0.5.1
+[1m[32m   Compiling[0m rusticata-macros v4.1.0
+[1m[32m   Compiling[0m crypto-common v0.1.6
+[1m[32m   Compiling[0m tokio-util v0.7.12
+[1m[32m   Compiling[0m displaydoc v0.2.5
+[1m[32m   Compiling[0m asn1-rs-impl v0.2.0
+[1m[32m   Compiling[0m unsafe-libyaml v0.2.11
+[1m[32m   Compiling[0m siphasher v0.3.11
+[1m[32m   Compiling[0m phf_shared v0.11.2
+[1m[32m   Compiling[0m serde_with v3.12.0
+[1m[32m   Compiling[0m asn1-rs v0.6.2
+[1m[32m   Compiling[0m validated_struct v2.1.0
+[1m[32m   Compiling[0m secrecy v0.8.0
+[1m[32m   Compiling[0m num-integer v0.1.46
+[1m[32m   Compiling[0m serde_yaml v0.9.34+deprecated
+[1m[32m   Compiling[0m num_cpus v1.16.0
+[1m[32m   Compiling[0m thiserror v2.0.11
+[1m[32m   Compiling[0m oid-registry v0.7.1
+[1m[32m   Compiling[0m num-bigint v0.4.6
+[1m[32m   Compiling[0m phf_generator v0.11.2
+[1m[32m   Compiling[0m block-buffer v0.10.4
+[1m[32m   Compiling[0m thiserror-impl v2.0.11
+[1m[32m   Compiling[0m concurrent-queue v2.5.0
+[1m[32m   Compiling[0m cpufeatures v0.2.14
+[1m[32m   Compiling[0m semver v1.0.23
+[1m[32m   Compiling[0m zenoh-config v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m parking v2.2.1
+[1m[32m   Compiling[0m event-listener v5.3.1
+[1m[32m   Compiling[0m digest v0.10.7
+[1m[32m   Compiling[0m der-parser v9.0.0
+[1m[32m   Compiling[0m phf_macros v0.11.2
+[1m[32m   Compiling[0m tokio-rustls v0.26.1
+[1m[32m   Compiling[0m inout v0.1.3
+[1m[32m   Compiling[0m indexmap v1.9.3
+[1m[32m   Compiling[0m rustix v0.38.37
+[1m[32m   Compiling[0m base64 v0.22.1
+[1m[32m   Compiling[0m data-encoding v2.6.0
+[1m[32m   Compiling[0m cipher v0.4.4
+[1m[32m   Compiling[0m tls-listener v0.11.0
+[1m[32m   Compiling[0m rustls-pemfile v2.1.3
+[1m[32m   Compiling[0m zenoh-sync v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m keccak v0.1.5
+[1m[32m   Compiling[0m x509-parser v0.16.0
+[1m[32m   Compiling[0m webpki-roots v0.26.5
+[1m[32m   Compiling[0m hashbrown v0.12.3
+[1m[32m   Compiling[0m linux-raw-sys v0.4.14
+[1m[32m   Compiling[0m os_str_bytes v6.6.1
+[1m[32m   Compiling[0m static_assertions v1.1.0
+[1m[32m   Compiling[0m twox-hash v1.6.3
+[1m[32m   Compiling[0m clap_lex v0.2.4
+[1m[32m   Compiling[0m sha3 v0.10.8
+[1m[32m   Compiling[0m rustc_version v0.4.1
+[1m[32m   Compiling[0m aes v0.8.4
+[1m[32m   Compiling[0m hmac v0.12.1
+[1m[32m   Compiling[0m git-version-macro v0.3.9
+[1m[32m   Compiling[0m atty v0.2.14
+[1m[32m   Compiling[0m aho-corasick v1.1.3
+[1m[32m   Compiling[0m termcolor v1.4.1
+[1m[32m   Compiling[0m cbindgen v0.26.0
+[1m[32m   Compiling[0m textwrap v0.16.2
+[1m[32m   Compiling[0m cache-padded v1.3.0
+[1m[32m   Compiling[0m strsim v0.10.0
+[1m[32m   Compiling[0m fastrand v2.1.1
+[1m[32m   Compiling[0m array-init v2.1.0
+[1m[32m   Compiling[0m ref-cast v1.0.23
+[1m[32m   Compiling[0m clap v3.2.25
+[1m[32m   Compiling[0m ringbuffer-spsc v0.1.9
+[1m[32m   Compiling[0m tempfile v3.12.0
+[1m[32m   Compiling[0m git-version v0.3.9
+[1m[32m   Compiling[0m zenoh-crypto v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m zenoh v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m lz4_flex v0.11.3
+[1m[32m   Compiling[0m zenoh-task v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m toml v0.5.11
+[1m[32m   Compiling[0m ref-cast-impl v1.0.23
+[1m[32m   Compiling[0m heck v0.4.1
+[1m[32m   Compiling[0m fixedbitset v0.4.2
+[1m[32m   Compiling[0m petgraph v0.6.5
+[1m[32m   Compiling[0m zenoh-plugin-trait v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m phf v0.11.2
+[1m[32m   Compiling[0m itertools v0.13.0
+[1m[32m   Compiling[0m fs2 v0.4.3
+[1m[32m   Compiling[0m vec_map v0.8.2
+[1m[32m   Compiling[0m evalexpr v11.3.1
+[1m[32m   Compiling[0m fs_extra v1.3.0
+[1m[32m   Compiling[0m bincode v1.3.3
+[1m[32m   Compiling[0m iana-time-zone v0.1.60
+[1m[32m   Compiling[0m leb128 v0.2.5
+[1m[32m   Compiling[0m chrono v0.4.38
+[1m[32m   Compiling[0m unwrap-infallible v0.1.5
+[1m[32m   Compiling[0m zenoh-c v1.2.1 (/home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release)
+[1m[32m   Compiling[0m zenoh-shm v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m zenoh-codec v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m zenoh-link-commons v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m zenoh-link-udp v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m zenoh-link-tls v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m zenoh-link-tcp v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m zenoh-link v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m zenoh-transport v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m   Compiling[0m zenoh-ext v1.2.1 (https://github.com/eclipse-zenoh/zenoh.git?branch=main#f735bf58)
+[1m[32m    Finished[0m release [optimized] target(s) in 14m 47s
+Built target cargo
+[ 12%] [34m[1mPerforming install step for 'zenoh_c_vendor'[0m
+Built target cargo
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_configure.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_opaque.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_commons.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_concrete.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_constants.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_macros.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/include/zenoh_memory.h
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/lib/libzenohc.so
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/lib/pkgconfig/zenohc.pc
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/lib/libzenohc.a
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/lib/cmake/zenohc/zenohcConfig.cmake
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_c_vendor-prefix/install/lib/cmake/zenohc/zenohcConfigVersion.cmake
+[ 18%] [34m[1mCompleted 'zenoh_c_vendor'[0m
+[ 50%] Built target zenoh_c_vendor
+[ 56%] [34m[1mCreating directories for 'zenoh_cpp_vendor'[0m
+[ 62%] [34m[1mPerforming download step for 'zenoh_cpp_vendor'[0m
+/usr/bin/vcs:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import load_entry_point
+[34m=== [1m./zenoh_cpp_vendor[22m (git) ===[0m
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/src/zenoh_cpp_vendor/.git/
+
+From https://github.com/eclipse-zenoh/zenoh-cpp
+ * branch            2a127bb0f537e0028359caf1084c879330341592 -> FETCH_HEAD
+Note: switching to '2a127bb0f537e0028359caf1084c879330341592'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 2a127bb add support for allowed_origin Queryable option (#424)
+Submodule 'zenoh-c' (https://github.com/eclipse-zenoh/zenoh-c.git) registered for path 'zenoh-c'
+Submodule 'zenoh-pico' (https://github.com/eclipse-zenoh/zenoh-pico.git) registered for path 'zenoh-pico'
+Cloning into '/home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/src/zenoh_cpp_vendor/zenoh-c'...
+Cloning into '/home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/src/zenoh_cpp_vendor/zenoh-pico'...
+Submodule path 'zenoh-c': checked out '89acbaa8cbee8c63bc58052a18706e5e6b34cf45'
+Submodule path 'zenoh-pico': checked out '1238f04f5fd14161b6d0009b067a1f4a8a3a2acf'
+[ 68%] [34m[1mNo update_disconnected step for 'zenoh_cpp_vendor'[0m
+[ 75%] [34m[1mNo patch_disconnected step for 'zenoh_cpp_vendor'[0m
+[ 81%] [34m[1mPerforming configure step for 'zenoh_cpp_vendor'[0m
+loading initial cache file /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-config.cmake
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- project_version = 1.2.1
+-- ZENOHCXX_ZENOHC = OFF
+-- ZENOHCXX_ZENOHPICO = OFF
+-- ZENOHCXX_EXAMPLES_PROTOBUF = ON
+-- ZENOHCXX_ENABLE_TESTS = ON
+-- ZENOHCXX_ENABLE_EXAMPLES = ON
+-- CMAKE_BUILD_TYPE = Release
+-- CMAKE_INSTALL_PREFIX = /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+-- zenoh-cxx tests
+-- zenoh-cxx docs
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Doxygen not found, skipping docs
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/src/zenoh_cpp_vendor-build
+[ 87%] [34m[1mPerforming build step for 'zenoh_cpp_vendor'[0m
+[ 93%] [34m[1mPerforming install step for 'zenoh_cpp_vendor'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/scout.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/queryable.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/subscriber.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/logging.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/matching.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/liveliness.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/id.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/interop.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/enums.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/channels.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/query_consolidation.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/publisher.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/querier.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/miss.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/querying_subscriber.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/advanced_subscriber.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/advanced_publisher.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/session_ext.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/publication_cache.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/ext/serialization.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/source_info.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/buffer
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/buffer/zshmmut.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/buffer/zshm.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/buffer/buffer.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/shm.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/client_storage
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/client_storage/client_storage.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/client
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/client/shm_segment.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/client/shm_client.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/client/client.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/shm_provider_backend.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/shm_provider.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/chunk.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/provider.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/types_impl.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/alloc_layout.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/provider/types.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/common
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/common/types.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/common/common.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/cleanup.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/protocol_implementations
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/protocol_implementations/posix
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/protocol_implementations/posix/posix_shm_client.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/protocol_implementations/posix/posix_shm_provider.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/protocol_implementations/posix/posix.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/shm/protocol_implementations/protocol_implementations.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/hello.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/timestamp.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/bytes.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/session.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/query.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/sample.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/encoding.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/base.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/closures.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/keyexpr.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/reply.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/api/config.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/detail
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/detail/closures_concrete.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/detail/commons.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/detail/availability_checks.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/detail/closures.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh/zenohc.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/include/zenoh.hxx
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/lib/pkgconfig/zenohcxx.pc
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/lib/cmake/zenohcxx/zenohcxxConfig.cmake
+-- Installing: /home/ws/build/zenoh_cpp_vendor/zenoh_cpp_vendor-prefix/install/lib/cmake/zenohcxx/zenohcxxConfigVersion.cmake
+[100%] [34m[1mCompleted 'zenoh_cpp_vendor'[0m
+[100%] Built target zenoh_cpp_vendor
+-- Install configuration: "Release"
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/libzenohc.so
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/pkgconfig
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/pkgconfig/zenohc.pc
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/libzenohc.a
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohc
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohc/zenohcConfig.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohc/zenohcConfigVersion.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_configure.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_opaque.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_commons.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_concrete.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_constants.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_macros.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh_memory.h
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/vendor_package.bat
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/vendor_package.dsv
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/vendor_package.sh
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/ament_index/resource_index/vendor_packages/zenoh_cpp_vendor
+-- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor
+-- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib
+-- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/pkgconfig
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/pkgconfig/zenohcxx.pc
+-- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohcxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohcxx/zenohcxxConfig.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib/cmake/zenohcxx/zenohcxxConfigVersion.cmake
+-- Up-to-date: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/scout.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/queryable.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/subscriber.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/logging.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/matching.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/liveliness.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/id.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/interop.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/enums.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/channels.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/query_consolidation.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/publisher.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/querier.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/miss.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/querying_subscriber.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/advanced_subscriber.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/advanced_publisher.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/session_ext.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/publication_cache.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/ext/serialization.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/source_info.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/buffer
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/buffer/zshmmut.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/buffer/zshm.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/buffer/buffer.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/shm.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client_storage
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client_storage/client_storage.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client/shm_segment.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client/shm_client.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/client/client.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/shm_provider_backend.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/shm_provider.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/chunk.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/provider.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/types_impl.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/alloc_layout.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/provider/types.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/common
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/common/types.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/common/common.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/cleanup.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/posix
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/posix/posix_shm_client.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/posix/posix_shm_provider.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/posix/posix.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/shm/protocol_implementations/protocol_implementations.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/hello.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/timestamp.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/bytes.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/session.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/query.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/sample.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/encoding.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/base.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/closures.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/keyexpr.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/reply.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/api/config.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail/closures_concrete.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail/commons.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail/availability_checks.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/detail/closures.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh/zenohc.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/include/zenoh.hxx
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/ament_index/resource_index/package_run_dependencies/zenoh_cpp_vendor
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/ament_index/resource_index/parent_prefix_path/zenoh_cpp_vendor
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/ament_prefix_path.sh
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/ament_prefix_path.dsv
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/path.sh
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/environment/path.dsv
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/local_setup.bash
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/local_setup.sh
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/local_setup.zsh
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/local_setup.dsv
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.dsv
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/ament_index/resource_index/packages/zenoh_cpp_vendor
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake/vendor_package_cmake_prefix.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake/zenoh_cpp_vendorConfig.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/cmake/zenoh_cpp_vendorConfig-version.cmake
+-- Installing: /home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.xml
