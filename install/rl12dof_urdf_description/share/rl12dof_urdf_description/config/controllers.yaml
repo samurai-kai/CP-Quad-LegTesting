@@ -1,0 +1,25 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 500   # important for PD tuning
+
+joint_state_broadcaster:
+  ros__parameters:
+    type: joint_state_broadcaster/JointStateBroadcaster
+
+joint_group_position_controller:
+  ros__parameters:
+    type: position_controllers/JointGroupPositionController
+
+    joints:
+      - link1_to_base
+      - link2_to_link1
+      - link3_to_link2
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+      - velocity
+    
+    command_topic: /joint_group_position_controller/command

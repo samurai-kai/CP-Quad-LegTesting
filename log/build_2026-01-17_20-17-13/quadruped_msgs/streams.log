@@ -1,0 +1,24 @@
+[0.557s] Invoking command in '/home/ws/build/quadruped_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_msgs -- -j8 -l8
+[0.705s] [  1%] Built target quadruped_msgs__rosidl_generator_type_description
+[0.777s] [  3%] Built target quadruped_msgs__cpp
+[0.777s] [  3%] Built target ament_cmake_python_copy_quadruped_msgs
+[0.783s] [ 25%] Built target quadruped_msgs__rosidl_generator_c
+[0.887s] [ 34%] Built target quadruped_msgs__rosidl_typesupport_introspection_cpp
+[0.887s] [ 43%] Built target quadruped_msgs__rosidl_typesupport_fastrtps_cpp
+[0.888s] [ 53%] Built target quadruped_msgs__rosidl_typesupport_c
+[0.888s] [ 62%] Built target quadruped_msgs__rosidl_typesupport_cpp
+[0.913s] [ 71%] Built target quadruped_msgs__rosidl_typesupport_fastrtps_c
+[0.948s] [ 81%] Built target quadruped_msgs__rosidl_typesupport_introspection_c
+[1.038s] [ 81%] Built target quadruped_msgs
+[1.109s] [ 82%] Built target quadruped_msgs__py
+[1.194s] [ 90%] Built target quadruped_msgs__rosidl_generator_py
+[1.254s] [ 93%] Built target quadruped_msgs_s__rosidl_typesupport_introspection_c
+[1.282s] [ 96%] Built target quadruped_msgs_s__rosidl_typesupport_fastrtps_c
+[1.333s] [100%] Built target quadruped_msgs_s__rosidl_typesupport_c
+[1.469s] running egg_info
+[1.510s] writing quadruped_msgs.egg-info/PKG-INFO
+[1.511s] writing dependency_links to quadruped_msgs.egg-info/dependency_links.txt
+[1.513s] writing top-level names to quadruped_msgs.egg-info/top_level.txt
+[1.635s] reading manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+[1.636s] writing manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+[1.717s] [100%] Built target ament_cmake_python_build_quadruped_msgs_egg

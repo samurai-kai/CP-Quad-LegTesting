@@ -1,0 +1,4 @@
+source;share/rl12dof_urdf_description/local_setup.bash
+source;share/rl12dof_urdf_description/local_setup.dsv
+source;share/rl12dof_urdf_description/local_setup.sh
+source;share/rl12dof_urdf_description/local_setup.zsh

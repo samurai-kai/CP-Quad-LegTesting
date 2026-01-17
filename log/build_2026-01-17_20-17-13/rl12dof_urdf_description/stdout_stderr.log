@@ -1,0 +1,9 @@
+-- Install configuration: "Release"
+-- Up-to-date: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/FKTestNode.py
+-- Up-to-date: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/IKTestNode.py
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/ws/src/rl12dof_urdf_description/scripts/impedance_force_node.py": No
+  such file or directory.
+
+[0m

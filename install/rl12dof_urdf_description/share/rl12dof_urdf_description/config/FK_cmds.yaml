@@ -1,0 +1,14 @@
+FKTestNode:
+  ros__parameters:
+    input_in_degrees: true
+    step_loop: true
+
+    command_period: 4.0
+
+    joint_sequence_flat:
+      - 45.0
+      - 30.0
+      - 60.0
+      - 45.0
+      - 30.0
+      - 70.0

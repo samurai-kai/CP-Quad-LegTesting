@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="foot_test">
+
+    <!-- Physics: ODE -->
+    <physics name="ode_physics" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    
+    <light name="sun" type="directional">
+      <pose>0 0 10 0 0 0</pose>
+
+      <!-- Softer, matte lighting -->
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0 0 0 1</specular>     <!-- KILLS glare -->
+      <direction>-0.5 0.1 -1</direction>
+
+      <!-- Optional but recommended for sim clarity -->
+      <cast_shadows>false</cast_shadows>
+    </light>
+
+    <!-- Ground plane with friction -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>2.0</mu>
+                <mu2>2.0</mu2>
+                <slip1>0.0</slip1>
+                <slip2>0.0</slip2>
+              </ode>
+            </friction>
+            <contact>
+              <ode>
+                <kp>5000000</kp>
+                <kd>500</kd>
+                <min_depth>0.0005</min_depth>
+                <max_vel>0.01</max_vel>
+              </ode>
+            </contact>
+          </surface>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+
+          <material>
+            <ambient>0.6 0.6 0.6 1</ambient>
+            <diffuse>0.6 0.6 0.6 1</diffuse>
+            <specular>0 0 0 1</specular>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+  </world>
+</sdf>

@@ -1,0 +1,32 @@
+[0.183s] Invoking command in '/home/ws/build/rl12dof_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/rl12dof_urdf_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/rl12dof_urdf_description
+[0.583s] -- The C compiler identification is GNU 13.3.0
+[0.794s] -- The CXX compiler identification is GNU 13.3.0
+[0.854s] -- Detecting C compiler ABI info
+[1.176s] -- Detecting C compiler ABI info - done
+[1.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.194s] -- Detecting C compile features
+[1.195s] -- Detecting C compile features - done
+[1.230s] -- Detecting CXX compiler ABI info
+[1.473s] -- Detecting CXX compiler ABI info - done
+[1.501s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.502s] -- Detecting CXX compile features
+[1.502s] -- Detecting CXX compile features - done
+[1.529s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.970s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.726s] -- Configuring done (2.5s)
+[2.734s] -- Generating done (0.0s)
+[2.743s] -- Build files have been written to: /home/ws/build/rl12dof_urdf_description
+[2.762s] Invoked command in '/home/ws/build/rl12dof_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/rl12dof_urdf_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/rl12dof_urdf_description
+[2.763s] Invoking command in '/home/ws/build/rl12dof_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/rl12dof_urdf_description -- -j8 -l8
+[2.872s] Invoked command in '/home/ws/build/rl12dof_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/rl12dof_urdf_description -- -j8 -l8
+[2.872s] Invoking command in '/home/ws/build/rl12dof_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/rl12dof_urdf_description
+[2.894s] -- Install configuration: "Release"
+[2.894s] -- Installing: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/FKTestNode.py
+[2.896s] [31mCMake Error at cmake_install.cmake:46 (file):
+[2.896s]   file INSTALL cannot find
+[2.896s]   "/home/ws/src/rl12dof_urdf_description/scripts/impedance_force_node.py": No
+[2.896s]   such file or directory.
+[2.897s] 
+[2.897s] [0m
+[2.897s] -- Installing: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/IKTestNode.py
+[2.909s] Invoked command in '/home/ws/build/rl12dof_urdf_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/rl12dof_urdf_description

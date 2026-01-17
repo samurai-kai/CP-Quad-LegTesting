@@ -1,0 +1,23 @@
+[  1%] Built target quadruped_msgs__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_copy_quadruped_msgs
+[ 23%] Built target quadruped_msgs__rosidl_generator_c
+[ 25%] Built target quadruped_msgs__cpp
+[ 34%] Built target quadruped_msgs__rosidl_typesupport_fastrtps_c
+[ 53%] Built target quadruped_msgs__rosidl_typesupport_introspection_c
+[ 53%] Built target quadruped_msgs__rosidl_typesupport_c
+[ 62%] Built target quadruped_msgs__rosidl_typesupport_introspection_cpp
+[ 71%] Built target quadruped_msgs__rosidl_typesupport_fastrtps_cpp
+[ 81%] Built target quadruped_msgs__rosidl_typesupport_cpp
+[ 81%] Built target quadruped_msgs
+[ 82%] Built target quadruped_msgs__py
+[ 90%] Built target quadruped_msgs__rosidl_generator_py
+running egg_info
+writing quadruped_msgs.egg-info/PKG-INFO
+writing dependency_links to quadruped_msgs.egg-info/dependency_links.txt
+writing top-level names to quadruped_msgs.egg-info/top_level.txt
+[ 93%] Built target quadruped_msgs_s__rosidl_typesupport_fastrtps_c
+[ 96%] Built target quadruped_msgs_s__rosidl_typesupport_c
+[100%] Built target quadruped_msgs_s__rosidl_typesupport_introspection_c
+reading manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+writing manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_quadruped_msgs_egg

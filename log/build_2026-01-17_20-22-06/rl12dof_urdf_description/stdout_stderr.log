@@ -1,0 +1,60 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/rl12dof_urdf_description
+-- Install configuration: "Release"
+-- Up-to-date: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/FKTestNode.py
+-- Up-to-date: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/IKTestNode.py
+-- Installing: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/safety.py
+-- Installing: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/jacobian_numeric.py
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/launch
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/launch/FKTest.launch.py
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/launch/gazebo_sim.launch.py
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/launch/display.launch.py
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/launch/IKTest.launch.py
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/launch/real_urdf.launch.py
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config/FK_cmds.yaml
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config/display.rviz
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config/IK_cmds.yaml
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config/ros_gz_bridge_gazebo.yaml
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config/controllers.yaml
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_ros2_control.xacro
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/materials.xacro
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_urdf.xacro
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_urdf.ros2control.xacro
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_links_joints.xacro
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_URDF_real.urdf.xacro
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_links_joints_hardware.xacro
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_urdf.gazebo.xacro
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Hip_Pitch_v1_1.stl
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Outer_Motor_Coupling_v25_1.stl
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Inner_Motor_Coupling_v26_1.stl
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Hip_Link_v28_1.stl
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Right_Femur_Housing_v1_1.stl
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Right_Femur_Thigh_Cap_v1_1.stl
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Tibia_Link_v97_1.stl
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Foot_V3_Foot_v1_1.stl
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Knee_Driven_Gear_v1_1.stl
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Knee_Pitch_v1_1.stl
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/base_link.stl
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Knee_Drive_Gear_v22_1.stl
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/worlds
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/worlds/foot_test.sdf
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/ament_index/resource_index/package_run_dependencies/rl12dof_urdf_description
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/ament_index/resource_index/parent_prefix_path/rl12dof_urdf_description
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/environment/ament_prefix_path.sh
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/environment/ament_prefix_path.dsv
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/environment/path.sh
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/environment/path.dsv
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/local_setup.bash
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/local_setup.sh
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/local_setup.zsh
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/local_setup.dsv
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.dsv
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/ament_index/resource_index/packages/rl12dof_urdf_description
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/cmake/rl12dof_urdf_descriptionConfig.cmake
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/cmake/rl12dof_urdf_descriptionConfig-version.cmake
+-- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.xml

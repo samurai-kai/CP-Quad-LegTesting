@@ -13,8 +13,8 @@ controller_manager:
       publish_rate: 100
       sensor_name: "imu_sensor"
 
-    state_estimator:
-      type: quadruped_mpc/state_estimator
+    # state_estimator:
+    #   type: quadruped_mpc/state_estimator
 
     gait_pattern_generator:
       type: quadruped_mpc/gait_pattern_generator
@@ -123,9 +123,9 @@ joint_position_controller:
 joint_group_position_controller:
   ros__parameters:
       joints:
-        - fr_hip
-        # - fr_knee
-      # interface_name: position
+        - link1_to_base
+        - link2_to_link1
+        - link3_to_link2
       command_topic: /joint_group_position_controller/command
 
 

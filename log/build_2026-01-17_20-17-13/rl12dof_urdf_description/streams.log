@@ -1,0 +1,13 @@
+[0.109s] Invoking command in '/home/ws/build/rl12dof_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/rl12dof_urdf_description -- -j8 -l8
+[0.336s] Invoked command in '/home/ws/build/rl12dof_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/rl12dof_urdf_description -- -j8 -l8
+[0.338s] Invoking command in '/home/ws/build/rl12dof_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/rl12dof_urdf_description
+[0.382s] -- Install configuration: "Release"
+[0.382s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/FKTestNode.py
+[0.383s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/IKTestNode.py
+[0.383s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.383s]   file INSTALL cannot find
+[0.383s]   "/home/ws/src/rl12dof_urdf_description/scripts/impedance_force_node.py": No
+[0.383s]   such file or directory.
+[0.384s] 
+[0.384s] [0m
+[0.391s] Invoked command in '/home/ws/build/rl12dof_urdf_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/rl12dof_urdf_description

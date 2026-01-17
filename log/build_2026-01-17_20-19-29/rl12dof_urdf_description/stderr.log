@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/ws/src/rl12dof_urdf_description/scripts/impedance_force_node.py": No
+  such file or directory.
+
+[0m

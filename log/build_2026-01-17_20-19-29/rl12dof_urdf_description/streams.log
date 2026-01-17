@@ -1,0 +1,13 @@
+[0.121s] Invoking command in '/home/ws/build/rl12dof_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/rl12dof_urdf_description -- -j8 -l8
+[0.248s] Invoked command in '/home/ws/build/rl12dof_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/rl12dof_urdf_description -- -j8 -l8
+[0.251s] Invoking command in '/home/ws/build/rl12dof_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/rl12dof_urdf_description
+[0.273s] -- Install configuration: "Release"
+[0.274s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.274s]   file INSTALL cannot find
+[0.274s]   "/home/ws/src/rl12dof_urdf_description/scripts/impedance_force_node.py": No
+[0.274s]   such file or directory.
+[0.274s] 
+[0.274s] [0m
+[0.275s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/FKTestNode.py
+[0.275s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/IKTestNode.py
+[0.279s] Invoked command in '/home/ws/build/rl12dof_urdf_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/rl12dof_urdf_description

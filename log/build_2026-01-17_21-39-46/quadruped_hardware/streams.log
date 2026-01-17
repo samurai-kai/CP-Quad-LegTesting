@@ -1,0 +1,65 @@
+[0.630s] Invoking command in '/home/ws/build/quadruped_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_hardware -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_hardware
+[0.665s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.698s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.869s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.962s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.213s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.214s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.393s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.555s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.634s] -- Found hardware_interface: 4.28.1 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[3.143s] -- Found controller_interface: 4.28.1 (/opt/ros/jazzy/share/controller_interface/cmake)
+[3.535s] -- Configuring done (2.9s)
+[3.644s] -- Generating done (0.1s)
+[3.659s] -- Build files have been written to: /home/ws/build/quadruped_hardware
+[3.698s] Invoked command in '/home/ws/build/quadruped_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ws/src/quadruped_hardware -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_hardware
+[3.698s] Invoking command in '/home/ws/build/quadruped_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_hardware -- -j8 -l8
+[4.142s] [ 20%] [32mBuilding CXX object CMakeFiles/quadruped_hardware.dir/src/ROS2_CAN_Motor.cpp.o[0m
+[4.176s] [ 60%] [32mBuilding CXX object CMakeFiles/quadruped_hardware.dir/src/MotorDriver.cpp.o[0m
+[4.177s] [ 60%] [32mBuilding CXX object CMakeFiles/quadruped_hardware.dir/src/CANInterface.cpp.o[0m
+[22.046s] [ 80%] [32mBuilding CXX object CMakeFiles/quadruped_hardware.dir/src/watchdog.cpp.o[0m
+[23.406s] [100%] [32m[1mLinking CXX shared library libquadruped_hardware.so[0m
+[23.720s] [100%] Built target quadruped_hardware
+[23.748s] Invoked command in '/home/ws/build/quadruped_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_hardware -- -j8 -l8
+[23.749s] Invoking command in '/home/ws/build/quadruped_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_hardware
+[23.767s] -- Install configuration: "Release"
+[23.768s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/ros2CANMotor_Description.xml
+[23.768s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/launch
+[23.768s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/launch/controller_manager.launch.py
+[23.769s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/config
+[23.769s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/config/quadruped_hardware.yaml
+[23.769s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/config/ros2_control_config.yaml
+[23.770s] -- Installing: /home/ws/install/quadruped_hardware/lib/libquadruped_hardware.so
+[23.770s] -- Set non-toolchain portion of runtime path of "/home/ws/install/quadruped_hardware/lib/libquadruped_hardware.so" to ""
+[23.770s] -- Up-to-date: /home/ws/install/quadruped_hardware/include
+[23.771s] -- Up-to-date: /home/ws/install/quadruped_hardware/include/quadruped_hardware
+[23.771s] -- Up-to-date: /home/ws/install/quadruped_hardware/include/quadruped_hardware/ROS2_CAN_Motor.hpp
+[23.772s] -- Up-to-date: /home/ws/install/quadruped_hardware/include/quadruped_hardware/ROS2_CAN_Interface.hpp
+[23.772s] -- Up-to-date: /home/ws/install/quadruped_hardware/include/quadruped_hardware/hex_utils.hpp
+[23.772s] -- Up-to-date: /home/ws/install/quadruped_hardware/include/quadruped_hardware/MotorDriver.hpp
+[23.772s] -- Up-to-date: /home/ws/install/quadruped_hardware/include/quadruped_hardware/CANInterface.hpp
+[23.772s] -- Up-to-date: /home/ws/install/quadruped_hardware/include/quadruped_hardware/watchdog.hpp
+[23.773s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/environment/library_path.sh
+[23.773s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/environment/library_path.dsv
+[23.773s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/ament_index/resource_index/package_run_dependencies/quadruped_hardware
+[23.773s] -- Installing: /home/ws/install/quadruped_hardware/share/ament_index/resource_index/parent_prefix_path/quadruped_hardware
+[23.773s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/environment/ament_prefix_path.sh
+[23.773s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/environment/ament_prefix_path.dsv
+[23.773s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/environment/path.sh
+[23.774s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/environment/path.dsv
+[23.774s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/local_setup.bash
+[23.784s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/local_setup.sh
+[23.784s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/local_setup.zsh
+[23.785s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/local_setup.dsv
+[23.785s] -- Installing: /home/ws/install/quadruped_hardware/share/quadruped_hardware/package.dsv
+[23.785s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/ament_index/resource_index/packages/quadruped_hardware
+[23.785s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/quadruped_hardware
+[23.785s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.785s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.785s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[23.786s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/cmake/quadruped_hardwareConfig.cmake
+[23.786s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/cmake/quadruped_hardwareConfig-version.cmake
+[23.786s] -- Up-to-date: /home/ws/install/quadruped_hardware/share/quadruped_hardware/package.xml
+[23.786s] Invoked command in '/home/ws/build/quadruped_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_hardware
