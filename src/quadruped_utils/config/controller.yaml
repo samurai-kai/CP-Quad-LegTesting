@@ -146,22 +146,14 @@ zero_joints_controller:
     zeroed_kd: 0.5
 
 
-    joints_orientation: [-1.0]
+    # joints_orientation: [-1.0]
 
     joints:
-      - fr_hip 
-      - fr_knee
+     - link1_to_base
+     - link2_to_link1
+     - link3_to_link2
 
-      - rr_hip
-      - rr_knee
-
-      # - fl_hip 
-      # - fl_knee
-
-      # - rl_hip
-      # - rl_knee
-
-    zero_direction: [-1.0,1.0,1.0,-1.0,1.0,-1.0] #,-1.0,1.0]
+    zero_direction: [1.0,-1.0,-1.0] 
       
     command_interfaces:
       - position
@@ -193,22 +185,14 @@ static_joints_controller:
     zeroed_kd: 0.5
 
 
-    joints_orientation: [-1.0]
+    # joints_orientation: [-1.0]
 
     joints:
-      - fr_hip 
-      - fr_knee
+     - link1_to_base
+     - link2_to_link1
+     - link3_to_link2
 
-      - rr_hip
-      - rr_knee
-
-      - fl_hip 
-      - fl_knee
-
-      - rl_hip
-      - rl_knee
-
-    zero_direction: [-1.0,1.0,1.0,-1.0,1.0,-1.0,-1.0,1.0]
+    zero_direction: [1.0,-1.0,-1.0] 
       
     command_interfaces:
       - position
@@ -222,13 +206,13 @@ static_joints_controller:
       - velocity
       - effort
 
-    positions: [-1.9,-0.5,1.9,0.5,1.9,0.5,-1.9,-0.5]  # Initial positions for the joints
+    positions: [-1.9,-0.5,1.9]  # Initial positions for the joints
 
     # positions: [0.4,-0.5,-0.4,0.5,-0.4,0.5,0.4,-0.5]  # Initial positions for the joints
 
 
 
-    velocities: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]  # Initial velocities for the joints
+    velocities: [0.0,0.0,0.0]  # Initial velocities for the joints
       
 
 
