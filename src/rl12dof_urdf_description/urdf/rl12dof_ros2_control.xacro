@@ -12,8 +12,8 @@
             <param name="command_type" >radian</param>     
             <param name="frequency" >50.0</param>   
             <param name="zero_position_offset" >0</param>
-            <param name="min_position_limit" >-3.13</param>
-            <param name="max_position_limit" >0.531</param>
+            <param name="min_position_limit" >-1.57</param>
+            <param name="max_position_limit" >1.57</param>
 
         </hardware>
         <joint name="link1_to_base">
@@ -44,8 +44,8 @@
             <param name="command_type" >radian</param>   
             <param name="frequency" >50.0</param>   
             <param name="zero_position_offset" >0</param> 
-            <param name="min_position_limit" >-4.0</param>
-            <param name="max_position_limit" >0.2</param>
+            <param name="min_position_limit" >0.0</param>
+            <param name="max_position_limit" >6.28</param>
         </hardware>
         <joint name="link2_to_link1">
             <command_interface name="position"/>
@@ -74,8 +74,8 @@
             <param name="command_type" >radian</param>
             <param name="frequency" >50.0</param>     
             <param name="zero_position_offset" >0</param> 
-            <param name="min_position_limit" >-0.531</param>
-            <param name="max_position_limit" >3.131</param>
+            <param name="min_position_limit" >0.0</param>
+            <param name="max_position_limit" >2.35</param>
 
         </hardware>
         <joint name="link3_to_link2">
