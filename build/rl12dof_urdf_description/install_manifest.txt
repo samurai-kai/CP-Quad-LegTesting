@@ -14,12 +14,8 @@
 /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config/controllers.yaml
 /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_ros2_control.xacro
 /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/materials.xacro
-/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_urdf.xacro
-/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_urdf.ros2control.xacro
-/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_links_joints.xacro
 /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_URDF_real.urdf.xacro
 /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_links_joints_hardware.xacro
-/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_urdf.gazebo.xacro
 /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Hip_Pitch_v1_1.stl
 /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Outer_Motor_Coupling_v25_1.stl
 /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Inner_Motor_Coupling_v26_1.stl

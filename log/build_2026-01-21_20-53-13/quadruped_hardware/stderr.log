@@ -1,0 +1,8 @@
+[01m[K/home/ws/src/quadruped_hardware/src/ROS2_CAN_Motor.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn quadruped_hardware::CANMotor::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ws/src/quadruped_hardware/src/ROS2_CAN_Motor.cpp:309:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_state[m[K’ was not declared in this scope; did you mean ‘[01m[Kset_state[m[K’?
+  309 |     [01;31m[Kstart_state[m[K = motor_controller_->setZeroPosition(can_id);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Kset_state[m[K
+gmake[2]: *** [CMakeFiles/quadruped_hardware.dir/build.make:76: CMakeFiles/quadruped_hardware.dir/src/ROS2_CAN_Motor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/quadruped_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

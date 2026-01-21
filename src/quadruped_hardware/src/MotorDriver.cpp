@@ -69,6 +69,20 @@ MotorDriver::MotorDriver(const std::vector<int>& motor_ids,
 std::map<int, motorState> MotorDriver::enableMotor(
     const std::vector<int>& enable_motor_ids) {
   std::map<int, motorState> motor_state_map;
+  const unsigned int kMaxReplyAttempts = 20;
+
+  auto receive_matching_reply = [&](int expected_id, motorState& out_state) {
+    for (unsigned int attempt = 0; attempt < kMaxReplyAttempts; ++attempt) {
+      if (!motor_CAN_interface_.receiveCANFrame(CAN_reply_msg_)) {
+        continue;
+      }
+      out_state = decodeCANFrame(CAN_reply_msg_);
+      if (out_state.motor_id == expected_id) {
+        return true;
+      }
+    }
+    return false;
+  };
 
   // Bugfix: To remove the initial kick at motor start.
   // The current working theory is that the motor is not
@@ -82,17 +96,11 @@ std::map<int, motorState> MotorDriver::enableMotor(
     // using std::find
     motor_CAN_interface_.sendCANFrame(motor_id, default_msgs::motorEnableMsg);
     usleep(motorReplyWaitTime);
-    if (motor_CAN_interface_.receiveCANFrame(CAN_reply_msg_)) {
-      state = decodeCANFrame(CAN_reply_msg_);
+    if (receive_matching_reply(motor_id, state)) {
       is_motor_enabled_[motor_id] = true;
     } else {
       perror("MotorDriver::enableMotor() Unable to Receive CAN Reply.");
     }
-
-    if (motor_id != state.motor_id)
-      perror(
-          "MotorDriver::enableMotor() Received message does not have the same "
-          "motor id!!");
 
     motor_state_map[motor_id] = state;
   }
@@ -102,6 +110,20 @@ std::map<int, motorState> MotorDriver::enableMotor(
 std::map<int, motorState> MotorDriver::disableMotor(
     const std::vector<int>& disable_motor_ids) {
   std::map<int, motorState> motor_state_map;
+  const unsigned int kMaxReplyAttempts = 20;
+
+  auto receive_matching_reply = [&](int expected_id, motorState& out_state) {
+    for (unsigned int attempt = 0; attempt < kMaxReplyAttempts; ++attempt) {
+      if (!motor_CAN_interface_.receiveCANFrame(CAN_reply_msg_)) {
+        continue;
+      }
+      out_state = decodeCANFrame(CAN_reply_msg_);
+      if (out_state.motor_id == expected_id) {
+        return true;
+      }
+    }
+    return false;
+  };
 
   motorState state;
   for (int motor_id : disable_motor_ids) {
@@ -125,8 +147,8 @@ std::map<int, motorState> MotorDriver::disableMotor(
     motor_CAN_interface_.sendCANFrame(motor_id, CAN_msg_);
     usleep(motorReplyWaitTime);
 
-    if (motor_CAN_interface_.receiveCANFrame(CAN_reply_msg_)) {
-      state = decodeCANFrame(CAN_reply_msg_);
+    if (receive_matching_reply(motor_id, state)) {
+      // state already set
     } else {
       perror("MotorDriver::disableMotor() Unable to Receive CAN Reply.");
     }
@@ -134,17 +156,11 @@ std::map<int, motorState> MotorDriver::disableMotor(
     // Do the actual disabling after zero command.
     motor_CAN_interface_.sendCANFrame(motor_id, default_msgs::motorDisableMsg);
     usleep(motorReplyWaitTime);
-    if (motor_CAN_interface_.receiveCANFrame(CAN_reply_msg_)) {
-      state = decodeCANFrame(CAN_reply_msg_);
+    if (receive_matching_reply(motor_id, state)) {
       is_motor_enabled_[motor_id] = false;
     } else {
       perror("MotorDriver::disableMotor() Unable to Receive CAN Reply.");
     }
-
-    if (motor_id != state.motor_id)
-      perror(
-          "MotorDriver::disableMotor() Received message does not have the same "
-          "motor id!!");
 
     motor_state_map[motor_id] = state;
   }
@@ -154,6 +170,20 @@ std::map<int, motorState> MotorDriver::disableMotor(
 std::map<int, motorState> MotorDriver::setZeroPosition(
     const std::vector<int>& zero_motor_ids) {
   std::map<int, motorState> motor_state_map;
+  const unsigned int kMaxReplyAttempts = 20;
+
+  auto receive_matching_reply = [&](int expected_id, motorState& out_state) {
+    for (unsigned int attempt = 0; attempt < kMaxReplyAttempts; ++attempt) {
+      if (!motor_CAN_interface_.receiveCANFrame(CAN_reply_msg_)) {
+        continue;
+      }
+      out_state = decodeCANFrame(CAN_reply_msg_);
+      if (out_state.motor_id == expected_id) {
+        return true;
+      }
+    }
+    return false;
+  };
 
   motorState state;
   for (int motor_id : zero_motor_ids) {
@@ -169,8 +199,7 @@ std::map<int, motorState> MotorDriver::setZeroPosition(
     motor_CAN_interface_.sendCANFrame(motor_id,
                                       default_msgs::motorSetZeroPositionMsg);
     usleep(motorReplyWaitTime);
-    if (motor_CAN_interface_.receiveCANFrame(CAN_reply_msg_)) {
-      state = decodeCANFrame(CAN_reply_msg_);
+    if (receive_matching_reply(motor_id, state)) {
       motor_state_map[motor_id] = state;
     } else {
       perror("MotorDriver::setZeroPosition() Unable to Receive CAN Reply.");
@@ -180,8 +209,7 @@ std::map<int, motorState> MotorDriver::setZeroPosition(
       motor_CAN_interface_.sendCANFrame(motor_id,
                                         default_msgs::motorSetZeroPositionMsg);
       usleep(motorReplyWaitTime);
-      if (motor_CAN_interface_.receiveCANFrame(CAN_reply_msg_)) {
-        state = decodeCANFrame(CAN_reply_msg_);
+      if (receive_matching_reply(motor_id, state)) {
         motor_state_map[motor_id] = state;
       } else {
         perror("MotorDriver::setZeroPosition() Unable to Receive CAN Reply.");
@@ -195,6 +223,20 @@ std::map<int, motorState> MotorDriver::sendRadCommand(
     const std::map<int, motorCommand>& motor_rad_commands) {
   motorState state;
   std::map<int, motorState> motor_state_map;
+  const unsigned int kMaxReplyAttempts = 20;
+
+  auto receive_matching_reply = [&](int expected_id, motorState& out_state) {
+    for (unsigned int attempt = 0; attempt < kMaxReplyAttempts; ++attempt) {
+      if (!motor_CAN_interface_.receiveCANFrame(CAN_reply_msg_)) {
+        continue;
+      }
+      out_state = decodeCANFrame(CAN_reply_msg_);
+      if (out_state.motor_id == expected_id) {
+        return true;
+      }
+    }
+    return false;
+  };
 
   for (const std::pair<int, motorCommand>& command_pair : motor_rad_commands) {
     int cmd_motor_id = command_pair.first;
@@ -209,8 +251,7 @@ std::map<int, motorState> MotorDriver::sendRadCommand(
     // }
     motor_CAN_interface_.sendCANFrame(cmd_motor_id, CAN_msg_);
     usleep(motorReplyWaitTime);
-    if (motor_CAN_interface_.receiveCANFrame(CAN_reply_msg_)) {
-      state = decodeCANFrame(CAN_reply_msg_);
+    if (receive_matching_reply(cmd_motor_id, state)) {
       motor_state_map[cmd_motor_id] = state;
     } else {
       perror("MotorDriver::sendRadCommand() Unable to Receive CAN Reply.");

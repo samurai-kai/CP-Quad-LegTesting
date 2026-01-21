@@ -214,6 +214,11 @@ void CANMotor::on_timeout(){
 }
 
 hardware_interface::CallbackReturn CANMotor::on_init(const hardware_interface::HardwareInfo& info){
+    
+    if (hardware_interface::SystemInterface::on_init(info) != hardware_interface::CallbackReturn::SUCCESS) {
+        return hardware_interface::CallbackReturn::ERROR;
+      }
+      
     // Initialization code
     hardware_interface::ComponentInfo config;
 
@@ -247,9 +252,13 @@ hardware_interface::CallbackReturn CANMotor::on_init(const hardware_interface::H
     }
 
     // Create the motor controller object
+    //std::cout << "[MotorDriver] Constructor START" << std::endl;
+
     motor_controller_ = std::make_unique<motor_driver::MotorDriver>(
         can_id, can_bus, motor_driver::MotorType::GIM8108
     );
+
+    //std::cout << "[MotorDriver] Constructor END" << std::endl;
 
     unsigned int timeout_ms = static_cast<unsigned int>(thread_period.count() * 5 * 1000);
     watchdog = std::make_unique <Watchdog> (std::chrono::milliseconds(timeout_ms),
@@ -261,6 +270,7 @@ hardware_interface::CallbackReturn CANMotor::on_init(const hardware_interface::H
 }
 
 hardware_interface::CallbackReturn CANMotor::on_configure(const rclcpp_lifecycle::State& previous_state){
+    std::cout << "[MotorDriver] Config START" << std::endl;
     // Configuration code
     if (info_.hardware_parameters.at("flip")== "true") //if flip is true, set cmd_flip to -1
     {
@@ -275,6 +285,7 @@ hardware_interface::CallbackReturn CANMotor::on_configure(const rclcpp_lifecycle
         RCLCPP_ERROR(rclcpp::get_logger("CANMotor"), "Motor will not be flipped!");
         // return hardware_interface::CallbackReturn::ERROR;}
     }
+    std::cout << "[MotorDriver] Config END" << std::endl;
     return hardware_interface::CallbackReturn::SUCCESS;
 }
 
@@ -284,16 +295,25 @@ hardware_interface::CallbackReturn CANMotor::on_cleanup(const rclcpp_lifecycle::
 }
 
 hardware_interface::CallbackReturn CANMotor::on_activate(const rclcpp_lifecycle::State& previous_state) {
-    // Activation code
+    std::cout << "[CANMotor] Activate START id=" << can_id.front() << std::endl;
 
+    //std::cout << "[CANMotor] disableMotor BEGIN" << std::endl;
     motor_controller_->disableMotor(can_id);
+    //std::cout << "[CANMotor] disableMotor END" << std::endl;
+
+    //std::cout << "[CANMotor] enableMotor BEGIN" << std::endl;
     auto start_state = motor_controller_->enableMotor(can_id);
+    //std::cout << "[CANMotor] enableMotor END" << std::endl;
+
+    //std::cout << "[CANMotor] setZeroPosition BEGIN" << std::endl;
     start_state = motor_controller_->setZeroPosition(can_id);
-    
+    //std::cout << "[CANMotor] setZeroPosition END" << std::endl;
 
     startThread();
 
     watchdog->start();
+
+    std::cout << "[CANMotor] Activate END id=" << can_id.front() << std::endl;
 
     return hardware_interface::CallbackReturn::SUCCESS;
 }

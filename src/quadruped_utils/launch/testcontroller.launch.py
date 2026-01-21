@@ -87,15 +87,14 @@ def generate_launch_description():
             executable='spawner',
             # prefix=['gdbserver localhost:3002'],
             # namespace='quadruped_utils',
-            arguments=['zero_joints_controller'],
+            arguments=['zero_joints_controller', '--controller-manager', '/controller_manager'],
             output='screen',
-            parameters=[config_file]
         )
         
     joint_state_broadcaster = Node(
             package="controller_manager",
             executable="spawner",
-            arguments=["joint_state_broadcaster"],
+            arguments=["joint_state_broadcaster", '--controller-manager', '/controller_manager'],
             output='screen'
         )
         

@@ -1,90 +1,62 @@
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, TimerAction, RegisterEventHandler
-from launch.event_handlers import OnProcessExit
-from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import PathJoinSubstitution
 from launch_ros.actions import Node
+from launch.substitutions import Command, PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
+
 
 def generate_launch_description():
 
-
-
-    # # Define the RViz2 node   
-    # rviz_node = Node(
-    #     package='rviz2',
-    #     executable='rviz2',
-    #     name='rviz2',
-    #     output='screen'
-    # )
-
-
-   
-    
-    # Define the package and launch file paths
-    urdf_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            PathJoinSubstitution([
-                FindPackageShare('rl12dof_urdf_description'),
-                'launch',
-                'real_urdf.launch.py'
-            ])
+    # -------------------------------------------------
+    # Robot description (CREATE ONCE)
+    # -------------------------------------------------
+    robot_description = Command([
+        'xacro ',
+        PathJoinSubstitution([
+            FindPackageShare('rl12dof_urdf_description'),
+            'urdf',
+            'rl12dof_URDF_real.urdf.xacro'
         ])
+    ])
+
+    # -------------------------------------------------
+    # Controller config
+    # -------------------------------------------------
+    controllers_yaml = PathJoinSubstitution([
+        FindPackageShare('quadruped_utils'),
+        'config',
+        'controller.yaml'
+    ])
+
+    # -------------------------------------------------
+    # Robot State Publisher
+    # -------------------------------------------------
+    robot_state_publisher = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        output='screen',
+        parameters=[
+            {'robot_description': robot_description}
+        ]
     )
 
-    print('urdf_launch complete')
-
-    
-    # Define the package and launch file paths
-    hardware_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            PathJoinSubstitution([
-                FindPackageShare('quadruped_hardware'),
-                'launch',
-                'controller_manager.launch.py'
-            ])
-        ])
+    # -------------------------------------------------
+    # ROS 2 Control (Controller Manager)
+    # -------------------------------------------------
+    controller_manager = Node(
+        package='controller_manager',
+        executable='ros2_control_node',
+        name='controller_manager',
+        output='screen',
+        parameters=[
+            {'use_robot_description_topic': True},
+            controllers_yaml,
+        ],
     )
-    
-    # Define the joint state broadcaster spawner
-    # joint_state_broadcaster_spawner = Node(
-    #     package='controller_manager',
-    #     executable='spawner',
-    #     arguments=['joint_state_broadcaster'],
-    #     output='screen'
-    # )
-    
-    # # Define the joint_state_publisher node
-    # joint_state_publisher_node = Node(
-    #     package='joint_state_publisher',
-    #     executable='joint_state_publisher',
-    #     name='joint_state_publisher',
-    #     output='screen'
-    # )
-    
-    # # Define the package and launch file paths
-    # hardware_launch = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource([
-    #         PathJoinSubstitution([
-    #             FindPackageShare('quadruped_utils'),
-    #             'launch',
-    #             'testcontroller.launch.py'
-    #         ])
-    #     ])
-    # )
-    
-    
-    
-    
-    print('hardware_launch complete')
-    
-    # Return launch description with timed execution
+
+    # -------------------------------------------------
+    # Launch
+    # -------------------------------------------------
     return LaunchDescription([
-        urdf_launch,
-        
-        hardware_launch
-        
-        # joint_state_broadcaster_spawner
-        # joint_state_publisher_node
-        
+        robot_state_publisher,
+        controller_manager,
     ])

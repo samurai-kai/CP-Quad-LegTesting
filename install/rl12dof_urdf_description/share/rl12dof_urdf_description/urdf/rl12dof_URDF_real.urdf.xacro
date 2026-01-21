@@ -7,4 +7,5 @@
   <xacro:include filename="$(find rl12dof_urdf_description)/urdf/rl12dof_ros2_control.xacro"/>
 
   <xacro:rl12dof_links_joints />
+  
 </robot>

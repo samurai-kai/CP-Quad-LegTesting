@@ -1,168 +1,41 @@
 controller_manager:
   ros__parameters:
     update_rate: 30
-      
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
-      
-    state_estimator:
-      type: quadruped_mpc/state_estimator
-
-    imu_sensor_controller:
-      type: imu_sensor_broadcaster/IMUSensorBroadcaster
-      publish_rate: 100
-      sensor_name: "imu_sensor"
-
-    # state_estimator:
-    #   type: quadruped_mpc/state_estimator
-
-    gait_pattern_generator:
-      type: quadruped_mpc/gait_pattern_generator
-
-    balance_controller:
-      type: quadruped_mpc/balance_controller
-
-    foot_controller:
-      type: quadruped_mpc/foot_controller
-
-    joint_state_controller:
-      type: joint_state_controller/JointStateController
-      publish_rate: 50
-
-    joint_position_controller:
-      type: position_controllers/JointPositionController
-
     joint_group_position_controller:
       type: position_controllers/JointGroupPositionController
-
-    joint_velocity_controller:
-      type: velocity_controllers/JointVelocityController
-      joint: joint1
-
-    joint_group_velocity_controller:
-      type: velocity_controllers/JointGroupVelocityController
-      joints:
-        - joint1
-        - joint2
-
-    joint_effort_controller:
-      type: effort_controllers/JointEffortController
-      joint: joint1
-
-    joint_group_effort_controller:
-      type: effort_controllers/JointGroupEffortController
-      joints:
-        - joint1
-        - joint2
-
-    joint_trajectory_controller:
-      type: joint_trajectory_controller/JointTrajectoryController
-      joints:
-        - joint1
-        - joint2
-      state_publish_rate: 50
-      command_interfaces:
-        - position
-        - velocity
-        - effort
-      state_interfaces:
-        - position
-        - velocity
-        - effort
-      gains:
-        joint1: {p: 100.0, d: 10.0, i: 1.0}
-        joint2: {p: 100.0, d: 10.0, i: 1.0}
-
     zero_joints_controller:
       type: quadruped_utils/ZeroJointsController
-
     static_joints_controller:
       type: quadruped_utils/StaticJointsController
 
-
-# joint_state_broadcaster:
-#   ros__parameters:
-
-#     publish_rate: 50
-  #   joints:
-  #     - fr_hip
-  #     - fr_knee
-  #     - fr_ankle
-  #     - fl_hip
-  #     - fl_knee
-  #     - fl_ankle
-  #     - rr_hip
-  #     - rr_knee
-  #     - rr_ankle
-  #     - rl_hip
-  #     - rl_knee
-  #     - rl_ankle
-  #   state_interfaces:
-  #     - position
-  #     - velocity
-  #     - effort
-
-
-joint_position_controller:
+joint_state_broadcaster:
   ros__parameters:
-      joints: 
-        - fr_hip
-      # interface_name: position
-
-      command_interfaces:
-        - position
-      #   - velocity
-      #   - effort
-      #   - kp
-      #   - kd
-      # state_interfaces:
-      #   - position
-      #   - velocity
-      #   - effort
+    type: joint_state_broadcaster/JointStateBroadcaster
 
 joint_group_position_controller:
   ros__parameters:
-      joints:
-        - link1_to_base
-        - link2_to_link1
-        - link3_to_link2
-      command_topic: /joint_group_position_controller/command
-
+    type: position_controllers/JointGroupPositionController
+    joints:
+      - link1_to_base
+      - link2_to_link1
+      - link3_to_link2
 
 zero_joints_controller:
   ros__parameters:
-
-    # use doubles for all values ie 0 => 0.0
+    type: quadruped_utils/ZeroJointsController
     zero_effort_lim: 1.0
-
-
     kp: 0.0
     kd: 4.0
-
     velocity: 0.25
-
-    # Gains for the motor after the joint is zeroed
-    zeroed_kp: 0.0 
+    zeroed_kp: 0.0
     zeroed_kd: 0.5
-
-
-    joints_orientation: [-1.0]
-
     joints:
-      - fr_hip 
-      - fr_knee
-
-      - rr_hip
-      - rr_knee
-
-      # - fl_hip 
-      # - fl_knee
-
-      # - rl_hip
-      # - rl_knee
-
-    zero_direction: [-1.0,1.0,1.0,-1.0,1.0,-1.0] #,-1.0,1.0]
-      
+      - link1_to_base
+      - link2_to_link1
+      - link3_to_link2
+    zero_direction: [1.0, -1.0, -1.0]
     command_interfaces:
       - position
       - velocity
@@ -174,42 +47,20 @@ zero_joints_controller:
       - position
       - velocity
       - effort
-
 
 static_joints_controller:
   ros__parameters:
-
+    type: quadruped_utils/StaticJointsController
     zero_effort_lim: 1.0
-
-
-    # kp: 30.0
     kp: 20.0
     kd: 1.0
-
-    velocity: 0.25
-
-    # Gains for the motor after the joint is zeroed
-    zeroed_kp: 0.0 
-    zeroed_kd: 0.5
-
-
-    joints_orientation: [-1.0]
-
     joints:
-      - fr_hip 
-      - fr_knee
-
-      - rr_hip
-      - rr_knee
-
-      - fl_hip 
-      - fl_knee
-
-      - rl_hip
-      - rl_knee
-
-    zero_direction: [-1.0,1.0,1.0,-1.0,1.0,-1.0,-1.0,1.0]
-      
+      - link1_to_base
+      - link2_to_link1
+      - link3_to_link2
+    zero_direction: [1.0, -1.0, -1.0]
+    positions: [-1.9, -0.5, 1.9]
+    velocities: [0.0, 0.0, 0.0]
     command_interfaces:
       - position
       - velocity
@@ -220,88 +71,4 @@ static_joints_controller:
     state_interfaces:
       - position
       - velocity
-      - effort
-
-    positions: [-1.9,-0.5,1.9,0.5,1.9,0.5,-1.9,-0.5]  # Initial positions for the joints
-
-    # positions: [0.4,-0.5,-0.4,0.5,-0.4,0.5,0.4,-0.5]  # Initial positions for the joints
-
-
-
-    velocities: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]  # Initial velocities for the joints
-      
-
-
-
-imu_sensor_controller:
-  ros__parameters:
-    sensor_name: imu_sensor
-    frame_id: imu_link
-
-state_estimator:
-  ros__parameters:
-    joints:
-      - fl_hip
-      - fl_knee  
-      - fr_hip
-      - fr_knee
-      - rl_hip
-      - rl_knee
-      - rr_hip
-      - rr_knee
-    state_interfaces:
-      - position
-      - velocity
-      - effort
-
-gait_pattern_generator:
-  ros__parameters:
-    # Gait type is determining the order of steps. The legs are numbered clockwise from the top left like this:
-    # |1 2|
-    # |4 3|
-    gait_type: [2,1,1,2] # [1,3,2,4] #  # Walk
-    stance_duration: 0.4
-    swing_duration: 0.1
-    step_height: 0.1
-    # Duplicate MPC parameters here to avoid dependency on balance_controller
-    stages: 50    # Number of stages in the MPC
-    horizon: 3.0  # Time horizon in seconds
-
-balance_controller:
-  ros__parameters:
-    joints:
-      - fl_hip
-      - fl_knee  
-      - fr_hip
-      - fr_knee
-      - rl_hip
-      - rl_knee
-      - rr_hip
-      - rr_knee
-    # Tuning parameters for the MPC
-    mass: 13.2    # Robot mass in kg 
-    inertia: 1    # Robot inertia in kg*m^2
-    stages: 50    # Number of stages in the MPC
-    horizon: 2.0  # Time horizon in seconds
-    com_offset: [0.0, 0.02, 0.0]                   # Center of mass offset [x, y, z] in meters
-    weights:
-      position: [100, 100, 100]                   # Position tracking weights (x, y, z)
-      orientation: [100, 100, 100, 100]           # Orientation tracking weights (quaternion)
-      velocity: [10, 10, 10]                      # Linear velocity tracking weights
-      angular_velocity: [10, 10, 10]              # Angular velocity tracking weights
-      force_cost: 1                               # Cost weight for control force inputs
-      terminal_factor: 10.0                       # Factor to multiply all weights for terminal cost
-
-foot_controller:
-  ros__parameters:
-    joints:
-      - fl_hip
-      - fl_knee
-      - fr_hip
-      - fr_knee
-      - rl_hip
-      - rl_knee
-      - rr_hip
-      - rr_knee
-    command_interfaces:
       - effort

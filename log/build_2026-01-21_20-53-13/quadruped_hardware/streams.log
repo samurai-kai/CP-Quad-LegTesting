@@ -1,0 +1,11 @@
+[0.696s] Invoking command in '/home/ws/build/quadruped_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_hardware -- -j8 -l8
+[0.992s] [ 20%] [32mBuilding CXX object CMakeFiles/quadruped_hardware.dir/src/ROS2_CAN_Motor.cpp.o[0m
+[8.520s] [01m[K/home/ws/src/quadruped_hardware/src/ROS2_CAN_Motor.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn quadruped_hardware::CANMotor::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[8.520s] [01m[K/home/ws/src/quadruped_hardware/src/ROS2_CAN_Motor.cpp:309:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_state[m[K’ was not declared in this scope; did you mean ‘[01m[Kset_state[m[K’?
+[8.520s]   309 |     [01;31m[Kstart_state[m[K = motor_controller_->setZeroPosition(can_id);
+[8.521s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[8.521s]       |     [32m[Kset_state[m[K
+[12.236s] gmake[2]: *** [CMakeFiles/quadruped_hardware.dir/build.make:76: CMakeFiles/quadruped_hardware.dir/src/ROS2_CAN_Motor.cpp.o] Error 1
+[12.241s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/quadruped_hardware.dir/all] Error 2
+[12.241s] gmake: *** [Makefile:146: all] Error 2
+[12.245s] Invoked command in '/home/ws/build/quadruped_hardware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_hardware -- -j8 -l8
