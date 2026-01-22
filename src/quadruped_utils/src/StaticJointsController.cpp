@@ -36,7 +36,10 @@ controller_interface::CallbackReturn StaticJointsController::on_init()
             // zero_direction_ = auto_declare<std::vector<double>>("zero_direction", std::vector<double>(joint_names_.size(), 1.0));
             pose_position = auto_declare<std::vector<double>>("positions", std::vector<double>(joint_names_.size(), 1.0));
             pose_velocity = auto_declare<std::vector<double>>("velocities", std::vector<double>(joint_names_.size(), 1.0));
-            
+
+            command_topic_ = auto_declare<std::string>("command_topic", "commands");
+            has_position_command_ = false;
+            latest_position_command_.assign(joint_names_.size(), 0.0);
 
 
             command_interface_types_ = auto_declare<std::vector<std::string>>("command_interfaces", command_interface_types_);
@@ -83,6 +86,23 @@ controller_interface::CallbackReturn StaticJointsController::on_init()
     
 controller_interface::CallbackReturn StaticJointsController::on_configure(const rclcpp_lifecycle::State & previous_state) 
     {
+    cmd_sub_ = get_node()->create_subscription<std_msgs::msg::Float64MultiArray>(
+        command_topic_,
+        rclcpp::SystemDefaultsQoS(),
+        [this](const std_msgs::msg::Float64MultiArray::SharedPtr msg)
+        {
+            if (msg->data.size() != joint_names_.size()) {
+                RCLCPP_WARN(
+                    get_node()->get_logger(),
+                    "Ignoring command: expected %zu positions, got %zu",
+                    joint_names_.size(),
+                    msg->data.size());
+                return;
+            }
+            std::lock_guard<std::mutex> lock(command_mutex_);
+            latest_position_command_ = msg->data;
+            has_position_command_ = true;
+        });
 
     return CallbackReturn::SUCCESS;
     }
@@ -176,11 +196,19 @@ controller_interface::return_type StaticJointsController::update(const rclcpp::T
     {
 
     double delta = 0.1;
+    std::vector<double> position_command;
+    {
+        std::lock_guard<std::mutex> lock(command_mutex_);
+        if (has_position_command_) {
+            position_command = latest_position_command_;
+        }
+    }
     // for all joints
 
     for (size_t i = 0; i < joint_names_.size(); ++i) 
         {
-            success = joint_position_command_interface_[i].get().set_value(pose_position[i]);
+            const double target_pos = position_command.empty() ? pose_position[i] : position_command[i];
+            success = joint_position_command_interface_[i].get().set_value(target_pos);
             assert(success);
             success = joint_velocity_command_interface_[i].get().set_value(pose_velocity[i]);
             assert(success);
