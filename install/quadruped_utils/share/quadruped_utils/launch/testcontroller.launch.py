@@ -82,12 +82,12 @@ def generate_launch_description():
         # ),
 
 
-    zero_joints_controller = Node(
+    static_joints_controller = Node(
             package='controller_manager',
             executable='spawner',
             # prefix=['gdbserver localhost:3002'],
             # namespace='quadruped_utils',
-            arguments=['zero_joints_controller', '--controller-manager', '/controller_manager'],
+            arguments=['static_joints_controller', '--controller-manager', '/controller_manager'],
             output='screen',
         )
         
@@ -109,7 +109,7 @@ def generate_launch_description():
     delay_controller_spawner = RegisterEventHandler(
         event_handler=OnProcessExit(
             target_action= joint_state_broadcaster,
-            on_exit=[zero_joints_controller],
+            on_exit=[static_joints_controller],
         )
     )
     
