@@ -57,8 +57,8 @@ static_joints_controller:
   ros__parameters:
     type: quadruped_utils/StaticJointsController
     zero_effort_lim: 1.0
-    kp: 1.0
-    kd: 0.2
+    kp: [5.0, 5.0, 5.0]
+    kd: [0.5, 0.5, 0.5]
     joints:
       - link1_to_base
       - link2_to_link1
@@ -77,3 +77,6 @@ static_joints_controller:
       - position
       - velocity
       - effort
+    command_topic: "/static_joints_controller/commands"
+    kp_command_topic: "/static_joints_controller/kp_commands"
+    kd_command_topic: "/static_joints_controller/kd_commands"

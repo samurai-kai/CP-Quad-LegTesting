@@ -12,7 +12,9 @@
 #include <hardware_interface/loaned_state_interface.hpp>
 #include "controller_interface/controller_interface.hpp"
 #include <rclcpp/rclcpp.hpp>
-#include "std_msgs/msg/float64.hpp" 
+#include "std_msgs/msg/float64.hpp"
+#include "std_msgs/msg/float64_multi_array.hpp"
+#include <mutex>
 
 #include <controller_manager_msgs/srv/switch_controller.hpp>
 
@@ -41,6 +43,16 @@ protected:
     std::vector<double> zero_direction_;
     std::vector<double> pose_position;
     std::vector<double> pose_velocity;
+    std::vector<double> latest_position_command_;
+    std::vector<double> latest_kp_command_;
+    std::vector<double> latest_kd_command_;
+    std::mutex command_mutex_;
+    bool has_position_command_;
+    bool has_kp_command_;
+    bool has_kd_command_;
+    std::string command_topic_;
+    std::string kp_command_topic_;
+    std::string kd_command_topic_;
 
 
     // Pramamter vectors
@@ -51,8 +63,8 @@ protected:
     std::vector<float> measured_state_values_;
 
     double zero_effort_lim;
-    double kp;
-    double kd;
+    std::vector<double> kp_default_;
+    std::vector<double> kd_default_;
     double vel;
 
     double zeroed_kp;
@@ -130,7 +142,9 @@ protected:
 
 private:
     // subscriptions
-    // rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr cmd_sub_;
+    rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr cmd_sub_;
+    rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr kp_cmd_sub_;
+    rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr kd_cmd_sub_;
     
 
 

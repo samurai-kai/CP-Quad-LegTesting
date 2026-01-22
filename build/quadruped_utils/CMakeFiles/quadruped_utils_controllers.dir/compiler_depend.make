@@ -471,9 +471,18 @@ CMakeFiles/quadruped_utils_controllers.dir/src/StaticJointsController.cpp.o: /ho
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64__type_support.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64_multi_array__type_support.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/float64.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/float64_multi_array.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
@@ -2113,6 +2122,26 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 
 /usr/include/aarch64-linux-gnu/bits/ss_flags.h:
 
+/usr/include/c++/13/bits/stl_numeric.h:
+
+/usr/include/aarch64-linux-gnu/bits/sigthread.h:
+
+/usr/include/aarch64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/c++/13/stdexcept:
+
+/usr/include/c++/13/clocale:
+
+/usr/include/aarch64-linux-gnu/bits/sigstack.h:
+
+/usr/include/aarch64-linux-gnu/bits/signum-arch.h:
+
+/usr/include/c++/13/bits/hashtable.h:
+
+/usr/include/aarch64-linux-gnu/bits/signal_ext.h:
+
+/usr/include/aarch64-linux-gnu/bits/siginfo-consts-arch.h:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_setting.hpp:
 
 /usr/include/c++/13/bits/erase_if.h:
@@ -2182,6 +2211,12 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 /opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:
 
 /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64_multi_array__type_support.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/siginfo-arch.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
@@ -2319,6 +2354,10 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
 
+/usr/include/aarch64-linux-gnu/bits/siginfo-consts.h:
+
+/opt/ros/jazzy/include/tracetools/tracetools/visibility_control.hpp:
+
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
 
 /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:
@@ -2441,6 +2480,8 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 
 /opt/ros/jazzy/include/rmw/rmw/incompatible_qos_events_statuses.h:
 
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp:
+
 /usr/include/aarch64-linux-gnu/c++/13/bits/c++locale.h:
 
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/rosidl_generator_c__visibility_control.h:
@@ -2481,6 +2522,12 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 
 /opt/ros/jazzy/include/rcl/rcl/event.h:
 
+/usr/include/c++/13/pstl/execution_defs.h:
+
+/usr/include/aarch64-linux-gnu/bits/signum-generic.h:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
+
 /opt/ros/jazzy/include/rcl/rcl/guard_condition.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/timers_manager.hpp:
@@ -2514,10 +2561,6 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 /usr/include/c++/13/future:
 
 /opt/ros/jazzy/include/joint_limits/joint_limits/joint_limits.hpp:
-
-/opt/ros/jazzy/include/tracetools/tracetools/visibility_control.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/siginfo-consts.h:
 
 /usr/include/c++/13/bits/stream_iterator.h:
 
@@ -2576,8 +2619,6 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/siginfo-consts-arch.h:
 
 /usr/include/stdint.h:
 
@@ -2757,6 +2798,8 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 
 /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h:
 
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:
+
 /usr/include/c++/13/bits/hashtable_policy.h:
 
 /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h:
@@ -2790,12 +2833,6 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
 
@@ -3217,6 +3254,8 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 
 /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info_array.h:
 
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp:
+
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
@@ -3244,8 +3283,6 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp:
 
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/dynamic_message_type_support_struct.h:
-
-/usr/include/aarch64-linux-gnu/bits/sigstksz.h:
 
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h:
 
@@ -3299,6 +3336,10 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 
 /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64__struct.hpp:
 
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.hpp:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:
+
 /usr/include/c++/13/bits/stl_bvector.h:
 
 /usr/include/aarch64-linux-gnu/bits/floatn-common.h:
@@ -3313,6 +3354,12 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 
 /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
 
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/fp-logb.h:
+
 /usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
@@ -3324,6 +3371,14 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 /usr/include/c++/13/bits/unordered_set.h:
 
 /usr/include/aarch64-linux-gnu/bits/long-double.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/float64_multi_array.hpp:
 
 /opt/ros/jazzy/include/tracetools/tracetools/config.h:
 
@@ -3355,8 +3410,6 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 
 /usr/include/aarch64-linux-gnu/asm/sigcontext.h:
 
-/usr/include/aarch64-linux-gnu/bits/signum-arch.h:
-
 /usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
@@ -3380,8 +3433,6 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 /opt/ros/jazzy/include/rclcpp/rclcpp/qos_overriding_options.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/environments.h:
-
-/usr/include/aarch64-linux-gnu/bits/fp-logb.h:
 
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h:
 
@@ -3416,27 +3467,3 @@ CMakeFiles/quadruped_utils_controllers.dir/src/ZeroJointsController.cpp.o: /home
 /usr/include/aarch64-linux-gnu/bits/sigaction.h:
 
 /usr/include/aarch64-linux-gnu/bits/sigevent-consts.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/siginfo-arch.h:
-
-/usr/include/c++/13/bits/hashtable.h:
-
-/usr/include/aarch64-linux-gnu/bits/signal_ext.h:
-
-/usr/include/c++/13/pstl/execution_defs.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/signum-generic.h:
-
-/usr/include/c++/13/stdexcept:
-
-/usr/include/c++/13/clocale:
-
-/usr/include/aarch64-linux-gnu/bits/sigstack.h:
-
-/usr/include/c++/13/bits/stl_numeric.h:
-
-/usr/include/aarch64-linux-gnu/bits/sigthread.h:

@@ -38,16 +38,24 @@ controller_interface::CallbackReturn StaticJointsController::on_init()
             pose_velocity = auto_declare<std::vector<double>>("velocities", std::vector<double>(joint_names_.size(), 1.0));
 
             command_topic_ = auto_declare<std::string>("command_topic", "commands");
+            kp_command_topic_ = auto_declare<std::string>("kp_command_topic", "kp_commands");
+            kd_command_topic_ = auto_declare<std::string>("kd_command_topic", "kd_commands");
             has_position_command_ = false;
+            has_kp_command_ = false;
+            has_kd_command_ = false;
             latest_position_command_.assign(joint_names_.size(), 0.0);
+            latest_kp_command_.assign(joint_names_.size(), 0.0);
+            latest_kd_command_.assign(joint_names_.size(), 0.0);
 
 
             command_interface_types_ = auto_declare<std::vector<std::string>>("command_interfaces", command_interface_types_);
             state_interface_types_ = auto_declare<std::vector<std::string>>("state_interfaces", state_interface_types_);
 
             // zero_effort_lim = auto_declare<double>("zero_effort_lim", zero_effort_lim);
-            kp = auto_declare<double>("kp", kp);
-            kd = auto_declare<double>("kd", kd);
+            kp_default_ = auto_declare<std::vector<double>>(
+                "kp", std::vector<double>(joint_names_.size(), 1.0));
+            kd_default_ = auto_declare<std::vector<double>>(
+                "kd", std::vector<double>(joint_names_.size(), 0.2));
 
             vel = auto_declare<double>("velocity", vel);
 
@@ -74,6 +82,24 @@ controller_interface::CallbackReturn StaticJointsController::on_init()
             if (joint_names_.empty()) {
                 RCLCPP_ERROR(get_node()->get_logger(), "No joints specified");
                 return CallbackReturn::ERROR;
+            }
+            if (kp_default_.size() != joint_names_.size()) {
+                RCLCPP_WARN(
+                    get_node()->get_logger(),
+                    "kp size (%zu) does not match joints (%zu); resizing using first value",
+                    kp_default_.size(),
+                    joint_names_.size());
+                const double kp_value = kp_default_.empty() ? 0.0 : kp_default_.front();
+                kp_default_.assign(joint_names_.size(), kp_value);
+            }
+            if (kd_default_.size() != joint_names_.size()) {
+                RCLCPP_WARN(
+                    get_node()->get_logger(),
+                    "kd size (%zu) does not match joints (%zu); resizing using first value",
+                    kd_default_.size(),
+                    joint_names_.size());
+                const double kd_value = kd_default_.empty() ? 0.0 : kd_default_.front();
+                kd_default_.assign(joint_names_.size(), kd_value);
             }
             RCLCPP_INFO(get_node()->get_logger(), "StaticJointsController configured with %zu joints", joint_names_.size());
 
@@ -102,6 +128,42 @@ controller_interface::CallbackReturn StaticJointsController::on_configure(const 
             std::lock_guard<std::mutex> lock(command_mutex_);
             latest_position_command_ = msg->data;
             has_position_command_ = true;
+        });
+
+    kp_cmd_sub_ = get_node()->create_subscription<std_msgs::msg::Float64MultiArray>(
+        kp_command_topic_,
+        rclcpp::SystemDefaultsQoS(),
+        [this](const std_msgs::msg::Float64MultiArray::SharedPtr msg)
+        {
+            if (msg->data.size() != joint_names_.size()) {
+                RCLCPP_WARN(
+                    get_node()->get_logger(),
+                    "Ignoring kp command: expected %zu values, got %zu",
+                    joint_names_.size(),
+                    msg->data.size());
+                return;
+            }
+            std::lock_guard<std::mutex> lock(command_mutex_);
+            latest_kp_command_ = msg->data;
+            has_kp_command_ = true;
+        });
+
+    kd_cmd_sub_ = get_node()->create_subscription<std_msgs::msg::Float64MultiArray>(
+        kd_command_topic_,
+        rclcpp::SystemDefaultsQoS(),
+        [this](const std_msgs::msg::Float64MultiArray::SharedPtr msg)
+        {
+            if (msg->data.size() != joint_names_.size()) {
+                RCLCPP_WARN(
+                    get_node()->get_logger(),
+                    "Ignoring kd command: expected %zu values, got %zu",
+                    joint_names_.size(),
+                    msg->data.size());
+                return;
+            }
+            std::lock_guard<std::mutex> lock(command_mutex_);
+            latest_kd_command_ = msg->data;
+            has_kd_command_ = true;
         });
 
     return CallbackReturn::SUCCESS;
@@ -197,10 +259,18 @@ controller_interface::return_type StaticJointsController::update(const rclcpp::T
 
     double delta = 0.1;
     std::vector<double> position_command;
+    std::vector<double> kp_command;
+    std::vector<double> kd_command;
     {
         std::lock_guard<std::mutex> lock(command_mutex_);
         if (has_position_command_) {
             position_command = latest_position_command_;
+        }
+        if (has_kp_command_) {
+            kp_command = latest_kp_command_;
+        }
+        if (has_kd_command_) {
+            kd_command = latest_kd_command_;
         }
     }
     // for all joints
@@ -208,13 +278,15 @@ controller_interface::return_type StaticJointsController::update(const rclcpp::T
     for (size_t i = 0; i < joint_names_.size(); ++i) 
         {
             const double target_pos = position_command.empty() ? pose_position[i] : position_command[i];
+            const double target_kp = kp_command.empty() ? kp_default_[i] : kp_command[i];
+            const double target_kd = kd_command.empty() ? kd_default_[i] : kd_command[i];
             success = joint_position_command_interface_[i].get().set_value(target_pos);
             assert(success);
             success = joint_velocity_command_interface_[i].get().set_value(pose_velocity[i]);
             assert(success);
-            success = joint_kp_command_interface_[i].get().set_value(kp);
+            success = joint_kp_command_interface_[i].get().set_value(target_kp);
             assert(success);   
-            success = joint_kd_command_interface_[i].get().set_value(kd);
+            success = joint_kd_command_interface_[i].get().set_value(target_kd);
             assert(success);
         }
 
