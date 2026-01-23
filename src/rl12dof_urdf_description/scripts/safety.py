@@ -50,7 +50,7 @@ def jacobian_singularity(q):
     w = manipulability(J)
     return w < MANIP_THRESHOLD, w
 
-def validate_command(q):
+def validate_command_IK(q):
     """Main safety entry point. q is a 3-element radian joint vector."""
     
     if not within_limits(q):
@@ -62,5 +62,13 @@ def validate_command(q):
     near_jac, w = jacobian_singularity(q)
     if near_jac:
         return False, f"Jacobian singularity (manipulability={w:.4f})"
+    
+    return True, "OK"
+
+def validate_command_FK(q):
+    """Main safety entry point. q is a 3-element radian joint vector."""
+    
+    if not within_limits(q):
+        return False, "Joint limit violation"
     
     return True, "OK"
