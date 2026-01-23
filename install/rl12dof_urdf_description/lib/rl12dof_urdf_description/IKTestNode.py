@@ -36,9 +36,11 @@ class IKTestNode(Node):
         self.L3 = float(self.get_parameter('L3').value)
         self.L4 = float(self.get_parameter('L4').value)
 
+        self.declare_parameter('command_topic', '/static_joints_controller/commands')
+        self.command_topic = self.get_parameter('command_topic').value
         self.pub = self.create_publisher(
             Float64MultiArray,
-            '/joint_group_position_controller/commands',
+            self.command_topic,
             10
         )
 

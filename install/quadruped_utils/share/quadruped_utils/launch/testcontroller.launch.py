@@ -82,12 +82,12 @@ def generate_launch_description():
         # ),
 
 
-    static_joints_controller = Node(
+    zero_joints_controller = Node(
             package='controller_manager',
             executable='spawner',
             # prefix=['gdbserver localhost:3002'],
             # namespace='quadruped_utils',
-            arguments=['static_joints_controller', '--controller-manager', '/controller_manager'],
+            arguments=['zero_joints_controller', '--controller-manager', '/controller_manager'],
             output='screen',
         )
         
@@ -109,7 +109,7 @@ def generate_launch_description():
     delay_controller_spawner = RegisterEventHandler(
         event_handler=OnProcessExit(
             target_action= joint_state_broadcaster,
-            on_exit=[static_joints_controller],
+            on_exit=[zero_joints_controller],
         )
     )
     
@@ -117,7 +117,7 @@ def generate_launch_description():
             # joint_state_controller,
             # joint_group_position_controller,
             joint_state_broadcaster,
-            # zero_joints_controller,
+            # static_joints_controller,
             delay_controller_spawner
             # delay_joint_state_broadcaster_after_robot_controller_spawner,
         ]

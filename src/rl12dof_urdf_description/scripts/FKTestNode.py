@@ -3,6 +3,7 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64MultiArray
 import math
+from safety import validate_command
 
 
 class FKTestNode(Node):
@@ -61,11 +62,13 @@ class FKTestNode(Node):
         )
 
         # -----------------------------
-        # Publisher (GROUP POSITION)
+        # Publisher (STATIC JOINTS)
         # -----------------------------
+        self.declare_parameter('command_topic', '/static_joints_controller/commands')
+        self.command_topic = self.get_parameter('command_topic').value
         self.pub = self.create_publisher(
             Float64MultiArray,
-            '/joint_group_position_controller/command',
+            self.command_topic,
             10
         )
 
@@ -78,6 +81,19 @@ class FKTestNode(Node):
 
     def run_step(self):
         positions = self.sequence[self.step]
+
+        valid, reason = validate_command(positions)
+        if not valid:
+            self.get_logger().warn(f"Rejected FK cmd: {reason} | cmd={positions}")
+            self.step += 1
+            if self.step_loop:
+                self.step %= len(self.sequence)
+            else:
+                if self.step >= len(self.sequence):
+                    self.step = len(self.sequence) - 1
+                    self.timer.cancel()
+                    self.get_logger().info("Final FK command sent — holding position.")
+            return
 
         msg = Float64MultiArray()
         msg.data = positions

@@ -98,6 +98,8 @@ private:
     std::chrono::duration<double> thread_period;
 
     double position_offset;
+    double position_offset_param;
+    bool position_offset_applied;
 
     double min_pos;
     double max_pos;

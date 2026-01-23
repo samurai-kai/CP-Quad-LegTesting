@@ -30,7 +30,7 @@ joint_group_position_controller:
 zero_joints_controller:
   ros__parameters:
     type: quadruped_utils/ZeroJointsController
-    zero_effort_lim: 1.0
+    zero_effort_lim: 0.45
     kp: 0.0
     kd: 4.0
     velocity: 0.25
@@ -40,7 +40,7 @@ zero_joints_controller:
       - link1_to_base
       - link2_to_link1
       - link3_to_link2
-    zero_direction: [1.0, -1.0, -1.0]
+    zero_direction: [1.0, 1.0, 1.0]
     command_interfaces:
       - position
       - velocity
@@ -64,7 +64,7 @@ static_joints_controller:
       - link2_to_link1
       - link3_to_link2
     
-    positions: [0.78, 0.78, 0.78]
+    positions: [0.0, 0.0, 0.0]
     velocities: [0.0, 0.0, 0.0]
     command_interfaces:
       - position

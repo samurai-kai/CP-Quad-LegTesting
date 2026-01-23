@@ -4,11 +4,16 @@ FKTestNode:
     step_loop: true
 
     command_period: 4.0
+    command_topic: "/static_joints_controller/commands"
 
     joint_sequence_flat:
-      - 45.0
-      - 30.0
-      - 60.0
-      - 45.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 15.0
       - 30.0
       - 70.0
+      - -15.0
+      - 45.0
+      - 90.0
+      

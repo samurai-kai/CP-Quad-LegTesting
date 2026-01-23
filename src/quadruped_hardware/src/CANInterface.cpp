@@ -20,7 +20,8 @@ namespace CAN_interface
             perror("CANInterface: Error While Opening CAN Socket");
         }
         else {
-            // Accept all CAN frames; filter in software because replies arrive on ID 0x000.
+            // If socket was created successfully, apply the can filter for only receiving from motor and not from master.
+            setsockopt(socket_descrp_, SOL_CAN_RAW, CAN_RAW_FILTER, &rfilter, sizeof(rfilter));
 
             // setsockopt(socket_descrp_, SOL_CAN_RAW, CAN_RAW_LOOPBACK, &loopback, sizeof(loopback));
 

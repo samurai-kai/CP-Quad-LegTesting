@@ -1,0 +1,56 @@
+[0.147s] Invoking command in '/home/ws/build/rl12dof_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/rl12dof_urdf_description -- -j8 -l8
+[0.397s] Invoked command in '/home/ws/build/rl12dof_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/rl12dof_urdf_description -- -j8 -l8
+[0.403s] Invoking command in '/home/ws/build/rl12dof_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/rl12dof_urdf_description
+[0.421s] -- Install configuration: "Release"
+[0.421s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/FKTestNode.py
+[0.422s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/IKTestNode.py
+[0.422s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/safety.py
+[0.422s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/lib/rl12dof_urdf_description/jacobian_numeric.py
+[0.423s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/launch
+[0.423s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/launch/FKTest.launch.py
+[0.423s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/launch/gazebo_sim.launch.py
+[0.424s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/launch/display.launch.py
+[0.424s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/launch/IKTest.launch.py
+[0.424s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/launch/real_urdf.launch.py
+[0.424s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config
+[0.424s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config/FK_cmds.yaml
+[0.424s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config/display.rviz
+[0.424s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config/IK_cmds.yaml
+[0.425s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config/ros_gz_bridge_gazebo.yaml
+[0.425s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/config/controllers.yaml
+[0.425s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf
+[0.426s] -- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_ros2_control.xacro
+[0.426s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/materials.xacro
+[0.426s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_URDF_real.urdf.xacro
+[0.426s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/urdf/rl12dof_links_joints_hardware.xacro
+[0.427s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes
+[0.427s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Hip_Pitch_v1_1.stl
+[0.427s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Outer_Motor_Coupling_v25_1.stl
+[0.427s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Inner_Motor_Coupling_v26_1.stl
+[0.427s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Hip_Link_v28_1.stl
+[0.427s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Right_Femur_Housing_v1_1.stl
+[0.427s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Right_Femur_Thigh_Cap_v1_1.stl
+[0.428s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Tibia_Link_v97_1.stl
+[0.428s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Foot_V3_Foot_v1_1.stl
+[0.428s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Knee_Driven_Gear_v1_1.stl
+[0.428s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Knee_Pitch_v1_1.stl
+[0.428s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/base_link.stl
+[0.428s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/meshes/Knee_Drive_Gear_v22_1.stl
+[0.428s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/worlds
+[0.429s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/worlds/foot_test.sdf
+[0.429s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/ament_index/resource_index/package_run_dependencies/rl12dof_urdf_description
+[0.429s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/ament_index/resource_index/parent_prefix_path/rl12dof_urdf_description
+[0.429s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/environment/ament_prefix_path.sh
+[0.429s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/environment/ament_prefix_path.dsv
+[0.429s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/environment/path.sh
+[0.430s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/environment/path.dsv
+[0.430s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/local_setup.bash
+[0.430s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/local_setup.sh
+[0.430s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/local_setup.zsh
+[0.430s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/local_setup.dsv
+[0.430s] -- Installing: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.dsv
+[0.434s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/ament_index/resource_index/packages/rl12dof_urdf_description
+[0.436s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/cmake/rl12dof_urdf_descriptionConfig.cmake
+[0.437s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/cmake/rl12dof_urdf_descriptionConfig-version.cmake
+[0.440s] -- Up-to-date: /home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.xml
+[0.441s] Invoked command in '/home/ws/build/rl12dof_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/rl12dof_urdf_description

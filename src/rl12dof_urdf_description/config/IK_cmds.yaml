@@ -11,6 +11,7 @@ IKTestNode:
 
     dt: 1.0             # update rate (s)
     verbose: true
+    command_topic: "/static_joints_controller/commands"
 
     # ---- YOUR LINK LENGTHS (set these!) ----
     L2: 0.083            # hip offset (m)
