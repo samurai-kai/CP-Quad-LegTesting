@@ -1,0 +1,7 @@
+ros2 control set_controller_state zero_joints_controller inactive
+ros2 control unload_controller zero_joints_controller
+ros2 control set_controller_state joint_state_broadcaster inactive
+ros2 control unload_controller joint_state_broadcaster 
+ros2 control set_controller_state static_joints_controller inactive
+ros2 control unload_controller static_joints_controller
+ros2 control list_controllers

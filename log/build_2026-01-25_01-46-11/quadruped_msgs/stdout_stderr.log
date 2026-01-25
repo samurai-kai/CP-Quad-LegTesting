@@ -1,0 +1,17 @@
+[  1%] Built target quadruped_msgs__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_copy_quadruped_msgs
+[ 23%] Built target quadruped_msgs__rosidl_generator_c
+running egg_info
+writing quadruped_msgs.egg-info/PKG-INFO
+writing dependency_links to quadruped_msgs.egg-info/dependency_links.txt
+writing top-level names to quadruped_msgs.egg-info/top_level.txt
+reading manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+writing manifest file 'quadruped_msgs.egg-info/SOURCES.txt'
+[ 23%] Built target ament_cmake_python_build_quadruped_msgs_egg
+[ 32%] Built target quadruped_msgs__rosidl_typesupport_c
+[ 42%] Built target quadruped_msgs__rosidl_typesupport_introspection_c
+[ 51%] Built target quadruped_msgs__rosidl_typesupport_fastrtps_c
+[ 53%] Built target quadruped_msgs__cpp
+gmake[2]: *** [CMakeFiles/quadruped_msgs__rosidl_typesupport_cpp.dir/build.make:256: CMakeFiles/quadruped_msgs__rosidl_typesupport_cpp.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/quadruped_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

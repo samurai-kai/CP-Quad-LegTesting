@@ -235,7 +235,18 @@ controller_interface::return_type ZeroJointController::update(const rclcpp::Time
             // if not zeroed
             if (zero_status[i] == 1)
             {
-                auto effort = joint_effort_state_interface_[i].get().get_value(); 
+                auto effort_opt = joint_effort_state_interface_[i].get().get_optional();
+                if (!effort_opt) {
+                    RCLCPP_WARN_THROTTLE(
+                        get_node()->get_logger(),
+                        *get_node()->get_clock(),
+                        2000,
+                        "Effort state missing for joint %s; skipping zero check this cycle.",
+                        joint_names_[i].c_str());
+                    all_zero = false;
+                    continue;
+                }
+                auto effort = *effort_opt; 
 
                 // if effort limit exceeded (found limit), zero
                 if (abs(effort) > zero_effort_lim)

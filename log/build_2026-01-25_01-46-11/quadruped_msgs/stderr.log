@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/quadruped_msgs__rosidl_typesupport_cpp.dir/build.make:256: CMakeFiles/quadruped_msgs__rosidl_typesupport_cpp.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/quadruped_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -3,7 +3,7 @@ import math
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64MultiArray
-from safety import validate_command
+from safety import validate_command_IK
 
 
 class IKTestNode(Node):
@@ -118,7 +118,7 @@ class IKTestNode(Node):
         cmd = self.analytic_ik(x_e, y_e, z_e)
 
         # Safety check (your existing script)
-        valid, reason = validate_command(cmd)
+        valid, reason = validate_command_IK(cmd)
         if not valid:
             self.get_logger().warn(f"Rejected IK cmd: {reason} | cmd={cmd}")
             self.time += self.dt

@@ -16,7 +16,7 @@
       <param name="effort_limit">12.0</param>
       <param name="command_type">radian</param>
       <param name="frequency">50.0</param>
-      <param name="zero_position_offset">-0.785</param>
+      <param name="zero_position_offset">0.775</param>
       <param name="min_position_limit">-1.57</param>
       <param name="max_position_limit">1.57</param>
     </hardware>
@@ -48,11 +48,11 @@
       <param name="can_bus">can0</param>
       <param name="can_id">19</param>
 
-      <param name="flip">false</param>
+      <param name="flip">true</param>
       <param name="effort_limit">12.0</param>
       <param name="command_type">radian</param>
       <param name="frequency">50.0</param>
-      <param name="zero_position_offset">-0.785</param>
+      <param name="zero_position_offset">-1.57</param>
       <param name="min_position_limit">0.0</param>
       <param name="max_position_limit">6.28</param>
     </hardware>
@@ -84,12 +84,12 @@
       <param name="can_bus">can0</param>
       <param name="can_id">20</param>
 
-      <param name="flip">false</param>
+      <param name="flip">true</param>
       <param name="effort_limit">12.0</param>
       <param name="command_type">radian</param>
       <param name="frequency">50.0</param>
-      <param name="zero_position_offset">-0.785</param>
-      <param name="min_position_limit">0.0</param>
+      <param name="zero_position_offset">-1.57</param>
+      <param name="min_position_limit">-1.57</param>
       <param name="max_position_limit">2.35</param>
     </hardware>
 

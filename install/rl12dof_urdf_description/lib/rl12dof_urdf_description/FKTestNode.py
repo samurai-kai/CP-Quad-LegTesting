@@ -3,7 +3,7 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64MultiArray
 import math
-from safety import validate_command
+from safety import validate_command_FK
 
 
 class FKTestNode(Node):
@@ -82,7 +82,7 @@ class FKTestNode(Node):
     def run_step(self):
         positions = self.sequence[self.step]
 
-        valid, reason = validate_command(positions)
+        valid, reason = validate_command_FK(positions)
         if not valid:
             self.get_logger().warn(f"Rejected FK cmd: {reason} | cmd={positions}")
             self.step += 1
