@@ -53,8 +53,8 @@
       <param name="command_type">radian</param>
       <param name="frequency">50.0</param>
       <param name="zero_position_offset">0.0</param>
-      <param name="min_position_limit">0.0</param>
-      <param name="max_position_limit">6.28</param>
+      <param name="min_position_limit">-1.04</param>
+      <param name="max_position_limit">1.04</param>
     </hardware>
 
     <joint name="link2_to_link1">
@@ -88,14 +88,14 @@
       <param name="effort_limit">12.0</param>
       <param name="command_type">radian</param>
       <param name="frequency">50.0</param>
-      <param name="zero_position_offset">0</param>
+      <param name="zero_position_offset">0.0</param>
       <param name="min_position_limit">-1.57</param>
       <param name="max_position_limit">2.35</param>
     </hardware>
 
     <joint name="link3_to_link2">
       <command_interface name="position"/>
-      <command_interface name="velocity"/>
+      <command_interface name="velocity"/> 
       <command_interface name="effort"/>
       <command_interface name="kp"/>
       <command_interface name="kd"/>

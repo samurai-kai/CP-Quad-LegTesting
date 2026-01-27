@@ -1,0 +1,41 @@
+[0.202s] Invoking command in '/home/ws/build/quadruped_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8
+[0.567s] [100%] Built target quadruped_utils_controllers
+[0.706s] Invoked command in '/home/ws/build/quadruped_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8
+[0.711s] Invoking command in '/home/ws/build/quadruped_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_utils
+[0.767s] -- Install configuration: "Debug"
+[0.769s] -- Up-to-date: /home/ws/install/quadruped_utils/lib/libquadruped_utils_controllers.so
+[0.770s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/launch
+[0.771s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/launch/ZeroJoint.launch.py
+[0.772s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/launch/StaticJoint.launch.py
+[0.773s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/launch/testcontroller.launch.py
+[0.774s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/config
+[0.775s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/config/controller.yaml
+[0.776s] -- Up-to-date: /home/ws/install/quadruped_utils/include
+[0.781s] -- Up-to-date: /home/ws/install/quadruped_utils/include/quadruped_utils
+[0.782s] -- Up-to-date: /home/ws/install/quadruped_utils/include/quadruped_utils/EstopController.hpp
+[0.782s] -- Up-to-date: /home/ws/install/quadruped_utils/include/quadruped_utils/ZeroJointsController.hpp
+[0.784s] -- Up-to-date: /home/ws/install/quadruped_utils/include/quadruped_utils/StaticJointsController.hpp
+[0.806s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/ZeroJointsController.xml
+[0.806s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/StaticJointsController.xml
+[0.806s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/library_path.sh
+[0.806s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/library_path.dsv
+[0.807s] -- Up-to-date: /home/ws/install/quadruped_utils/share/ament_index/resource_index/package_run_dependencies/quadruped_utils
+[0.807s] -- Up-to-date: /home/ws/install/quadruped_utils/share/ament_index/resource_index/parent_prefix_path/quadruped_utils
+[0.807s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/ament_prefix_path.sh
+[0.807s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/ament_prefix_path.dsv
+[0.807s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/path.sh
+[0.807s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/environment/path.dsv
+[0.807s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.bash
+[0.808s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.sh
+[0.808s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.zsh
+[0.808s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/local_setup.dsv
+[0.808s] -- Installing: /home/ws/install/quadruped_utils/share/quadruped_utils/package.dsv
+[0.808s] -- Up-to-date: /home/ws/install/quadruped_utils/share/ament_index/resource_index/packages/quadruped_utils
+[0.809s] -- Up-to-date: /home/ws/install/quadruped_utils/share/ament_index/resource_index/controller_interface__pluginlib__plugin/quadruped_utils
+[0.809s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.809s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.809s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[0.809s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/quadruped_utilsConfig.cmake
+[0.809s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/cmake/quadruped_utilsConfig-version.cmake
+[0.809s] -- Up-to-date: /home/ws/install/quadruped_utils/share/quadruped_utils/package.xml
+[0.844s] Invoked command in '/home/ws/build/quadruped_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_utils

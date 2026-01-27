@@ -8,8 +8,8 @@ from jacobian_numeric import jacobian_numeric
 HIP_MIN_DEG    = -90
 HIP_MAX_DEG    = 90
 
-THIGH_MIN_DEG  = 0
-THIGH_MAX_DEG  = 360
+THIGH_MIN_DEG  = -60
+THIGH_MAX_DEG  = 60
 
 KNEE_MIN_DEG   = 0     
 KNEE_MAX_DEG   = 135
