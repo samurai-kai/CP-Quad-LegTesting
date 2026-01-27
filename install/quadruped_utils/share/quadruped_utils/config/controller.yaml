@@ -63,7 +63,7 @@ static_joints_controller:
       - link2_to_link1
       - link3_to_link2
     
-    positions: [0.0, 0.785, 1.57]
+    positions: [0.0, 0.35, 1.92]
     velocities: [0.0, 0.0, 0.0]
     command_interfaces:
       - position

@@ -1,0 +1,33 @@
+[0.213s] Invoking command in '/home/ws/build/bno08x_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/bno08x_driver -- -j8 -l8
+[1.276s] [ 27%] Built target sh2_library
+[1.276s] [ 44%] Built target gmock
+[1.277s] [ 66%] Built target bno08x_driver
+[1.392s] [ 77%] Built target gmock_main
+[1.599s] [ 88%] Built target test_i2c_mock
+[1.918s] [100%] Built target test_watchdog
+[2.331s] Invoked command in '/home/ws/build/bno08x_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/bno08x_driver -- -j8 -l8
+[2.339s] Invoking command in '/home/ws/build/bno08x_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/bno08x_driver
+[2.382s] -- Install configuration: "Release"
+[2.382s] -- Up-to-date: /home/ws/install/bno08x_driver/lib/bno08x_driver/bno08x_driver
+[2.382s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/config
+[2.382s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/config/bno085_i2c.yaml
+[2.382s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/config/bno085_uart.yaml
+[2.383s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/launch
+[2.384s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/launch/bno085_i2c.launch.py
+[2.385s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/launch/bno085_uart.launch.py
+[2.385s] -- Up-to-date: /home/ws/install/bno08x_driver/share/ament_index/resource_index/package_run_dependencies/bno08x_driver
+[2.385s] -- Up-to-date: /home/ws/install/bno08x_driver/share/ament_index/resource_index/parent_prefix_path/bno08x_driver
+[2.385s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/environment/ament_prefix_path.sh
+[2.385s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/environment/ament_prefix_path.dsv
+[2.385s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/environment/path.sh
+[2.386s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/environment/path.dsv
+[2.386s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/local_setup.bash
+[2.386s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/local_setup.sh
+[2.405s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/local_setup.zsh
+[2.405s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/local_setup.dsv
+[2.405s] -- Installing: /home/ws/install/bno08x_driver/share/bno08x_driver/package.dsv
+[2.405s] -- Up-to-date: /home/ws/install/bno08x_driver/share/ament_index/resource_index/packages/bno08x_driver
+[2.405s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/cmake/bno08x_driverConfig.cmake
+[2.406s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/cmake/bno08x_driverConfig-version.cmake
+[2.406s] -- Up-to-date: /home/ws/install/bno08x_driver/share/bno08x_driver/package.xml
+[2.521s] Invoked command in '/home/ws/build/bno08x_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/bno08x_driver

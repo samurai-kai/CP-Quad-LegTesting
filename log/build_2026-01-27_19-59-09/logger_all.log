@@ -1,0 +1,1091 @@
+[0.304s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-skip', 'bno08x_driver', '--packages-skip', 'quadruped_mpc', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.305s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=['quadruped_mpc'], packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7f7acda0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7f7acb00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7f7acb00>>, mixin_verb=('build',))
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.407s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ws'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python_setup_py'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extensions ['cmake', 'python']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extension 'cmake'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(bags/basic_imu_test) by extension 'python_setup_py'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extension 'python'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extensions ['python_setup_py']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(bags/clean_imu) by extension 'python_setup_py'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extension 'ros'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extensions ['cmake', 'python']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extension 'cmake'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extension 'python'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extensions ['python_setup_py']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extension 'ros'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extensions ['cmake', 'python']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extension 'cmake'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extension 'python'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extensions ['python_setup_py']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(bags/impulse_standing2) by extension 'python_setup_py'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extension 'ros'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extensions ['cmake', 'python']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extension 'cmake'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extension 'python'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extensions ['python_setup_py']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(bags/motor_imu) by extension 'python_setup_py'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extension 'ros'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extensions ['cmake', 'python']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extension 'cmake'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extension 'python'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extensions ['python_setup_py']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(bags/rosbag2_2025_06_04-19_30_09) by extension 'python_setup_py'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extension 'ros'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extensions ['cmake', 'python']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extension 'cmake'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extension 'python'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extensions ['python_setup_py']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(bags/static_imu_test) by extension 'python_setup_py'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno08x_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno08x_ros2_driver) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno08x_ros2_driver) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno08x_ros2_driver) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno08x_ros2_driver) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno08x_ros2_driver) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno08x_ros2_driver) by extension 'colcon_meta'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno08x_ros2_driver) by extensions ['ros']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno08x_ros2_driver) by extension 'ros'
+[0.523s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bno08x_ros2_driver' with type 'ros.ament_cmake' and name 'bno08x_driver'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hardware_interface) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hardware_interface) by extension 'ignore_ament_install'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hardware_interface) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hardware_interface) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hardware_interface) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hardware_interface) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hardware_interface) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_hardware_interface) by extension 'ros'
+[0.528s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_hardware_interface' with type 'ros.ament_cmake' and name 'imu_hardware_interface'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_interface) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_interface) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_interface) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_interface) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_interface) by extensions ['colcon_meta']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_interface) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_interface) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_interface) by extension 'ros'
+[0.531s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jetson_interface' with type 'ros.ament_cmake' and name 'jetson_interface'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[0.535s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_bringup) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_bringup) by extension 'ignore_ament_install'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_bringup) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_bringup) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_bringup) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_bringup) by extension 'colcon_meta'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_bringup) by extensions ['ros']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_bringup) by extension 'ros'
+[0.542s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadruped_bringup' with type 'ros.ament_cmake' and name 'quadruped_bringup'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_hardware) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_hardware) by extension 'ignore_ament_install'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_hardware) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_hardware) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_hardware) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_hardware) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_hardware) by extensions ['ros']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_hardware) by extension 'ros'
+[0.546s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadruped_hardware' with type 'ros.ament_cmake' and name 'quadruped_hardware'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_mpc) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_mpc) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_mpc) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_mpc) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_mpc) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_mpc) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_mpc) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_mpc) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_mpc) by extension 'ros'
+[0.550s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadruped_mpc' with type 'ros.ament_cmake' and name 'quadruped_mpc'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_msgs) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_msgs) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_msgs) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_msgs) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_msgs) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_msgs) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_msgs) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_msgs) by extension 'ros'
+[0.554s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadruped_msgs' with type 'ros.ament_cmake' and name 'quadruped_msgs'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_sim) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_sim) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_sim) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_sim) by extension 'colcon_pkg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_sim) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_sim) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_sim) by extensions ['ros']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_sim) by extension 'ros'
+[0.558s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadruped_sim' with type 'ros.ament_cmake' and name 'quadruped_sim'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_urdf) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_urdf) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_urdf) by extensions ['colcon_pkg']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_urdf) by extension 'colcon_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_urdf) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_urdf) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_urdf) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_urdf) by extension 'ros'
+[0.561s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadruped_urdf' with type 'ros.ament_cmake' and name 'quadruped_urdf'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_utils) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_utils) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_utils) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_utils) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_utils) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_utils) by extension 'colcon_meta'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_utils) by extensions ['ros']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_utils) by extension 'ros'
+[0.565s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadruped_utils' with type 'ros.ament_cmake' and name 'quadruped_utils'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl12dof_urdf_description) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl12dof_urdf_description) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl12dof_urdf_description) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl12dof_urdf_description) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl12dof_urdf_description) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl12dof_urdf_description) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl12dof_urdf_description) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl12dof_urdf_description) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl12dof_urdf_description) by extension 'ros'
+[0.571s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rl12dof_urdf_description' with type 'ros.ament_cmake' and name 'rl12dof_urdf_description'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'ros'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extensions ['cmake', 'python']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'cmake'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'python'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extensions ['python_setup_py']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh) by extension 'python_setup_py'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'ros'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extensions ['cmake', 'python']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'cmake'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'python'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extensions ['python_setup_py']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/docs) by extension 'python_setup_py'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extension 'ignore_ament_install'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extensions ['colcon_pkg']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/rmw_zenoh_cpp) by extension 'ros'
+[0.584s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmw_zenoh/rmw_zenoh_cpp' with type 'ros.ament_cmake' and name 'rmw_zenoh_cpp'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_cpp_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_cpp_vendor) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_cpp_vendor) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_cpp_vendor) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_cpp_vendor) by extension 'colcon_pkg'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_cpp_vendor) by extensions ['colcon_meta']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_cpp_vendor) by extension 'colcon_meta'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_cpp_vendor) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmw_zenoh/zenoh_cpp_vendor) by extension 'ros'
+[0.588s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmw_zenoh/zenoh_cpp_vendor' with type 'ros.ament_cmake' and name 'zenoh_cpp_vendor'
+[0.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.640s] INFO:colcon.colcon_core.package_selection:Skipping package 'quadruped_mpc' in 'src/quadruped_mpc'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'bno08x_driver' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'bno08x_driver' build argument 'cmake_target' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'bno08x_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'bno08x_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'bno08x_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'bno08x_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'bno08x_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'bno08x_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'bno08x_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.645s] DEBUG:colcon.colcon_core.verb:Building package 'bno08x_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/bno08x_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/bno08x_driver', 'merge_install': False, 'path': '/home/ws/src/bno08x_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'imu_hardware_interface' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'imu_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'imu_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'imu_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'imu_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'imu_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'imu_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'imu_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'imu_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.648s] DEBUG:colcon.colcon_core.verb:Building package 'imu_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/imu_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/imu_hardware_interface', 'merge_install': False, 'path': '/home/ws/src/imu_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'jetson_interface' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'jetson_interface' build argument 'cmake_target' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'jetson_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'jetson_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'jetson_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'jetson_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'jetson_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'jetson_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'jetson_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.650s] DEBUG:colcon.colcon_core.verb:Building package 'jetson_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/jetson_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/jetson_interface', 'merge_install': False, 'path': '/home/ws/src/jetson_interface', 'symlink_install': False, 'test_result_base': None}
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.653s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/py_pubsub', 'merge_install': False, 'path': '/home/ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'quadruped_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'quadruped_bringup' build argument 'cmake_target' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'quadruped_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'quadruped_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'quadruped_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'quadruped_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'quadruped_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'quadruped_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'quadruped_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.655s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/quadruped_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/quadruped_bringup', 'merge_install': False, 'path': '/home/ws/src/quadruped_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'quadruped_hardware' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'quadruped_hardware' build argument 'cmake_target' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'quadruped_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'quadruped_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'quadruped_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'quadruped_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'quadruped_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'quadruped_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'quadruped_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.657s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/quadruped_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/quadruped_hardware', 'merge_install': False, 'path': '/home/ws/src/quadruped_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'quadruped_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'quadruped_msgs' build argument 'cmake_target' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'quadruped_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'quadruped_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'quadruped_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'quadruped_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'quadruped_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'quadruped_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'quadruped_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.661s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/quadruped_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/quadruped_msgs', 'merge_install': False, 'path': '/home/ws/src/quadruped_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'quadruped_sim' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'quadruped_sim' build argument 'cmake_target' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'quadruped_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'quadruped_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'quadruped_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'quadruped_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'quadruped_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'quadruped_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'quadruped_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.663s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/quadruped_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/quadruped_sim', 'merge_install': False, 'path': '/home/ws/src/quadruped_sim', 'symlink_install': False, 'test_result_base': None}
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'quadruped_urdf' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'quadruped_urdf' build argument 'cmake_target' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'quadruped_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'quadruped_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'quadruped_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'quadruped_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'quadruped_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'quadruped_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'quadruped_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.665s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/quadruped_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/quadruped_urdf', 'merge_install': False, 'path': '/home/ws/src/quadruped_urdf', 'symlink_install': False, 'test_result_base': None}
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'quadruped_utils' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'quadruped_utils' build argument 'cmake_target' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'quadruped_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'quadruped_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'quadruped_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'quadruped_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'quadruped_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'quadruped_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'quadruped_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.666s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/quadruped_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/quadruped_utils', 'merge_install': False, 'path': '/home/ws/src/quadruped_utils', 'symlink_install': False, 'test_result_base': None}
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'rl12dof_urdf_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'rl12dof_urdf_description' build argument 'cmake_target' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'rl12dof_urdf_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'rl12dof_urdf_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'rl12dof_urdf_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'rl12dof_urdf_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'rl12dof_urdf_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'rl12dof_urdf_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'rl12dof_urdf_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.667s] DEBUG:colcon.colcon_core.verb:Building package 'rl12dof_urdf_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/rl12dof_urdf_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/rl12dof_urdf_description', 'merge_install': False, 'path': '/home/ws/src/rl12dof_urdf_description', 'symlink_install': False, 'test_result_base': None}
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'zenoh_cpp_vendor' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'zenoh_cpp_vendor' build argument 'cmake_target' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'zenoh_cpp_vendor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'zenoh_cpp_vendor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'zenoh_cpp_vendor' build argument 'cmake_clean_first' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'zenoh_cpp_vendor' build argument 'cmake_force_configure' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'zenoh_cpp_vendor' build argument 'ament_cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'zenoh_cpp_vendor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'zenoh_cpp_vendor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.668s] DEBUG:colcon.colcon_core.verb:Building package 'zenoh_cpp_vendor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/zenoh_cpp_vendor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/zenoh_cpp_vendor', 'merge_install': False, 'path': '/home/ws/src/rmw_zenoh/zenoh_cpp_vendor', 'symlink_install': False, 'test_result_base': None}
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'cmake_target' from command line to 'None'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'rmw_zenoh_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.670s] DEBUG:colcon.colcon_core.verb:Building package 'rmw_zenoh_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ws/build/rmw_zenoh_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ws/install/rmw_zenoh_cpp', 'merge_install': False, 'path': '/home/ws/src/rmw_zenoh/rmw_zenoh_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.670s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.672s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.673s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src/rmw_zenoh/zenoh_cpp_vendor' with build type 'ament_cmake'
+[0.673s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src/rmw_zenoh/zenoh_cpp_vendor'
+[0.677s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.678s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.678s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.693s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src/bno08x_ros2_driver' with build type 'ament_cmake'
+[0.694s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src/bno08x_ros2_driver'
+[0.695s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.695s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.703s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src/imu_hardware_interface' with build type 'ament_cmake'
+[0.703s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src/imu_hardware_interface'
+[0.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.715s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src/jetson_interface' with build type 'ament_cmake'
+[0.717s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src/jetson_interface'
+[0.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.727s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ws/src/py_pubsub' with build type 'ament_python'
+[0.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[0.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.739s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src/quadruped_bringup' with build type 'ament_cmake'
+[0.740s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src/quadruped_bringup'
+[0.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.749s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src/quadruped_hardware' with build type 'ament_cmake'
+[0.750s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src/quadruped_hardware'
+[0.752s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src/quadruped_msgs' with build type 'ament_cmake'
+[0.760s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src/quadruped_msgs'
+[0.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.761s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/zenoh_cpp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/zenoh_cpp_vendor -- -j8 -l8
+[0.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/bno08x_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/bno08x_driver -- -j8 -l8
+[0.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/imu_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/imu_hardware_interface -- -j8 -l8
+[0.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/jetson_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/jetson_interface -- -j8 -l8
+[1.433s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ws/src/py_pubsub'
+[1.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/quadruped_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_bringup -- -j8 -l8
+[1.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/quadruped_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_hardware -- -j8 -l8
+[1.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/zenoh_cpp_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/zenoh_cpp_vendor -- -j8 -l8
+[1.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/zenoh_cpp_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/zenoh_cpp_vendor
+[1.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/imu_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/imu_hardware_interface -- -j8 -l8
+[1.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/imu_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/imu_hardware_interface
+[1.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/jetson_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/jetson_interface -- -j8 -l8
+[1.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/jetson_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/jetson_interface
+[1.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/quadruped_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_msgs -- -j8 -l8
+[1.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/bno08x_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/bno08x_driver -- -j8 -l8
+[1.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/bno08x_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/bno08x_driver
+[1.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zenoh_cpp_vendor)
+[1.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/zenoh_cpp_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/zenoh_cpp_vendor
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/zenoh_cpp_vendor' for CMake module files
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/zenoh_cpp_vendor' for CMake config files
+[1.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('zenoh_cpp_vendor', 'cmake_prefix_path')
+[1.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/hook/cmake_prefix_path.ps1'
+[1.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/hook/cmake_prefix_path.dsv'
+[1.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/hook/cmake_prefix_path.sh'
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/zenoh_cpp_vendor/bin'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/zenoh_cpp_vendor/lib/pkgconfig/zenoh_cpp_vendor.pc'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/zenoh_cpp_vendor/lib/python3.12/site-packages'
+[1.645s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/zenoh_cpp_vendor/bin'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.ps1'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.dsv'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.sh'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.bash'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.zsh'
+[1.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/zenoh_cpp_vendor/share/colcon-core/packages/zenoh_cpp_vendor)
+[1.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zenoh_cpp_vendor)
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/zenoh_cpp_vendor' for CMake module files
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/zenoh_cpp_vendor' for CMake config files
+[1.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('zenoh_cpp_vendor', 'cmake_prefix_path')
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/hook/cmake_prefix_path.ps1'
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/hook/cmake_prefix_path.dsv'
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/hook/cmake_prefix_path.sh'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/zenoh_cpp_vendor/bin'
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/zenoh_cpp_vendor/lib/pkgconfig/zenoh_cpp_vendor.pc'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/zenoh_cpp_vendor/lib/python3.12/site-packages'
+[1.679s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/zenoh_cpp_vendor/bin'
+[1.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.ps1'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.dsv'
+[1.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.sh'
+[1.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.bash'
+[1.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/zenoh_cpp_vendor/share/zenoh_cpp_vendor/package.zsh'
+[1.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/zenoh_cpp_vendor/share/colcon-core/packages/zenoh_cpp_vendor)
+[1.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/quadruped_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_bringup -- -j8 -l8
+[1.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/quadruped_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_bringup
+[1.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jetson_interface)
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface' for CMake module files
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface' for CMake config files
+[1.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetson_interface', 'cmake_prefix_path')
+[1.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/jetson_interface/share/jetson_interface/hook/cmake_prefix_path.ps1'
+[1.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/jetson_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/jetson_interface
+[1.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/jetson_interface/share/jetson_interface/hook/cmake_prefix_path.dsv'
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/jetson_interface/share/jetson_interface/hook/cmake_prefix_path.sh'
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface/lib'
+[1.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetson_interface', 'ld_library_path_lib')
+[1.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/jetson_interface/share/jetson_interface/hook/ld_library_path_lib.ps1'
+[1.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/jetson_interface/share/jetson_interface/hook/ld_library_path_lib.dsv'
+[1.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/jetson_interface/share/jetson_interface/hook/ld_library_path_lib.sh'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface/bin'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface/lib/pkgconfig/jetson_interface.pc'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface/lib/python3.12/site-packages'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface/bin'
+[1.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/jetson_interface/share/jetson_interface/package.ps1'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/jetson_interface/share/jetson_interface/package.dsv'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/jetson_interface/share/jetson_interface/package.sh'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/jetson_interface/share/jetson_interface/package.bash'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/jetson_interface/share/jetson_interface/package.zsh'
+[1.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/jetson_interface/share/colcon-core/packages/jetson_interface)
+[1.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jetson_interface)
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface' for CMake module files
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface' for CMake config files
+[1.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetson_interface', 'cmake_prefix_path')
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/jetson_interface/share/jetson_interface/hook/cmake_prefix_path.ps1'
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/jetson_interface/share/jetson_interface/hook/cmake_prefix_path.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/jetson_interface/share/jetson_interface/hook/cmake_prefix_path.sh'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface/lib'
+[1.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetson_interface', 'ld_library_path_lib')
+[1.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/jetson_interface/share/jetson_interface/hook/ld_library_path_lib.ps1'
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/jetson_interface/share/jetson_interface/hook/ld_library_path_lib.dsv'
+[1.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/jetson_interface/share/jetson_interface/hook/ld_library_path_lib.sh'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface/bin'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface/lib/pkgconfig/jetson_interface.pc'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface/lib/python3.12/site-packages'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/jetson_interface/bin'
+[1.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/jetson_interface/share/jetson_interface/package.ps1'
+[1.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/jetson_interface/share/jetson_interface/package.dsv'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/jetson_interface/share/jetson_interface/package.sh'
+[1.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/jetson_interface/share/jetson_interface/package.bash'
+[1.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/jetson_interface/share/jetson_interface/package.zsh'
+[1.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/jetson_interface/share/colcon-core/packages/jetson_interface)
+[1.808s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src/quadruped_sim' with build type 'ament_cmake'
+[1.808s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src/quadruped_sim'
+[1.809s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.822s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src/quadruped_urdf' with build type 'ament_cmake'
+[1.823s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src/quadruped_urdf'
+[1.823s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_hardware_interface)
+[1.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/imu_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/imu_hardware_interface
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface' for CMake module files
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface' for CMake config files
+[1.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_hardware_interface', 'cmake_prefix_path')
+[1.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/hook/cmake_prefix_path.ps1'
+[1.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/hook/cmake_prefix_path.dsv'
+[1.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/hook/cmake_prefix_path.sh'
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface/lib'
+[1.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_hardware_interface', 'ld_library_path_lib')
+[1.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/hook/ld_library_path_lib.ps1'
+[1.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/hook/ld_library_path_lib.dsv'
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/hook/ld_library_path_lib.sh'
+[1.842s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface/bin'
+[1.842s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface/lib/pkgconfig/imu_hardware_interface.pc'
+[1.842s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface/lib/python3.12/site-packages'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface/bin'
+[1.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/package.ps1'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/package.dsv'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/package.sh'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/package.bash'
+[1.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/package.zsh'
+[1.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/imu_hardware_interface/share/colcon-core/packages/imu_hardware_interface)
+[1.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_hardware_interface)
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface' for CMake module files
+[1.851s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface' for CMake config files
+[1.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_hardware_interface', 'cmake_prefix_path')
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/hook/cmake_prefix_path.ps1'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/hook/cmake_prefix_path.dsv'
+[1.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/hook/cmake_prefix_path.sh'
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface/lib'
+[1.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_hardware_interface', 'ld_library_path_lib')
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/hook/ld_library_path_lib.ps1'
+[1.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/hook/ld_library_path_lib.dsv'
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/hook/ld_library_path_lib.sh'
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface/bin'
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface/lib/pkgconfig/imu_hardware_interface.pc'
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface/lib/python3.12/site-packages'
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/imu_hardware_interface/bin'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/package.ps1'
+[1.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/package.dsv'
+[1.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/package.sh'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/package.bash'
+[1.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/imu_hardware_interface/share/imu_hardware_interface/package.zsh'
+[1.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/imu_hardware_interface/share/colcon-core/packages/imu_hardware_interface)
+[1.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bno08x_driver)
+[1.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/bno08x_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/bno08x_driver
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver' for CMake module files
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver' for CMake config files
+[1.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno08x_driver', 'cmake_prefix_path')
+[1.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/bno08x_driver/share/bno08x_driver/hook/cmake_prefix_path.ps1'
+[1.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/bno08x_driver/share/bno08x_driver/hook/cmake_prefix_path.dsv'
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/bno08x_driver/share/bno08x_driver/hook/cmake_prefix_path.sh'
+[1.887s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver/lib'
+[1.887s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver/bin'
+[1.888s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver/lib/pkgconfig/bno08x_driver.pc'
+[1.888s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver/lib/python3.12/site-packages'
+[1.888s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver/bin'
+[1.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/bno08x_driver/share/bno08x_driver/package.ps1'
+[1.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/bno08x_driver/share/bno08x_driver/package.dsv'
+[1.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/bno08x_driver/share/bno08x_driver/package.sh'
+[1.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/bno08x_driver/share/bno08x_driver/package.bash'
+[1.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/bno08x_driver/share/bno08x_driver/package.zsh'
+[1.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/bno08x_driver/share/colcon-core/packages/bno08x_driver)
+[1.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bno08x_driver)
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver' for CMake module files
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver' for CMake config files
+[1.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno08x_driver', 'cmake_prefix_path')
+[1.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/bno08x_driver/share/bno08x_driver/hook/cmake_prefix_path.ps1'
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/bno08x_driver/share/bno08x_driver/hook/cmake_prefix_path.dsv'
+[1.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/bno08x_driver/share/bno08x_driver/hook/cmake_prefix_path.sh'
+[1.901s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver/lib'
+[1.902s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver/bin'
+[1.902s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver/lib/pkgconfig/bno08x_driver.pc'
+[1.902s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver/lib/python3.12/site-packages'
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/bno08x_driver/bin'
+[1.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/bno08x_driver/share/bno08x_driver/package.ps1'
+[1.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/bno08x_driver/share/bno08x_driver/package.dsv'
+[1.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/bno08x_driver/share/bno08x_driver/package.sh'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/bno08x_driver/share/bno08x_driver/package.bash'
+[1.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/bno08x_driver/share/bno08x_driver/package.zsh'
+[1.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/bno08x_driver/share/colcon-core/packages/bno08x_driver)
+[1.911s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src/quadruped_utils' with build type 'ament_cmake'
+[1.912s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src/quadruped_utils'
+[1.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.912s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.925s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src/rl12dof_urdf_description' with build type 'ament_cmake'
+[1.930s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src/rl12dof_urdf_description'
+[1.930s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.931s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_bringup)
+[1.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/quadruped_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_bringup
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_bringup' for CMake module files
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_bringup' for CMake config files
+[1.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_bringup', 'cmake_prefix_path')
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_bringup/share/quadruped_bringup/hook/cmake_prefix_path.ps1'
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_bringup/share/quadruped_bringup/hook/cmake_prefix_path.dsv'
+[1.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_bringup/share/quadruped_bringup/hook/cmake_prefix_path.sh'
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_bringup/bin'
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_bringup/lib/pkgconfig/quadruped_bringup.pc'
+[1.955s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_bringup/lib/python3.12/site-packages'
+[1.955s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_bringup/bin'
+[1.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_bringup/share/quadruped_bringup/package.ps1'
+[1.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/quadruped_bringup/share/quadruped_bringup/package.dsv'
+[1.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_bringup/share/quadruped_bringup/package.sh'
+[1.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_bringup/share/quadruped_bringup/package.bash'
+[1.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_bringup/share/quadruped_bringup/package.zsh'
+[1.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/quadruped_bringup/share/colcon-core/packages/quadruped_bringup)
+[1.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_bringup)
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_bringup' for CMake module files
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_bringup' for CMake config files
+[1.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_bringup', 'cmake_prefix_path')
+[1.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_bringup/share/quadruped_bringup/hook/cmake_prefix_path.ps1'
+[1.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_bringup/share/quadruped_bringup/hook/cmake_prefix_path.dsv'
+[1.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_bringup/share/quadruped_bringup/hook/cmake_prefix_path.sh'
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_bringup/bin'
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_bringup/lib/pkgconfig/quadruped_bringup.pc'
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_bringup/lib/python3.12/site-packages'
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_bringup/bin'
+[1.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_bringup/share/quadruped_bringup/package.ps1'
+[1.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/quadruped_bringup/share/quadruped_bringup/package.dsv'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_bringup/share/quadruped_bringup/package.sh'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_bringup/share/quadruped_bringup/package.bash'
+[1.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_bringup/share/quadruped_bringup/package.zsh'
+[1.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/quadruped_bringup/share/colcon-core/packages/quadruped_bringup)
+[1.986s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ws/src/rmw_zenoh/rmw_zenoh_cpp' with build type 'ament_cmake'
+[1.987s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ws/src/rmw_zenoh/rmw_zenoh_cpp'
+[1.988s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.988s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/quadruped_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_hardware -- -j8 -l8
+[1.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/quadruped_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_hardware
+[2.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/quadruped_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_sim -- -j8 -l8
+[2.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/quadruped_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_urdf -- -j8 -l8
+[2.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/quadruped_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8
+[2.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/rl12dof_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/rl12dof_urdf_description -- -j8 -l8
+[2.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/rmw_zenoh_cpp': AMENT_PREFIX_PATH=/home/ws/install/zenoh_cpp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/zenoh_cpp_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ws/build/rmw_zenoh_cpp -- -j8 -l8
+[2.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_hardware)
+[2.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/quadruped_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_hardware
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware' for CMake module files
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware' for CMake config files
+[2.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_hardware', 'cmake_prefix_path')
+[2.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_hardware/share/quadruped_hardware/hook/cmake_prefix_path.ps1'
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_hardware/share/quadruped_hardware/hook/cmake_prefix_path.dsv'
+[2.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_hardware/share/quadruped_hardware/hook/cmake_prefix_path.sh'
+[2.058s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware/lib'
+[2.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_hardware', 'ld_library_path_lib')
+[2.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_hardware/share/quadruped_hardware/hook/ld_library_path_lib.ps1'
+[2.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_hardware/share/quadruped_hardware/hook/ld_library_path_lib.dsv'
+[2.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_hardware/share/quadruped_hardware/hook/ld_library_path_lib.sh'
+[2.061s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware/bin'
+[2.061s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware/lib/pkgconfig/quadruped_hardware.pc'
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware/lib/python3.12/site-packages'
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware/bin'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_hardware/share/quadruped_hardware/package.ps1'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/quadruped_hardware/share/quadruped_hardware/package.dsv'
+[2.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_hardware/share/quadruped_hardware/package.sh'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_hardware/share/quadruped_hardware/package.bash'
+[2.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_hardware/share/quadruped_hardware/package.zsh'
+[2.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/quadruped_hardware/share/colcon-core/packages/quadruped_hardware)
+[2.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_hardware)
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware' for CMake module files
+[2.089s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware' for CMake config files
+[2.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_hardware', 'cmake_prefix_path')
+[2.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_hardware/share/quadruped_hardware/hook/cmake_prefix_path.ps1'
+[2.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_hardware/share/quadruped_hardware/hook/cmake_prefix_path.dsv'
+[2.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_hardware/share/quadruped_hardware/hook/cmake_prefix_path.sh'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware/lib'
+[2.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_hardware', 'ld_library_path_lib')
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_hardware/share/quadruped_hardware/hook/ld_library_path_lib.ps1'
+[2.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_hardware/share/quadruped_hardware/hook/ld_library_path_lib.dsv'
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_hardware/share/quadruped_hardware/hook/ld_library_path_lib.sh'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware/bin'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware/lib/pkgconfig/quadruped_hardware.pc'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware/lib/python3.12/site-packages'
+[2.102s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_hardware/bin'
+[2.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_hardware/share/quadruped_hardware/package.ps1'
+[2.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/quadruped_hardware/share/quadruped_hardware/package.dsv'
+[2.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_hardware/share/quadruped_hardware/package.sh'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_hardware/share/quadruped_hardware/package.bash'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_hardware/share/quadruped_hardware/package.zsh'
+[2.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/quadruped_hardware/share/colcon-core/packages/quadruped_hardware)
+[2.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/rl12dof_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/rl12dof_urdf_description -- -j8 -l8
+[2.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/rl12dof_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/rl12dof_urdf_description
+[2.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/quadruped_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_urdf -- -j8 -l8
+[2.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/quadruped_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_urdf
+[2.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/quadruped_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_sim -- -j8 -l8
+[2.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/quadruped_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_sim
+[2.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_urdf)
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_urdf' for CMake module files
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_urdf' for CMake config files
+[2.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_urdf', 'cmake_prefix_path')
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_urdf/share/quadruped_urdf/hook/cmake_prefix_path.ps1'
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_urdf/share/quadruped_urdf/hook/cmake_prefix_path.dsv'
+[2.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_urdf/share/quadruped_urdf/hook/cmake_prefix_path.sh'
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_urdf/bin'
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_urdf/lib/pkgconfig/quadruped_urdf.pc'
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_urdf/lib/python3.12/site-packages'
+[2.266s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_urdf/bin'
+[2.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_urdf/share/quadruped_urdf/package.ps1'
+[2.267s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/quadruped_urdf/share/quadruped_urdf/package.dsv'
+[2.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_urdf/share/quadruped_urdf/package.sh'
+[2.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_urdf/share/quadruped_urdf/package.bash'
+[2.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_urdf/share/quadruped_urdf/package.zsh'
+[2.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/quadruped_urdf/share/colcon-core/packages/quadruped_urdf)
+[2.271s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_urdf)
+[2.272s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_urdf' for CMake module files
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_urdf' for CMake config files
+[2.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_urdf', 'cmake_prefix_path')
+[2.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_urdf/share/quadruped_urdf/hook/cmake_prefix_path.ps1'
+[2.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_urdf/share/quadruped_urdf/hook/cmake_prefix_path.dsv'
+[2.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_urdf/share/quadruped_urdf/hook/cmake_prefix_path.sh'
+[2.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/quadruped_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_urdf
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_urdf/bin'
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_urdf/lib/pkgconfig/quadruped_urdf.pc'
+[2.301s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_urdf/lib/python3.12/site-packages'
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_urdf/bin'
+[2.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_urdf/share/quadruped_urdf/package.ps1'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/quadruped_urdf/share/quadruped_urdf/package.dsv'
+[2.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_urdf/share/quadruped_urdf/package.sh'
+[2.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_urdf/share/quadruped_urdf/package.bash'
+[2.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_urdf/share/quadruped_urdf/package.zsh'
+[2.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/quadruped_urdf/share/colcon-core/packages/quadruped_urdf)
+[2.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rl12dof_urdf_description)
+[2.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/rl12dof_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/rl12dof_urdf_description
+[2.331s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description' for CMake module files
+[2.332s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description' for CMake config files
+[2.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('rl12dof_urdf_description', 'cmake_prefix_path')
+[2.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/hook/cmake_prefix_path.ps1'
+[2.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/hook/cmake_prefix_path.dsv'
+[2.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/hook/cmake_prefix_path.sh'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description/lib'
+[2.337s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description/bin'
+[2.337s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description/lib/pkgconfig/rl12dof_urdf_description.pc'
+[2.337s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description/lib/python3.12/site-packages'
+[2.337s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description/bin'
+[2.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.ps1'
+[2.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.dsv'
+[2.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.sh'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.bash'
+[2.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.zsh'
+[2.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/rl12dof_urdf_description/share/colcon-core/packages/rl12dof_urdf_description)
+[2.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rl12dof_urdf_description)
+[2.353s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description' for CMake module files
+[2.354s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description' for CMake config files
+[2.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('rl12dof_urdf_description', 'cmake_prefix_path')
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/hook/cmake_prefix_path.ps1'
+[2.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/hook/cmake_prefix_path.dsv'
+[2.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/hook/cmake_prefix_path.sh'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description/lib'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description/bin'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description/lib/pkgconfig/rl12dof_urdf_description.pc'
+[2.359s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description/lib/python3.12/site-packages'
+[2.359s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rl12dof_urdf_description/bin'
+[2.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.ps1'
+[2.370s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.dsv'
+[2.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.sh'
+[2.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.bash'
+[2.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rl12dof_urdf_description/share/rl12dof_urdf_description/package.zsh'
+[2.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/rl12dof_urdf_description/share/colcon-core/packages/rl12dof_urdf_description)
+[2.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_sim)
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_sim' for CMake module files
+[2.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/quadruped_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_sim
+[2.384s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_sim' for CMake config files
+[2.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_sim', 'cmake_prefix_path')
+[2.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_sim/share/quadruped_sim/hook/cmake_prefix_path.ps1'
+[2.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_sim/share/quadruped_sim/hook/cmake_prefix_path.dsv'
+[2.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_sim/share/quadruped_sim/hook/cmake_prefix_path.sh'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_sim/bin'
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_sim/lib/pkgconfig/quadruped_sim.pc'
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_sim/lib/python3.12/site-packages'
+[2.398s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_sim/bin'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_sim/share/quadruped_sim/package.ps1'
+[2.402s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/quadruped_sim/share/quadruped_sim/package.dsv'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_sim/share/quadruped_sim/package.sh'
+[2.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_sim/share/quadruped_sim/package.bash'
+[2.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_sim/share/quadruped_sim/package.zsh'
+[2.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/quadruped_sim/share/colcon-core/packages/quadruped_sim)
+[2.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_sim)
+[2.411s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_sim' for CMake module files
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_sim' for CMake config files
+[2.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_sim', 'cmake_prefix_path')
+[2.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_sim/share/quadruped_sim/hook/cmake_prefix_path.ps1'
+[2.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_sim/share/quadruped_sim/hook/cmake_prefix_path.dsv'
+[2.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_sim/share/quadruped_sim/hook/cmake_prefix_path.sh'
+[2.417s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_sim/bin'
+[2.417s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_sim/lib/pkgconfig/quadruped_sim.pc'
+[2.417s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_sim/lib/python3.12/site-packages'
+[2.418s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_sim/bin'
+[2.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_sim/share/quadruped_sim/package.ps1'
+[2.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/quadruped_sim/share/quadruped_sim/package.dsv'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_sim/share/quadruped_sim/package.sh'
+[2.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_sim/share/quadruped_sim/package.bash'
+[2.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_sim/share/quadruped_sim/package.zsh'
+[2.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/quadruped_sim/share/colcon-core/packages/quadruped_sim)
+[2.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/quadruped_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_utils -- -j8 -l8
+[2.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/quadruped_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_utils
+[2.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_utils)
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils' for CMake module files
+[2.487s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils' for CMake config files
+[2.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_utils', 'cmake_prefix_path')
+[2.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_utils/share/quadruped_utils/hook/cmake_prefix_path.ps1'
+[2.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_utils/share/quadruped_utils/hook/cmake_prefix_path.dsv'
+[2.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_utils/share/quadruped_utils/hook/cmake_prefix_path.sh'
+[2.492s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils/lib'
+[2.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_utils', 'ld_library_path_lib')
+[2.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_utils/share/quadruped_utils/hook/ld_library_path_lib.ps1'
+[2.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_utils/share/quadruped_utils/hook/ld_library_path_lib.dsv'
+[2.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_utils/share/quadruped_utils/hook/ld_library_path_lib.sh'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils/bin'
+[2.497s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils/lib/pkgconfig/quadruped_utils.pc'
+[2.497s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils/lib/python3.12/site-packages'
+[2.497s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils/bin'
+[2.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_utils/share/quadruped_utils/package.ps1'
+[2.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/quadruped_utils/share/quadruped_utils/package.dsv'
+[2.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_utils/share/quadruped_utils/package.sh'
+[2.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/quadruped_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_utils
+[2.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_utils/share/quadruped_utils/package.bash'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_utils/share/quadruped_utils/package.zsh'
+[2.509s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/quadruped_utils/share/colcon-core/packages/quadruped_utils)
+[2.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_utils)
+[2.511s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils' for CMake module files
+[2.513s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils' for CMake config files
+[2.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_utils', 'cmake_prefix_path')
+[2.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_utils/share/quadruped_utils/hook/cmake_prefix_path.ps1'
+[2.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_utils/share/quadruped_utils/hook/cmake_prefix_path.dsv'
+[2.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_utils/share/quadruped_utils/hook/cmake_prefix_path.sh'
+[2.519s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils/lib'
+[2.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_utils', 'ld_library_path_lib')
+[2.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_utils/share/quadruped_utils/hook/ld_library_path_lib.ps1'
+[2.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_utils/share/quadruped_utils/hook/ld_library_path_lib.dsv'
+[2.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_utils/share/quadruped_utils/hook/ld_library_path_lib.sh'
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils/bin'
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils/lib/pkgconfig/quadruped_utils.pc'
+[2.527s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils/lib/python3.12/site-packages'
+[2.527s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_utils/bin'
+[2.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_utils/share/quadruped_utils/package.ps1'
+[2.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/quadruped_utils/share/quadruped_utils/package.dsv'
+[2.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_utils/share/quadruped_utils/package.sh'
+[2.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_utils/share/quadruped_utils/package.bash'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_utils/share/quadruped_utils/package.zsh'
+[2.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/quadruped_utils/share/colcon-core/packages/quadruped_utils)
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/rmw_zenoh_cpp' returned '0': AMENT_PREFIX_PATH=/home/ws/install/zenoh_cpp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/zenoh_cpp_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ws/build/rmw_zenoh_cpp -- -j8 -l8
+[2.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/rmw_zenoh_cpp': AMENT_PREFIX_PATH=/home/ws/install/zenoh_cpp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/zenoh_cpp_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ws/build/rmw_zenoh_cpp
+[2.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmw_zenoh_cpp)
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp' for CMake module files
+[2.598s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp' for CMake config files
+[2.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmw_zenoh_cpp', 'cmake_prefix_path')
+[2.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/cmake_prefix_path.ps1'
+[2.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/cmake_prefix_path.dsv'
+[2.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/cmake_prefix_path.sh'
+[2.603s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp/lib'
+[2.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmw_zenoh_cpp', 'ld_library_path_lib')
+[2.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/ld_library_path_lib.ps1'
+[2.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/ld_library_path_lib.dsv'
+[2.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/ld_library_path_lib.sh'
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp/bin'
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp/lib/pkgconfig/rmw_zenoh_cpp.pc'
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp/lib/python3.12/site-packages'
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp/bin'
+[2.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.ps1'
+[2.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.dsv'
+[2.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.sh'
+[2.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.bash'
+[2.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.zsh'
+[2.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/rmw_zenoh_cpp/share/colcon-core/packages/rmw_zenoh_cpp)
+[2.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/rmw_zenoh_cpp' returned '0': AMENT_PREFIX_PATH=/home/ws/install/zenoh_cpp_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/zenoh_cpp_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ws/install/zenoh_cpp_vendor/opt/zenoh_cpp_vendor/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ws/build/rmw_zenoh_cpp
+[2.638s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmw_zenoh_cpp)
+[2.638s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp' for CMake module files
+[2.639s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp' for CMake config files
+[2.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmw_zenoh_cpp', 'cmake_prefix_path')
+[2.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/cmake_prefix_path.ps1'
+[2.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/cmake_prefix_path.dsv'
+[2.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/cmake_prefix_path.sh'
+[2.651s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp/lib'
+[2.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmw_zenoh_cpp', 'ld_library_path_lib')
+[2.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/ld_library_path_lib.ps1'
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/ld_library_path_lib.dsv'
+[2.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/hook/ld_library_path_lib.sh'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp/bin'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp/lib/pkgconfig/rmw_zenoh_cpp.pc'
+[2.658s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp/lib/python3.12/site-packages'
+[2.658s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/rmw_zenoh_cpp/bin'
+[2.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.ps1'
+[2.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.dsv'
+[2.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.sh'
+[2.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.bash'
+[2.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/rmw_zenoh_cpp/share/rmw_zenoh_cpp/package.zsh'
+[2.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/rmw_zenoh_cpp/share/colcon-core/packages/rmw_zenoh_cpp)
+[3.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/ws/build/py_pubsub/build install --record /home/ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[3.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/quadruped_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/quadruped_msgs -- -j8 -l8
+[4.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ws/build/quadruped_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_msgs
+[4.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_msgs)
+[4.148s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs' for CMake module files
+[4.150s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs' for CMake config files
+[4.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_msgs', 'cmake_prefix_path')
+[4.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/cmake_prefix_path.ps1'
+[4.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/cmake_prefix_path.dsv'
+[4.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/cmake_prefix_path.sh'
+[4.155s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs/lib'
+[4.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_msgs', 'ld_library_path_lib')
+[4.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/ld_library_path_lib.ps1'
+[4.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/ld_library_path_lib.dsv'
+[4.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/ld_library_path_lib.sh'
+[4.159s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs/bin'
+[4.159s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs/lib/pkgconfig/quadruped_msgs.pc'
+[4.159s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs/lib/python3.12/site-packages'
+[4.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_msgs', 'pythonpath')
+[4.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/pythonpath.ps1'
+[4.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/pythonpath.dsv'
+[4.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/pythonpath.sh'
+[4.163s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs/bin'
+[4.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_msgs/share/quadruped_msgs/package.ps1'
+[4.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/build/quadruped_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/quadruped_msgs
+[4.168s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/quadruped_msgs/share/quadruped_msgs/package.dsv'
+[4.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_msgs/share/quadruped_msgs/package.sh'
+[4.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_msgs/share/quadruped_msgs/package.bash'
+[4.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_msgs/share/quadruped_msgs/package.zsh'
+[4.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/quadruped_msgs/share/colcon-core/packages/quadruped_msgs)
+[4.173s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_msgs)
+[4.173s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs' for CMake module files
+[4.174s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs' for CMake config files
+[4.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_msgs', 'cmake_prefix_path')
+[4.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/cmake_prefix_path.ps1'
+[4.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/cmake_prefix_path.dsv'
+[4.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/cmake_prefix_path.sh'
+[4.178s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs/lib'
+[4.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_msgs', 'ld_library_path_lib')
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/ld_library_path_lib.ps1'
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/ld_library_path_lib.dsv'
+[4.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/ld_library_path_lib.sh'
+[4.181s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs/bin'
+[4.181s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs/lib/pkgconfig/quadruped_msgs.pc'
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs/lib/python3.12/site-packages'
+[4.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_msgs', 'pythonpath')
+[4.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/pythonpath.ps1'
+[4.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/pythonpath.dsv'
+[4.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/quadruped_msgs/share/quadruped_msgs/hook/pythonpath.sh'
+[4.185s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/quadruped_msgs/bin'
+[4.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_msgs/share/quadruped_msgs/package.ps1'
+[4.186s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/quadruped_msgs/share/quadruped_msgs/package.dsv'
+[4.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_msgs/share/quadruped_msgs/package.sh'
+[4.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_msgs/share/quadruped_msgs/package.bash'
+[4.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/quadruped_msgs/share/quadruped_msgs/package.zsh'
+[4.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/quadruped_msgs/share/colcon-core/packages/quadruped_msgs)
+[4.616s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/py_pubsub' for CMake module files
+[4.617s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/py_pubsub' for CMake config files
+[4.618s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/py_pubsub/lib'
+[4.618s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/py_pubsub/bin'
+[4.618s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[4.619s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/py_pubsub/lib/python3.12/site-packages'
+[4.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[4.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[4.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ws/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/ws/build/py_pubsub/build install --record /home/ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[4.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[4.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[4.626s] Level 1:colcon.colcon_core.environment:checking '/home/ws/install/py_pubsub/bin'
+[4.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[4.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[4.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[4.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/py_pubsub/share/py_pubsub/package.sh'
+[4.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/py_pubsub/share/py_pubsub/package.bash'
+[4.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[4.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[4.641s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.645s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.646s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.659s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.659s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.659s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.659s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.668s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[4.669s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.670s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ws/install/local_setup.ps1'
+[4.673s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ws/install/_local_setup_util_ps1.py'
+[4.677s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ws/install/setup.ps1'
+[4.684s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ws/install/local_setup.sh'
+[4.687s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ws/install/_local_setup_util_sh.py'
+[4.694s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ws/install/setup.sh'
+[4.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ws/install/local_setup.bash'
+[4.698s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ws/install/setup.bash'
+[4.700s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ws/install/local_setup.zsh'
+[4.701s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ws/install/setup.zsh'

@@ -1,0 +1,37 @@
+[0.168s] Invoking command in '/home/ws/build/jetson_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/jetson_interface -- -j8 -l8
+[1.016s] [100%] Built target jetson_interface
+[1.090s] Invoked command in '/home/ws/build/jetson_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ws/build/jetson_interface -- -j8 -l8
+[1.091s] Invoking command in '/home/ws/build/jetson_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/jetson_interface
+[1.196s] -- Install configuration: "Release"
+[1.196s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/jetson_gpio_interface.xml
+[1.196s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/launch
+[1.197s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/launch/jetson.launch.py
+[1.197s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/config
+[1.197s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/config/jetson_interface.yaml
+[1.197s] -- Up-to-date: /home/ws/install/jetson_interface/lib/libjetson_interface.so
+[1.197s] -- Up-to-date: /home/ws/install/jetson_interface/include
+[1.197s] -- Up-to-date: /home/ws/install/jetson_interface/include/quadruped_hardware
+[1.197s] -- Up-to-date: /home/ws/install/jetson_interface/include/quadruped_hardware/watchdog.hpp
+[1.198s] -- Up-to-date: /home/ws/install/jetson_interface/include/quadruped_hardware/jetson_gpio_interface.hpp
+[1.198s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/library_path.sh
+[1.198s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/library_path.dsv
+[1.198s] -- Up-to-date: /home/ws/install/jetson_interface/share/ament_index/resource_index/package_run_dependencies/jetson_interface
+[1.198s] -- Up-to-date: /home/ws/install/jetson_interface/share/ament_index/resource_index/parent_prefix_path/jetson_interface
+[1.198s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/ament_prefix_path.sh
+[1.198s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/ament_prefix_path.dsv
+[1.199s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/path.sh
+[1.199s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/environment/path.dsv
+[1.199s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.bash
+[1.199s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.sh
+[1.199s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.zsh
+[1.214s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/local_setup.dsv
+[1.214s] -- Installing: /home/ws/install/jetson_interface/share/jetson_interface/package.dsv
+[1.214s] -- Up-to-date: /home/ws/install/jetson_interface/share/ament_index/resource_index/packages/jetson_interface
+[1.214s] -- Up-to-date: /home/ws/install/jetson_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/jetson_interface
+[1.215s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.215s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.215s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.215s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/jetson_interfaceConfig.cmake
+[1.216s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/cmake/jetson_interfaceConfig-version.cmake
+[1.216s] -- Up-to-date: /home/ws/install/jetson_interface/share/jetson_interface/package.xml
+[1.239s] Invoked command in '/home/ws/build/jetson_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ws/build/jetson_interface

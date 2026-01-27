@@ -5,9 +5,9 @@ IKTestNode:
     freq: 0.5            # Hz
     amp_z: 0.03          # vertical swing (m)
 
-    x_fixed: 0.05        # (+dir) backward offset (m)
+    x_fixed: 0.2       # (+dir) backward offset (m)
     y_fixed: 0.1        # (+dir) outward offset (m) for right leg
-    z_nominal: -0.15     # (+dir) nominal up distance (m)
+    z_nominal: -0.05     # (+dir) nominal up distance (m)
 
     dt: 1.0             # update rate (s)
     verbose: true
